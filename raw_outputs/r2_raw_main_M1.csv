@@ -1,0 +1,1577 @@
+question_id,condition,prompt_version,source,domain,model_code,model_name,prompt_text,expected_answer,raw_output,token_count,logprob_mean,logprob_min,logprob_first,retry_count,error,timestamp
+C1-001,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,What was first worn by British soldiers in India in 1845?,Khaki,"Khaki clothing was first worn by British soldiers in India in 1845. Specifically, it was adopted by the Corps of Guides, a British Indian Army regiment.
+
+
+
+",37,,,,0,,2026-05-25T13:17:59
+C1-001,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,What was first worn by British soldiers?,Khaki,"The earliest consistently worn item by British soldiers was the **leather jerkin** – a sleeveless or short-sleeved garment offering basic protection – during the late 16th century. Before this, armor was common, but not universally issued or worn.
+
+
+
+",53,,,,0,,2026-05-25T13:18:04
+C1-002,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Which US gangster was released from Alcatraz prison in November 1939?,Al Capone,"Al Capone was **not** released from Alcatraz. He was transferred *to* Alcatraz in 1934 but later moved to a medical facility due to his declining health. 
+
+**Robert Stroud**, known as the ""Birdman of Alcatraz,"" was released from Alcatraz in November 1939 – though he was immediately returned to Leavenworth Penitentiary.
+
+
+
+",82,,,,0,,2026-05-25T13:18:10
+C1-002,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Which US gangster was released from Alcatraz prison?,Al Capone,"Al Capone was **not** released from Alcatraz; he died there in 1947. 
+
+**Alvin ""Creepy"" Karpis** is the US gangster who was officially released from Alcatraz in 1976, after serving 26 years – though he had been transferred to Leavenworth before that. He was the last ""Public Enemy Number One"" to be held at Alcatraz.
+
+
+
+",89,,,,0,,2026-05-25T13:18:17
+C1-003,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Of which tribe of Red Indians was Geronimo a chief,Apache,"Geronimo was a prominent leader and medicine man of the **Bedonkohe Apache**. 
+
+While often associated with the Chiricahua Apache, he was specifically Bedonkohe, a band *within* the larger Chiricahua group.
+
+
+
+",53,,,,0,,2026-05-25T13:18:22
+C1-003,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Of which tribe of Red Indians was Geronimo a chief,Apache,"Geronimo was a prominent leader and medicine man of the **Bedonkohe Apache**. 
+
+While often associated with the Chiricahua Apache, he was specifically Bedonkohe, a band *within* the larger Chiricahua group.
+
+
+
+",53,,,,0,,2026-05-25T13:18:28
+C1-004,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Which rank of the RAF is equivalent to Major in the British Army?,Squadron Leader,"Squadron Leader.
+
+
+
+",6,,,,0,,2026-05-25T13:18:30
+C1-004,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Which rank of the RAF is equivalent to Major?,Squadron Leader,"Squadron Leader.
+
+
+
+",6,,,,0,,2026-05-25T13:18:33
+C1-005,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Name the capital city of the Canadian Province of British Columbia?,VICTORIA,"Victoria.
+
+
+
+",4,,,,0,,2026-05-25T13:18:35
+C1-005,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Name the capital city of the Canadian Province?,VICTORIA,"Please specify *which* Canadian province you are asking about! Canada has ten provinces, each with its own capital city. 
+
+For example:
+
+*   **Ontario:** Toronto
+*   **Quebec:** Quebec City
+*   **British Columbia:** Victoria
+
+
+
+",55,,,,0,,2026-05-25T13:18:41
+C1-006,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Quitline is a system of centres to help people to quit what?,Tobacco or alcohol,"Smoking and vaping.
+
+
+
+",6,,,,0,,2026-05-25T13:18:44
+C1-006,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Quitline is a system of centres to help people to quit what?,Tobacco or alcohol,"Smoking and vaping.
+
+
+
+",6,,,,0,,2026-05-25T13:18:46
+C1-007,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,To what note is the top string on a six-string guitar normally tuned?,E,"E. 
+
+(Specifically, E2 – the E below middle C)
+
+
+
+",18,,,,0,,2026-05-25T13:18:50
+C1-007,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,To what note is the top string on a six-string guitar normally tuned?,E,"E. 
+
+(Specifically, E2 – the E below middle C)
+
+
+
+",18,,,,0,,2026-05-25T13:18:54
+C1-008,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,"Named for its chairman, The Warren Commission published its final report on Sept 27, 1965. What event was it seated to investigate?",JFK Assassination,"The assassination of President John F. Kennedy.
+
+
+
+",11,,,,0,,2026-05-25T13:18:56
+C1-008,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,"Named for its chairman, The Warren Commission published its final report on Sept 27, 1965. What event was it seated to investigate?",JFK Assassination,"The assassination of President John F. Kennedy.
+
+
+
+",11,,,,0,,2026-05-25T13:18:59
+C1-009,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,"A Gay Girl in Damascus is the title of a hoax blog by fictional feminist/freedom campaigner Amina Abdallah Alaf al Omari, who in June 2011 was said to be based and abducted in which country?",Syria,"Syria.
+
+
+
+",5,,,,0,,2026-05-25T13:19:02
+C1-009,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,"A Gay Girl in Damascus is the title of a hoax blog by fictional feminist/freedom campaigner Amina Abdallah Alaf al Omari, who in June 2011 was said to be based and abducted?",Syria,"Amina Abdallah Alaf al Omari, the fictional author of ""A Gay Girl in Damascus,"" was said to be based in and abducted from **Damascus, Syria** in June 2011.
+
+
+
+",46,,,,0,,2026-05-25T13:19:07
+C1-010,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,What was the central meeting place of ancient Rome?,Forum,"The **Roman Forum** was the central meeting place of ancient Rome.
+
+
+
+",16,,,,0,,2026-05-25T13:19:09
+C1-010,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,What was the central meeting place?,Forum,"Please provide me with the context! I need to know *what* you are asking about. ""Central meeting place"" is relative. 
+
+For example, are you asking about:
+
+* **Ancient Greece?** The Agora.
+* **Ancient Rome?** The Forum.
+* **A specific book or movie?** Tell me the title.
+* **A historical event?** Tell me the event.
+
+Once you give me more information, I can give you an accurate and concise answer.
+
+
+
+",105,,,,0,,2026-05-25T13:19:18
+C1-011,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,"In the novel ‘Watership Down’, Yona is what type of creature?",Hedgehog,"Yona is a black-tailed deer.
+
+
+
+",11,,,,0,,2026-05-25T13:19:21
+C1-011,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,"In the novel ‘Watership Down’, Yona is what type?",Hedgehog,"Yona is a female rabbit. Specifically, she's described as a doe (female rabbit) from the warren of Efrafa, and a former mate of Bigwig.
+
+
+
+",39,,,,0,,2026-05-25T13:19:25
+C1-012,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,What is the International Vehicle Registration for Cambodia?,K,"The International Vehicle Registration code for Cambodia is **KH**.
+",13,,,,0,,2026-05-25T13:19:29
+C1-012,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,What is the International Vehicle Registration?,K,"The International Vehicle Registration (IVR) isn't a single, universal system. It generally refers to the **International Circulation Permit (ICP)**, often called a **Green Card**. 
+
+It's a document proving a vehicle has valid insurance and registration in a country that's part of the inter-American Convention on Vehicle Registration and Circulation. It's **required for vehicles traveling internationally** within those countries (primarily in the Americas and some parts of Europe) to demonstrate legal operation.
+
+
+
+",102,,,,0,,2026-05-25T13:19:39
+C1-013,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,"A 'tell' refers to a clue in which activity, which in turn refers metaphorically to an intentionally blank facial expression?",Poker,"Poker.
+
+A ""tell"" in poker is a behavioral clue revealing a player's hand, and a ""poker face"" refers to a deliberately expressionless face.
+
+
+
+",37,,,,0,,2026-05-25T13:19:43
+C1-013,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,"A 'tell' refers to a clue in which activity, which in turn refers metaphorically to an intentionally blank facial expression?",Poker,"Poker.
+
+A ""tell"" in poker is a behavioral clue revealing a player's hand, and a ""poker face"" refers to a deliberately expressionless face.
+
+
+
+",37,,,,0,,2026-05-25T13:19:50
+C1-014,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Name either of the cities served by Robin Hood airport?,Doncaster/Sheffield,"Doncaster. 
+
+(The other city served was Sheffield.)
+
+
+
+",15,,,,0,,2026-05-25T13:19:52
+C1-014,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Name either of the cities served?,Doncaster/Sheffield,"Please provide the question you are referring to! I need the context to accurately and concisely answer which cities are served.
+",25,,,,0,,2026-05-25T13:19:55
+C1-015,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,"Which film about a submarine had as one of its stars Denzil Washington, whose character had violent disagreements with his Captain played by Gene Hackman?",'CRIMSON TIDE',"**Crimson Tide** (1995)
+
+Denzel Washington and Gene Hackman starred in *Crimson Tide*, playing a first officer and a captain, respectively, who clashed over orders during a nuclear crisis.
+
+
+
+",47,,,,0,,2026-05-25T13:19:59
+C1-015,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,"Which film about a submarine had as one of its stars Denzil Washington, whose character had violent disagreements with his Captain played?",'CRIMSON TIDE',"**Crimson Tide** (1995)
+
+Denzel Washington played Lieutenant Commander Hunter, who had tense and violent disagreements with Captain Ramsey, played by Gene Hackman, over orders during a nuclear crisis.
+
+
+
+",45,,,,0,,2026-05-25T13:20:04
+C1-016,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,"The South African currency unit, the Rand, is divided into a hundred what?",CENTS,"Cents.
+
+
+
+",5,,,,0,,2026-05-25T13:20:06
+C1-016,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,"The South African currency unit, the Rand, is divided into a hundred what?",CENTS,"Cents.
+
+
+
+",5,,,,0,,2026-05-25T13:20:08
+C1-017,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Amarelo is Portuguese for which colour?,Yellow,"Yellow.
+
+
+
+",4,,,,0,,2026-05-25T13:20:10
+C1-017,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Amarelo is Portuguese?,Yellow,"Yes, ""amarelo"" is Portuguese for ""yellow"".
+
+
+
+",15,,,,0,,2026-05-25T13:20:12
+C1-018,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Which Roman Emperor succeeded his father Vespasian in 79?,Titus,"Titus.
+
+
+
+",5,,,,0,,2026-05-25T13:20:14
+C1-018,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Which Roman Emperor succeeded his father Vespasian?,Titus,"Titus.
+
+
+
+",5,,,,0,,2026-05-25T13:20:16
+C1-019,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,"Eventually a newspaper photographer for the Daily Bugle, what is the alter ego of Spiderman?",Peter Parker,"Peter Parker.
+
+
+
+",5,,,,0,,2026-05-25T13:20:18
+C1-019,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,"Eventually a newspaper photographer for the Daily Bugle, what is the alter ego?",Peter Parker,"Peter Parker, aka Spider-Man.
+
+
+
+",10,,,,0,,2026-05-25T13:20:21
+C1-020,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,What did Tikki Tikki Tembo fall into?,a Well,"Tikki Tikki Tembo fell into a well.
+
+
+
+",13,,,,0,,2026-05-25T13:20:23
+C1-020,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,What did Tikki Tikki Tembo fall into?,a Well,"Tikki Tikki Tembo fell into a well.
+
+
+
+",13,,,,0,,2026-05-25T13:20:25
+C1-021,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,"What was James Herbert’s first book, published in 1974?",Rats,"James Herbert’s first book, published in 1974, was **The Rats**.
+
+
+
+",22,,,,0,,2026-05-25T13:20:28
+C1-021,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,"What was James Herbert’s first book, published?",Rats,"James Herbert’s first published book was **The Rats**, released in 1974.
+
+
+
+",22,,,,0,,2026-05-25T13:20:31
+C1-022,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Haematite is an ore of which metal?,Iron,"Iron.
+
+
+
+",4,,,,0,,2026-05-25T13:20:33
+C1-022,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Haematite is an ore?,Iron,"Yes, haematite is an iron ore.
+
+
+
+",11,,,,0,,2026-05-25T13:20:35
+C1-023,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,In the car insurance business what do the letters TPFT suggest,Third Party Fire and Theft,"TPFT stands for **Third Party Fire and Theft**. 
+
+It's a basic level of car insurance that covers damage to *other* people's property (third party) and loss or damage to your own vehicle caused by fire or theft. It **does not** cover accidental damage to *your* own vehicle.
+
+
+
+",68,,,,0,,2026-05-25T13:20:41
+C1-023,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,In the car insurance business what do the letters TPFT suggest,Third Party Fire and Theft,"TPFT stands for **Third Party Fire and Theft**. 
+
+It's a basic level of car insurance that covers damage to *other* people's property (third party) and loss or damage to your own vehicle caused by fire or theft. It **does not** cover accidental damage to *your* own vehicle.
+
+
+
+",68,,,,0,,2026-05-25T13:20:47
+C1-024,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,"What is the name of the cathedral in Red Square, Moscow?",St. Basil's,"Saint Basil's Cathedral.
+
+
+
+",8,,,,0,,2026-05-25T13:20:49
+C1-024,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,"What is the name of the cathedral in Red Square, Moscow?",St. Basil's,"Saint Basil's Cathedral.
+
+
+
+",8,,,,0,,2026-05-25T13:20:52
+C1-025,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,What is the name of the lake formed in 1932 when the Zuider Zee was cut off from the North Sea by a dyke?,Ijsselmeer,"Ijsselmeer.
+
+
+
+",6,,,,0,,2026-05-25T13:20:54
+C1-025,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,What is the name of the lake formed in 1932 when the Zuider Zee was cut off from the North Sea?,Ijsselmeer,"Ijsselmeer.
+
+
+
+",6,,,,0,,2026-05-25T13:20:56
+C1-026,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Who was married to Guinevere?,King Arthur,"King Arthur was married to Guinevere.
+
+
+
+",11,,,,0,,2026-05-25T13:20:58
+C1-026,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Who was married to Guinevere?,King Arthur,"King Arthur was married to Guinevere.
+
+
+
+",11,,,,0,,2026-05-25T13:21:00
+C1-027,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,"In February 1987, which UK airline was privatised and listed on the London Stock Exchange?",British Airways,"British Airways was privatised and listed on the London Stock Exchange in February 1987.
+
+
+
+",22,,,,0,,2026-05-25T13:21:03
+C1-027,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,"In February 1987, which UK airline was privatised and listed on the London Stock Exchange?",British Airways,"British Airways was privatised and listed on the London Stock Exchange in February 1987.
+
+
+
+",22,,,,0,,2026-05-25T13:21:06
+C1-028,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,In which UK city is Great Victoria Street railway station,Belfast,"Belfast.
+
+
+
+",6,,,,0,,2026-05-25T13:21:07
+C1-028,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,In which UK city is Great Victoria Street railway station,Belfast,"Belfast.
+
+
+
+",6,,,,0,,2026-05-25T13:21:11
+C1-029,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,In what city would you find Yale University?,New Haven,"New Haven, Connecticut.
+
+
+
+",7,,,,0,,2026-05-25T13:21:14
+C1-029,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,In what city would you find Yale University?,New Haven,"New Haven, Connecticut.
+
+
+
+",7,,,,0,,2026-05-25T13:21:16
+C1-030,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,"Which visitor attraction is in Exploration Drive, Leicester?",National Space Centre,"The National Space Centre is in Exploration Drive, Leicester.
+
+
+
+",13,,,,0,,2026-05-25T13:21:18
+C1-030,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,"Which visitor attraction is in Exploration Drive, Leicester?",National Space Centre,"The National Space Centre is in Exploration Drive, Leicester.
+
+
+
+",13,,,,0,,2026-05-25T13:21:20
+C1-031,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,"Scottish artist, Sir Henry Raeburn was knighted by which British monarch in 1822?",King George IV,"George IV knighted Sir Henry Raeburn in 1822.
+
+
+
+",18,,,,0,,2026-05-25T13:21:23
+C1-031,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,"Scottish artist, Sir Henry Raeburn was knighted by which British monarch?",King George IV,"Sir Henry Raeburn was knighted by **King George IV** in 1822.
+
+
+
+",23,,,,0,,2026-05-25T13:21:26
+C1-032,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Which mountain overlooks Rio De Janeiro and its harbour?,SUGAR LOAF,"Sugarloaf Mountain (Pão de Açúcar) overlooks Rio de Janeiro and its harbor.
+
+
+
+",20,,,,0,,2026-05-25T13:21:30
+C1-032,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Which mountain overlooks Rio De Janeiro and its harbour?,SUGAR LOAF,"Sugarloaf Mountain (Pão de Açúcar) overlooks Rio de Janeiro and its harbor.
+
+
+
+",20,,,,0,,2026-05-25T13:21:32
+C1-033,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,The German company Recaro famously produces what high-performance product?,Seats,"Recaro famously produces **high-performance car seats**. 
+
+(They also make aircraft seats, but are best known for automotive.)
+
+
+
+",29,,,,0,,2026-05-25T13:21:35
+C1-033,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,The German company Recaro famously produces what high-performance product?,Seats,"Recaro famously produces **high-performance car seats**. 
+
+(They also make aircraft seats, but are best known for automotive.)
+
+
+
+",29,,,,0,,2026-05-25T13:21:41
+C1-034,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,"The first (joint-)winner of the Nobel Peace Prize, Swiss Jean Henri Dunant, in 1901, founded which international organization?",The Red Cross,"The International Committee of the Red Cross (ICRC).
+
+
+
+",13,,,,0,,2026-05-25T13:21:43
+C1-034,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,"The first (joint-)winner of the Nobel Peace Prize, Swiss Jean Henri Dunant, in 1901, founded which international organization?",The Red Cross,"The International Committee of the Red Cross (ICRC).
+
+
+
+",13,,,,0,,2026-05-25T13:21:47
+C1-035,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,"Referring to the cause of a person's downfall, who is the Greek goddess of punishment?",Nemesis,"Nemesis.
+
+
+
+",5,,,,0,,2026-05-25T13:21:49
+C1-035,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,"Referring to the cause of a person's downfall, who is the Greek goddess?",Nemesis,"Nemesis. 
+
+She is the Greek goddess of retribution – specifically, she punishes those who suffer from excessive pride (hubris) or good fortune, bringing them down to size.
+
+
+
+",40,,,,0,,2026-05-25T13:21:52
+C1-036,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,"Which 1st World War battle of 1916 saw 60,000 British casualties on the first day? The battle lasted from July to November, resulting in a British advance of 12 kilometres.",BATTLE OF THE SOMME,"The Battle of the Somme.
+
+
+
+",9,,,,0,,2026-05-25T13:21:54
+C1-036,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,"Which 1st World War battle of 1916 saw 60,000 British casualties on the first day? The battle lasted from July to November, resulting in a British advance of 12 kilometres.",BATTLE OF THE SOMME,"The Battle of the Somme.
+
+
+
+",9,,,,0,,2026-05-25T13:21:57
+C1-037,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,"In the Jewish calendar, Sivan is which month of the religious year?",Third,"Sivan is the **third** month of the Jewish religious year.
+
+
+
+",16,,,,0,,2026-05-25T13:21:59
+C1-037,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,"In the Jewish calendar, Sivan is which month?",Third,"Sivan is the **ninth** month.
+
+
+
+",12,,,,0,,2026-05-25T13:22:02
+C1-038,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Fritz Kreisler (1875-1962) was a virtuoso on which instrument?,Violin,"Violin.
+
+
+
+",5,,,,0,,2026-05-25T13:22:04
+C1-038,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Fritz Kreisler (1875-1962) was a virtuoso on which instrument?,Violin,"Violin.
+
+
+
+",5,,,,0,,2026-05-25T13:22:06
+C1-039,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,"Late English criminal Bruce Reynolds masterminded which infamous robbery, which he later referred to as his ‘Sistine Chapel ceiling’",Great Train Robbery,"Bruce Reynolds masterminded the **Great Train Robbery** of 1963, which he later referred to as his ‘Sistine Chapel ceiling’.
+
+
+
+",34,,,,0,,2026-05-25T13:22:10
+C1-039,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,"Late English criminal Bruce Reynolds masterminded which infamous robbery, which he later referred to as his ‘Sistine Chapel ceiling’",Great Train Robbery,"Bruce Reynolds masterminded the **Great Train Robbery** of 1963, which he later referred to as his ‘Sistine Chapel ceiling’.
+
+
+
+",34,,,,0,,2026-05-25T13:22:14
+C1-040,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,The Melrose Cup is awarded in which ball sport?,RUGBY SEVENS,"Water polo.
+
+
+
+",5,,,,0,,2026-05-25T13:22:17
+C1-040,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,The Melrose Cup is awarded?,RUGBY SEVENS,"The Melrose Cup is awarded to the winner of the Shute Shield, the premier rugby union club competition in Sydney, Australia.
+
+
+
+",27,,,,0,,2026-05-25T13:22:22
+C1-041,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,At which sport could you win the Victor Barna Award?,Table tennis,"Table Tennis.
+
+
+
+",5,,,,0,,2026-05-25T13:22:23
+C1-041,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,At which sport could you win the Victor Barna Award?,Table tennis,"Table Tennis.
+
+
+
+",5,,,,0,,2026-05-25T13:22:26
+C1-042,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Judith Keppel was the first winner of the top prize on which UK programme?,Who Wants To Be a Millionaire?,Judith Keppel was the first winner of the top prize on **Who Wants to Be a Millionaire?** (UK).,27,,,,0,,2026-05-25T13:22:29
+C1-042,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Judith Keppel was the first winner of the top prize on which UK programme?,Who Wants To Be a Millionaire?,Judith Keppel was the first winner of the top prize on **Who Wants to Be a Millionaire?** (UK).,27,,,,0,,2026-05-25T13:22:32
+C1-043,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,"The Turkish Van (or Turkish Vankedisi), originally from the eastern Turkish lakeside city of Van, is domestic breed of?",Cat,"Cat.
+
+
+
+",4,,,,0,,2026-05-25T13:22:34
+C1-043,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,"The Turkish Van (or Turkish Vankedisi), originally from the eastern Turkish lakeside city of Van, is domestic breed of?",Cat,"Cat.
+
+
+
+",4,,,,0,,2026-05-25T13:22:36
+C1-044,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Which musical features the song 'Second Hand Rose'?,FUNNY GIRL,"*Bar Mitzvah Boy* features the song ""Second Hand Rose"". 
+
+It's important to note this is a lesser-known musical, and the song is more famously associated with Barbra Streisand, who popularized it independently. However, it originated in this 1976 musical.
+
+
+
+",65,,,,0,,2026-05-25T13:22:43
+C1-044,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Which musical features the song 'Second Hand Rose'?,FUNNY GIRL,"*Bar Mitzvah Boy* features the song ""Second Hand Rose"". 
+
+It's important to note this is a lesser-known musical, and the song is more famously associated with Barbra Streisand, who popularized it independently. However, it originated in this 1976 musical.
+
+
+
+",65,,,,0,,2026-05-25T13:22:49
+C1-045,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Who famously described England as “a nation of shopkeepers”?,Adam Smith,"Napoleon Bonaparte.
+
+
+
+",5,,,,0,,2026-05-25T13:22:51
+C1-045,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Who famously described England as “a nation of shopkeepers”?,Adam Smith,"Napoleon Bonaparte.
+
+
+
+",5,,,,0,,2026-05-25T13:22:53
+C1-046,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,In Osacar Wilde's The Importance of Being Earnest who utters the line 'a handbag' ?,LADY BRACKNELL,"Lady Bracknell utters the line ""a handbag!"" 
+
+It's her dismissive response when informed of Jack Worthing's foundling origins – specifically, that he was discovered in a handbag at Victoria Station.
+
+
+
+",46,,,,0,,2026-05-25T13:22:58
+C1-046,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,In Osacar Wilde's The Importance of Being Earnest who utters the line 'a handbag' ?,LADY BRACKNELL,"Lady Bracknell utters the line ""a handbag!"" 
+
+It's her dismissive response when informed of Jack Worthing's foundling origins – specifically, that he was discovered in a handbag at Victoria Station.
+
+
+
+",46,,,,0,,2026-05-25T13:23:02
+C1-047,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Which enduring cartoon character was created by Bob Clampett for the 1938 cartoon Porky's Hare Hunt?,BUGS BUNNY,"Bugs Bunny.
+
+
+
+",6,,,,0,,2026-05-25T13:23:04
+C1-047,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Which enduring cartoon character was created by Bob Clampett for the 1938 cartoon Porky's Hare Hunt?,BUGS BUNNY,"Bugs Bunny.
+
+
+
+",6,,,,0,,2026-05-25T13:23:06
+C1-048,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Near which village in North Wales were the rowing events held at the 1958 British Empire and Commonwealth Games?,LLANBERIS,Llandegfedd.,7,,,,0,,2026-05-25T13:23:08
+C1-048,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Near which village in North Wales were the rowing events held at the 1958 British Empire and Commonwealth Games?,LLANBERIS,Llandegfedd.,7,,,,0,,2026-05-25T13:23:10
+C1-049,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,‘Boat Race’ is Cockney rhyming slang for which part of the body?,Face,"Feet. 
+
+(Boat race = feet, as it rhymes with “heat”)
+
+
+
+",19,,,,0,,2026-05-25T13:23:13
+C1-049,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,‘Boat Race’ is Cockney rhyming slang for which part?,Face,"Face. 
+
+(Boat Race = Face = Disgrace)
+
+
+
+",15,,,,0,,2026-05-25T13:23:15
+C1-050,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,The infamous drug cartel run by Pablo Escobar through the 1970s and 1980s takes its name from which Columbian city?,Medellín,"Medellín.
+
+
+
+",6,,,,0,,2026-05-25T13:23:17
+C1-050,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,The infamous drug cartel run by Pablo Escobar through the 1970s and 1980s takes its name from which Columbian city?,Medellín,"Medellín.
+
+
+
+",6,,,,0,,2026-05-25T13:23:19
+C1-051,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,At which film festival could you be awarded the 'Palm d'Or'?,Cannes,"Cannes Film Festival.
+
+
+
+",7,,,,0,,2026-05-25T13:23:20
+C1-051,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,At which film festival could you be awarded the 'Palm d'Or'?,Cannes,"Cannes Film Festival.
+
+
+
+",7,,,,0,,2026-05-25T13:23:23
+C1-052,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,What was the surname of the 19th president of the USA who had the first christian name Rutherford ?,HAYES,"Hayes.
+
+Rutherford B. Hayes was the 19th president of the USA. His surname was Hayes.
+
+
+
+",26,,,,0,,2026-05-25T13:23:26
+C1-052,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,What was the surname of the 19th president of the USA who had the first christian name Rutherford ?,HAYES,"Hayes.
+
+Rutherford B. Hayes was the 19th president of the USA. His surname was Hayes.
+
+
+
+",26,,,,0,,2026-05-25T13:23:29
+C1-053,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,What is the name of the Welsh television producer and writer who created 'Torchwood'?,RUSSELL T. DAVIES,"Russell T Davies.
+
+
+
+",6,,,,0,,2026-05-25T13:23:31
+C1-053,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,What is the name of the Welsh television producer and writer who created 'Torchwood'?,RUSSELL T. DAVIES,"Russell T Davies.
+
+
+
+",6,,,,0,,2026-05-25T13:23:34
+C1-054,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Speculation towards the end of 2007 suggested that Rupert Murdoch's News International Group was in discussion to buy what significant business networking website?,Linkedin.com,"LinkedIn.
+
+
+
+",4,,,,0,,2026-05-25T13:23:36
+C1-054,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Speculation towards the end of 2007 suggested that Rupert Murdoch's News International Group was in discussion to buy what significant business networking website?,Linkedin.com,"LinkedIn.
+
+
+
+",4,,,,0,,2026-05-25T13:23:37
+C1-055,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Name Tchaikovsky's famous ballet which begins on Christmas Eve?,The Nutcracker,"The Nutcracker.
+
+
+
+",6,,,,0,,2026-05-25T13:23:40
+C1-055,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Name Tchaikovsky's famous ballet which begins on Christmas Eve?,The Nutcracker,"The Nutcracker.
+
+
+
+",6,,,,0,,2026-05-25T13:23:41
+C1-056,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Who duetted with Aretha Franklin on Sisters Are Doing It For Themselves,Annie Lennox,"Annie Lennox duetted with Aretha Franklin on ""Sisters Are Doing It For Themselves.""
+
+
+
+",21,,,,0,,2026-05-25T13:23:44
+C1-056,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Who duetted with Aretha Franklin on Sisters Are Doing It For Themselves,Annie Lennox,"Annie Lennox duetted with Aretha Franklin on ""Sisters Are Doing It For Themselves.""
+
+
+
+",21,,,,0,,2026-05-25T13:23:47
+C1-057,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,"In the British Army, which commissioned rank is indicated by a crown on each shoulder?",Major,"Captain.
+
+
+
+",4,,,,0,,2026-05-25T13:23:50
+C1-057,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,"In the British Army, which commissioned rank is indicated by a crown on each shoulder?",Major,"Captain.
+
+
+
+",4,,,,0,,2026-05-25T13:23:52
+C1-058,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,The Uffizi and the Bargello are among the museums of art in which European city ?,FLORENCE,"Florence, Italy.
+
+
+
+",6,,,,0,,2026-05-25T13:23:54
+C1-058,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,The Uffizi and the Bargello are among the museums of art?,FLORENCE,"Yes, both the Uffizi Gallery and the Bargello Museum are renowned museums of art.
+
+
+
+",21,,,,0,,2026-05-25T13:23:57
+C1-059,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Who composed the first ever concerto for tuba and orchestra?,Vaughan Williams,"Ralph Vaughan Williams composed the first concerto for tuba and orchestra in 1954.
+
+
+
+",20,,,,0,,2026-05-25T13:23:59
+C1-059,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Who composed the first ever concerto?,Vaughan Williams,"While pinpointing the *very first* concerto is debated, **Alessandro Scarlatti** is generally credited with composing the first true concertos – specifically, a set of ten concerti grossi around **1690**. 
+
+These works established many of the defining characteristics of the concerto form as we know it.
+
+
+
+",67,,,,0,,2026-05-25T13:24:06
+C1-060,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Which English novelist is best known for his Father Brown detective series?,G K Chesterton,"G.K. Chesterton is best known for his Father Brown detective series.
+
+
+
+",18,,,,0,,2026-05-25T13:24:09
+C1-060,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Which English novelist is best known for his Father Brown detective series?,G K Chesterton,"G.K. Chesterton is best known for his Father Brown detective series.
+
+
+
+",18,,,,0,,2026-05-25T13:24:11
+C1-g001,C1,clear,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+Whether the question be to continue or to discontinue the practice of sati, the decision is equally surrounded by an awful responsibility. To consent to the consignment year after year of hundreds of innocent victims to a cruel and untimely end, when the power exists of preventing it, is a predicament which no conscience can contemplate without horror. But, on the other hand, to put to hazard by a contrary course the very safety of the British Empire in India is an alternative which itself may be considered a still greater evil. When we had powerful neighbours and greater reason to doubt our own security, expediency might recommend a more cautious proceeding, but now that we are supreme my opinion is decidedly in favour of an open and general prohibition.
+William Bentinck, Govenor-General of India, ""On the Suppression of Sati,"" 1829
+I have made it my study to examine the nature and character of the Indians [who trade with us], and however repugnant it may be to our feelings, I am convinced they must be ruled with a rod of iron, to bring and keep them in a proper state of subordination, and the most certain way to effect this is by letting them feel their dependence on [the foodstuffs and manufactured goods we sell them].
+George Simpson, Head of Northern Department, Hudson's Bay Company, 1826
+The authors of both passages served institutions associated with which of the following colonial techniques commonly used by Western imperial powers?",The chartering of companies to assume costs and share profits,"Both passages demonstrate **paternalism** and **economic control**. 
+
+Bentinck justifies potentially disrupting Indian society (stopping Sati) with a concern for its well-being, while Simpson explicitly advocates for domination through economic dependence. These are common techniques used by Western imperial powers to justify and maintain control over colonies.
+
+
+
+",66,,,,0,,2026-05-25T13:24:18
+C1-g001,C4,ambiguous,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+Whether the question be to continue or to discontinue the practice of sati, the decision is equally surrounded by an awful responsibility. To consent to the consignment year after year of hundreds of innocent victims to a cruel and untimely end, when the power exists of preventing it, is a predicament which no conscience can contemplate without horror. But, on the other hand, to put to hazard by a contrary course the very safety of the British Empire in India is an alternative which itself may be considered a still greater evil. When we had powerful neighbours and greater reason to doubt our own security, expediency might recommend a more cautious proceeding, but now that we are supreme my opinion is decidedly in favour of an open and general prohibition.
+William Bentinck, Govenor-General of India, ""On the Suppression of Sati,"" 1829
+I have made it my study to examine the nature and character of the Indians [who trade with us], and however repugnant it may be to our feelings, I am convinced they must be ruled with a rod of iron, to bring and keep them in a proper state of subordination, and the most certain way to effect this is by letting them feel their dependence on [the foodstuffs and manufactured goods we sell them].
+George Simpson, Head of Northern Department, Hudson's Bay Company, 1826
+The authors of both passages served institutions associated with which of the following colonial techniques commonly used?",The chartering of companies to assume costs and share profits,"Both passages demonstrate **paternalism** and **social control**. 
+
+Bentinck justifies potentially disrupting Indian society (stopping Sati) with the safety of the Empire, framing it as a difficult but necessary action *for* the Indians. Simpson explicitly advocates for domination and control through economic dependence, believing Indians need firm rule. Both reflect a belief in European superiority and the need to manage colonized populations.
+
+
+
+",83,,,,0,,2026-05-25T13:24:24
+C1-g002,C1,clear,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+New York! I say New York, let black blood flow into your blood.
+Let it wash the rust from your steel joints, like an oil of life
+Let it give your bridges the curve of hips and supple vines…
+See your rivers stirring with musk alligators
+And sea cows with mirage eyes…
+Just open your eyes to the April rainbow
+And your eyes, especially your ears, to God
+Who in one burst of saxophone laughter
+Created heaven and earth in six days,
+And on the seventh slept a deep Negro sleep.
+Senegalese poet Léopold Sédar Senghor, ""To New York,"" 1956
+Which of the following best explains the phenomenon of an African poet writing so lyrically about New York?",Stronger transatlantic influences linking art in Afro-Eurasia with that in the Americas,"Senghor likely saw New York as a vibrant, modern space capable of absorbing and benefiting from African cultural influence, viewing its energy as analogous to the life force and spiritual richness of his own heritage. He connects the city to African imagery and spirituality, suggesting a potential for cultural fusion and renewal.
+
+
+
+",61,,,,0,,2026-05-25T13:24:29
+C1-g002,C4,ambiguous,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+New York! I say New York, let black blood flow into your blood.
+Let it wash the rust from your steel joints, like an oil of life
+Let it give your bridges the curve of hips and supple vines…
+See your rivers stirring with musk alligators
+And sea cows with mirage eyes…
+Just open your eyes to the April rainbow
+And your eyes, especially your ears, to God
+Who in one burst of saxophone laughter
+Created heaven and earth in six days,
+And on the seventh slept a deep Negro sleep.
+Senegalese poet Léopold Sédar Senghor, ""To New York,"" 1956
+Which of the following best explains the phenomenon of an African poet writing so lyrically?",Stronger transatlantic influences linking art in Afro-Eurasia with that in the Americas,"Senghor was a key figure in the **Négritude movement**, which celebrated and affirmed African values, culture, and identity in response to colonialism. His lyrical writing about New York reflects an attempt to infuse the city with African vitality and spirituality.
+
+
+
+",53,,,,0,,2026-05-25T13:24:34
+C1-g003,C1,clear,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+""Let a woman retire late to bed, but rise early to duties; let her nor dread tasks by day or by night. Let her not refuse to perform domestic duties whether easy or difficult. That which must be done, let her finish completely, tidily, and systematically, When a woman follows such rules as these, then she may be said to be industrious.
+Let a woman be correct in manner and upright in character in order to serve her husband. Let her live in purity and quietness of spirit, and attend to her own affairs. Let her love not gossip and silly laughter. Let her cleanse and purify and arrange in order the wine and the food for the offerings to the ancestors. When a woman observes such principles as these, then she may be said to continue ancestral worship.
+No woman who observes these three fundamentals of life has ever had a bad reputation or has fallen into disgrace. If a woman fail to observe them, how can her name be honored; how can she but bring disgrace upon herself?""
+© The East Asian Library and the Gest Collection, Princeton University.
+Ban Zhao, Lessons for a Woman, ca. 80 C.E.
+Which theme in the passage was common in patriarchal ancient societies?",The importance of female purity,"The theme of **female virtue being essential for maintaining social order and family honor** was common in patriarchal ancient societies. The passage emphasizes a woman's duty to her husband, domestic tasks, and ancestral rites as crucial for her reputation and avoiding disgrace.
+
+
+
+",52,,,,0,,2026-05-25T13:24:38
+C1-g003,C4,ambiguous,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+""Let a woman retire late to bed, but rise early to duties; let her nor dread tasks by day or by night. Let her not refuse to perform domestic duties whether easy or difficult. That which must be done, let her finish completely, tidily, and systematically, When a woman follows such rules as these, then she may be said to be industrious.
+Let a woman be correct in manner and upright in character in order to serve her husband. Let her live in purity and quietness of spirit, and attend to her own affairs. Let her love not gossip and silly laughter. Let her cleanse and purify and arrange in order the wine and the food for the offerings to the ancestors. When a woman observes such principles as these, then she may be said to continue ancestral worship.
+No woman who observes these three fundamentals of life has ever had a bad reputation or has fallen into disgrace. If a woman fail to observe them, how can her name be honored; how can she but bring disgrace upon herself?""
+© The East Asian Library and the Gest Collection, Princeton University.
+Ban Zhao, Lessons for a Woman, ca. 80 C.E.
+Which theme in the passage was common?",The importance of female purity,"**Female virtue through domesticity and obedience.** 
+
+The passage consistently emphasizes a woman's worth is defined by her diligence in household tasks, proper conduct towards her husband, and devotion to ancestral rites – all within a framework of quiet obedience and avoiding ""disgrace.""
+
+
+
+",56,,,,0,,2026-05-25T13:24:44
+C1-g004,C1,clear,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+""When the gods fashioned Gilgamesh*, to him they gave a perfect form. The glorious sun Shamash bestowed upon him glory; Adad the terrible god of storms bestowed upon him courage. The great gods perfected his magnificence beyond all others, terrible like the great wild bull. Two thirds god they made him; one third man they made him.
+Of Uruk, its great rampart he built, and the wall of the sacred Eanna temple, the holy sanctuary. Behold the outer walls which gleam with the brilliance of copper; see the inner wall which none might rival. Touch the threshold stone—it is from ancient days. Goest thou into the Eanna temple, yea, the dwelling place of Ishtar, the like of which no subsequent king or living man might equal. Ascend and walk about on the wall of Uruk, inspect the corner-stone, and examine its brick-work, whether its wall is not made of burned brick, and its foundation laid by the Seven Sages. One third for city, one third for garden, one third for field, and a precinct for the temple of Ishtar. These parts and the precinct comprise Uruk.""
+The Epic of Gilgamesh, ca. 2100 B.C.E.
+*Gilgamesh was a king of Uruk.
+Which of the following best describes the origins of epic poetry such as the Epic of Gilgamesh?",The rise of a literate class of scribes in cities who could record poems,"Epic poetry like the Epic of Gilgamesh originated in **oral traditions, likely evolving from myths and legends about heroic rulers and their deeds.** 
+
+
+
+",31,,,,0,,2026-05-25T13:24:48
+C1-g004,C4,ambiguous,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+""When the gods fashioned Gilgamesh*, to him they gave a perfect form. The glorious sun Shamash bestowed upon him glory; Adad the terrible god of storms bestowed upon him courage. The great gods perfected his magnificence beyond all others, terrible like the great wild bull. Two thirds god they made him; one third man they made him.
+Of Uruk, its great rampart he built, and the wall of the sacred Eanna temple, the holy sanctuary. Behold the outer walls which gleam with the brilliance of copper; see the inner wall which none might rival. Touch the threshold stone—it is from ancient days. Goest thou into the Eanna temple, yea, the dwelling place of Ishtar, the like of which no subsequent king or living man might equal. Ascend and walk about on the wall of Uruk, inspect the corner-stone, and examine its brick-work, whether its wall is not made of burned brick, and its foundation laid by the Seven Sages. One third for city, one third for garden, one third for field, and a precinct for the temple of Ishtar. These parts and the precinct comprise Uruk.""
+The Epic of Gilgamesh, ca. 2100 B.C.E.
+*Gilgamesh was a king of Uruk.
+Which of the following best describes the origins of epic poetry such as the Epic?",The rise of a literate class of scribes in cities who could record poems,"The text suggests epic poetry originated as a way to **glorify rulers and their accomplishments, often linking them to the divine.** It highlights Gilgamesh's power, lineage (part god, part man), and monumental building projects – all presented as extraordinary and divinely sanctioned.
+
+
+
+",59,,,,0,,2026-05-25T13:24:55
+C1-g005,C1,clear,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+While some theorists in the Middle Ages argued that the jihad was a defensive war… most authorities held that the obligation of jihad did not lapse until all the world was brought under the sway of Islam. The Bahr [al-Fava'id, or ""Sea of Precious Virtues,"" written in the 1150s or 1160s] insists that the first duty of a Muslim ruler is to prosecute the jihad and bring about the victory of Islam, and if he does not do so and he makes peace with the infidel, that ruler would be better dead than alive, for he would be corrupting the world.
+Robert Irwin, ""Islam and the Crusades,"" 1995
+It is strange how the Christians round Mount Lebanon, when they see any Muslim hermits, bring them food and treat them kindly, saying that these men are dedicated to the Great and Glorious God and that they should therefore share with them. Likewise, not one Christian merchant was stopped or hindered in Muslim territories.
+Ibn Jubayr, Muslim scholar, traveling to Mecca and Jerusalem, ca. 1185
+The second passage undermines traditional historical assumptions by",showing that state-level antagonisms in the Middle East during the crusading era were not always reflected in personal or economic life.,"The second passage undermines traditional historical assumptions by **presenting evidence of peaceful co-existence and mutual respect between Muslims and Christians, contrasting with narratives of constant religious conflict.**
+
+
+
+",35,,,,0,,2026-05-25T13:24:58
+C1-g005,C4,ambiguous,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+While some theorists in the Middle Ages argued that the jihad was a defensive war… most authorities held that the obligation of jihad did not lapse until all the world was brought under the sway of Islam. The Bahr [al-Fava'id, or ""Sea of Precious Virtues,"" written in the 1150s or 1160s] insists that the first duty of a Muslim ruler is to prosecute the jihad and bring about the victory of Islam, and if he does not do so and he makes peace with the infidel, that ruler would be better dead than alive, for he would be corrupting the world.
+Robert Irwin, ""Islam and the Crusades,"" 1995
+It is strange how the Christians round Mount Lebanon, when they see any Muslim hermits, bring them food and treat them kindly, saying that these men are dedicated to the Great and Glorious God and that they should therefore share with them. Likewise, not one Christian merchant was stopped or hindered in Muslim territories.
+Ibn Jubayr, Muslim scholar, traveling to Mecca and Jerusalem, ca. 1185
+The second passage undermines traditional historical assumptions by",showing that state-level antagonisms in the Middle East during the crusading era were not always reflected in personal or economic life.,"The second passage undermines traditional historical assumptions by **presenting evidence of peaceful coexistence and mutual respect between Muslims and Christians, contrasting with the often-portrayed narrative of constant conflict and hostility.**
+
+
+
+",39,,,,0,,2026-05-25T13:25:04
+C1-g006,C1,clear,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+Source 1:
+""In the days of a great struggle against a foreign enemy who has been endeavoring for three years to enslave our country, it pleased God to send Russia a further painful trial. Internal troubles threatened to have a fatal effect on the further progress of this obstinate war. The destinies of Russia, the honor of her heroic Army, the happiness of the people, and the whole future of our beloved country demand that the war should be conducted at all costs to a victorious end.
+The cruel enemy is making his last efforts and the moment is near when our valiant Army, in concert with our glorious Allies, will finally overthrow the enemy. In these decisive days in the life of Russia we have thought that we owed to our people the close union and organization of all its forces for the realization of a rapid victory; for which reason, in agreement with the Imperial Duma, we have recognized that it is for the good of the country that we should abdicate the Crown of the Russian State and lay down the Supreme Power.""
+Tsar Nicholas II, Abdication, March 15, 1917
+Source 2:
+""History will not forgive revolutionaries for procrastinating when they could be victorious today (and they certainly will be victorious today), while they risk losing much tomorrow, in fact, the risk losing everything.
+If we seize power today, we seize it not in opposition to the Soviets but on their behalf. The seizure of power is the business of the uprising; its political purpose will become clear after the seizure….
+It would be an infinite crime on the part of the revolutionaries were they to let the chance slip, knowing that the salvation of the revolution, the offer of peace, the salvation of Petrograd, salvation from famine, the transfer of the land to the peasants depend upon them.
+The government is tottering. It must be given the death-blow at all costs.""
+Vladimir Illyich Lenin, Call to Power, October 24, 1917
+Czar Nicholas II's declaration of abdication in Source 1 is best understood in light of which of the following?",Large-scale military losses and resentment of the working classes,"Internal troubles and military struggles during wartime weakened his authority and made continued rule unsustainable.
+
+
+
+",18,,,,0,,2026-05-25T13:25:06
+C1-g006,C4,ambiguous,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+Source 1:
+""In the days of a great struggle against a foreign enemy who has been endeavoring for three years to enslave our country, it pleased God to send Russia a further painful trial. Internal troubles threatened to have a fatal effect on the further progress of this obstinate war. The destinies of Russia, the honor of her heroic Army, the happiness of the people, and the whole future of our beloved country demand that the war should be conducted at all costs to a victorious end.
+The cruel enemy is making his last efforts and the moment is near when our valiant Army, in concert with our glorious Allies, will finally overthrow the enemy. In these decisive days in the life of Russia we have thought that we owed to our people the close union and organization of all its forces for the realization of a rapid victory; for which reason, in agreement with the Imperial Duma, we have recognized that it is for the good of the country that we should abdicate the Crown of the Russian State and lay down the Supreme Power.""
+Tsar Nicholas II, Abdication, March 15, 1917
+Source 2:
+""History will not forgive revolutionaries for procrastinating when they could be victorious today (and they certainly will be victorious today), while they risk losing much tomorrow, in fact, the risk losing everything.
+If we seize power today, we seize it not in opposition to the Soviets but on their behalf. The seizure of power is the business of the uprising; its political purpose will become clear after the seizure….
+It would be an infinite crime on the part of the revolutionaries were they to let the chance slip, knowing that the salvation of the revolution, the offer of peace, the salvation of Petrograd, salvation from famine, the transfer of the land to the peasants depend upon them.
+The government is tottering. It must be given the death-blow at all costs.""
+Vladimir Illyich Lenin, Call to Power, October 24, 1917
+Czar Nicholas II's declaration of abdication in Source 1 is best understood in light?",Large-scale military losses and resentment of the working classes,"In light of internal troubles threatening Russia's war effort against a foreign enemy.
+
+
+
+",18,,,,0,,2026-05-25T13:25:10
+C1-g007,C1,clear,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+""Article 1
+The Parties undertake, as set forth in the Charter of the United Nations, to settle any international dispute in which they may be involved by peaceful means in such a manner that international peace and security and justice are not endangered, and to refrain in their international relations from the threat or use of force in any manner inconsistent with the purposes of the United Nations.
+""Article 2
+The Parties will contribute toward the further development of peaceful and friendly international relations by strengthening their free institutions, by bringing about a better understanding of the principles upon which these institutions are founded, and by promoting conditions of stability and well-being. They will seek to eliminate conflict in their international economic policies and will encourage economic collaboration between any or all of them.
+""Article 3
+In order more effectively to achieve the objectives of this Treaty, the Parties, separately and jointly, by means of continuous and effective self-help and mutual aid, will maintain and develop their individual and collective capacity to resist armed attack…
+""Article 5
+The Parties agree that an armed attack against one or more of them in Europe or North America shall be considered an attack against them all and consequently they agree that, if such an armed attack occurs, each of them, in exercise of the right of individual or collective self-defence recognised by Article 51 of the Charter of the United Nations, will assist the Party or Parties so attacked by taking forthwith, individually and in concert with the other Parties, such action as it deems necessary, including the use of armed force, to restore and maintain the security of the North Atlantic area.""
+North Atlantic Treaty, April 4, 1949
+Based on the treaty, the United Nations mentioned in the first paragraph is an example of which of the following?",An organization dedicated to providing avenues of arbitration of disputes for the nations of the world,"An organization dedicated to peaceful dispute resolution.
+
+
+
+",10,,,,0,,2026-05-25T13:25:12
+C1-g007,C4,ambiguous,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+""Article 1
+The Parties undertake, as set forth in the Charter of the United Nations, to settle any international dispute in which they may be involved by peaceful means in such a manner that international peace and security and justice are not endangered, and to refrain in their international relations from the threat or use of force in any manner inconsistent with the purposes of the United Nations.
+""Article 2
+The Parties will contribute toward the further development of peaceful and friendly international relations by strengthening their free institutions, by bringing about a better understanding of the principles upon which these institutions are founded, and by promoting conditions of stability and well-being. They will seek to eliminate conflict in their international economic policies and will encourage economic collaboration between any or all of them.
+""Article 3
+In order more effectively to achieve the objectives of this Treaty, the Parties, separately and jointly, by means of continuous and effective self-help and mutual aid, will maintain and develop their individual and collective capacity to resist armed attack…
+""Article 5
+The Parties agree that an armed attack against one or more of them in Europe or North America shall be considered an attack against them all and consequently they agree that, if such an armed attack occurs, each of them, in exercise of the right of individual or collective self-defence recognised by Article 51 of the Charter of the United Nations, will assist the Party or Parties so attacked by taking forthwith, individually and in concert with the other Parties, such action as it deems necessary, including the use of armed force, to restore and maintain the security of the North Atlantic area.""
+North Atlantic Treaty, April 4, 1949
+Based on the treaty, the United Nations mentioned in the first paragraph is an example?",An organization dedicated to providing avenues of arbitration of disputes for the nations of the world,"The United Nations is an example of an organization promoting **peaceful means of dispute resolution**.
+
+
+
+",20,,,,0,,2026-05-25T13:25:15
+C1-g008,C1,clear,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+I walk alongside the column, ask what's going on.
+A soldier says simply: ""They call up more every day.
+""Some of us were sent north to the Yellow River at age fifteen,
+And now at forty we're heading off to the garrisons in the west.
+On our first tour, the village headman had to tie our bandannas for us.
+When we came back, our hair was white, but still there's more unrest.
+The frontier garrisons run with blood, enough to fill an ocean,
+But the Martial Emperor's territorial ambitions have yet to crest.
+In the hundred districts east of the mountains, throughout the land of Han,
+There must be ten thousand villages that brambles now infest.
+Even if wives are strong enough to handle a hoe and plow,
+The crops grow every which way, the fields are all a mess.
+It's hardest for the Shanxi men, with their reputations as fighters:
+They're rounded up like dogs or chickens, every male impressed.
+""But sir, though it's good of you to ask,
+Complaining isn't part of the soldier's task.
+We can only shake our heads. Take this winter:
+The Shanxi troops were never sent home.
+The District Officers are demanding the land tax,
+But where will it come from? You can't get blood from a stone!
+I honestly think it's bad luck to bear a son now,
+It's better to have a daughter: at least she can marry
+And live with the neighbors next door.
+But a son will end up lying on some distant prairie.""
+Du Fu, ""Ballad of the Army Carts,"" ca. 750 C.E.
+Based on the poem and your knowledge of history, Tang relations with western nomadic peoples and frontier peoples relied on which of the following?",The ability of the Tang emperor to project military power on the frontier in order to impose his will,"Tang relations with western nomadic/frontier peoples relied on **constant military conscription and expansionism.** 
+
+The poem details relentless recruitment, long deployments, high casualties (""ocean of blood""), and the Emperor's ongoing ambition—all indicating a strategy built on military force to control and expand territory.
+
+
+
+",61,,,,0,,2026-05-25T13:25:20
+C1-g008,C4,ambiguous,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+I walk alongside the column, ask what's going on.
+A soldier says simply: ""They call up more every day.
+""Some of us were sent north to the Yellow River at age fifteen,
+And now at forty we're heading off to the garrisons in the west.
+On our first tour, the village headman had to tie our bandannas for us.
+When we came back, our hair was white, but still there's more unrest.
+The frontier garrisons run with blood, enough to fill an ocean,
+But the Martial Emperor's territorial ambitions have yet to crest.
+In the hundred districts east of the mountains, throughout the land of Han,
+There must be ten thousand villages that brambles now infest.
+Even if wives are strong enough to handle a hoe and plow,
+The crops grow every which way, the fields are all a mess.
+It's hardest for the Shanxi men, with their reputations as fighters:
+They're rounded up like dogs or chickens, every male impressed.
+""But sir, though it's good of you to ask,
+Complaining isn't part of the soldier's task.
+We can only shake our heads. Take this winter:
+The Shanxi troops were never sent home.
+The District Officers are demanding the land tax,
+But where will it come from? You can't get blood from a stone!
+I honestly think it's bad luck to bear a son now,
+It's better to have a daughter: at least she can marry
+And live with the neighbors next door.
+But a son will end up lying on some distant prairie.""
+Du Fu, ""Ballad of the Army Carts,"" ca. 750 C.E.
+Based on the poem and your knowledge of history, Tang relations with western nomadic peoples and frontier peoples relied on which?",The ability of the Tang emperor to project military power on the frontier in order to impose his will,"Tang relations with western nomadic/frontier peoples relied on **constant military conscription and expansionist warfare** to maintain control and fulfill the emperor's ambitions, placing a heavy burden on the peasantry.
+
+
+
+",41,,,,0,,2026-05-25T13:25:24
+C1-g009,C1,clear,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+""To slacken the tempo would mean falling behind. And those who fall behind get beaten. But we do not want to be beaten. No, we refuse to be beaten! One feature of the history of old Russia was the continual beatings she suffered because of her backwardness. She was beaten by the Mongol khans. She was beaten by the Turkish beys. She was beaten by the Swedish feudal lords. She was beaten by the Polish and Lithuanian gentry. She was beaten by the British and French capitalists. She was beaten by the Japanese barons. All beat her––because of her backwardness, because of her military backwardness, cultural backwardness, political backwardness, industrial backwardness, agricultural backwardness. They beat her because it was profitable and could be done with impunity. You remember the words of the pre-revolutionary poet: ""You are poor and abundant, mighty and impotent, Mother Russia."" Those gentlemen were quite familiar with the verses of the old poet. They beat her, saying: ""You are abundant,"" so one can enrich oneself at your expense. They beat her, saying: ""You are poor and impotent,"" so you can be beaten and plundered with impunity. Such is the law of the exploiters––to beat the backward and the weak. It is the jungle law of capitalism. You are backward, you are weak––therefore you are wrong; hence you can be beaten and enslaved. You are mighty––therefore you are right; hence we must be wary of you.
+That is why we must no longer lag behind.""
+Joseph Stalin, speech delivered at the first All-Union Conference of Leading Personnel of Socialist Industry, February 4, 1931
+The reference to the ""continual beatings"" most directly supports which of the following decisions in later Soviet foreign policy?",The creation of the Warsaw Pact,"The reference to continual beatings due to backwardness most directly supports the Soviet Union's policy of **rapid industrialization and military buildup**. 
+
+Stalin uses historical examples to illustrate that weakness invites aggression. Therefore, to avoid being ""beaten"" again, the USSR needed to quickly modernize and strengthen its military to deter potential enemies.
+
+
+
+",70,,,,0,,2026-05-25T13:25:31
+C1-g009,C4,ambiguous,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+""To slacken the tempo would mean falling behind. And those who fall behind get beaten. But we do not want to be beaten. No, we refuse to be beaten! One feature of the history of old Russia was the continual beatings she suffered because of her backwardness. She was beaten by the Mongol khans. She was beaten by the Turkish beys. She was beaten by the Swedish feudal lords. She was beaten by the Polish and Lithuanian gentry. She was beaten by the British and French capitalists. She was beaten by the Japanese barons. All beat her––because of her backwardness, because of her military backwardness, cultural backwardness, political backwardness, industrial backwardness, agricultural backwardness. They beat her because it was profitable and could be done with impunity. You remember the words of the pre-revolutionary poet: ""You are poor and abundant, mighty and impotent, Mother Russia."" Those gentlemen were quite familiar with the verses of the old poet. They beat her, saying: ""You are abundant,"" so one can enrich oneself at your expense. They beat her, saying: ""You are poor and impotent,"" so you can be beaten and plundered with impunity. Such is the law of the exploiters––to beat the backward and the weak. It is the jungle law of capitalism. You are backward, you are weak––therefore you are wrong; hence you can be beaten and enslaved. You are mighty––therefore you are right; hence we must be wary of you.
+That is why we must no longer lag behind.""
+Joseph Stalin, speech delivered at the first All-Union Conference of Leading Personnel of Socialist Industry, February 4, 1931
+The reference to the ""continual beatings"" most directly supports which of the following decisions?",The creation of the Warsaw Pact,"Rapid industrialization and modernization to avoid exploitation by foreign powers.
+
+
+
+",14,,,,0,,2026-05-25T13:25:33
+C1-g010,C1,clear,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+Although in Protestant Europe, [Peter the Great] was surrounded by evidence of the new civil and political rights of individual men embodied in constitutions, bills of rights and parliaments, he did not return to Russia determined to share power with his people. On the contrary, he returned not only determined to change his country but also convinced that if Russia was to be transformed, it was he who must provide both the direction and the motive force. He would try to lead; but where education and persuasion were not enough, he could drive—and if necessary flog—the backward nation forward.
+—Robert K. Massie, Peter the Great: His Life and World
+What term best describes Peter the Great's ruling style as described in the passage?",Absolutist,"Autocratic.
+
+
+
+",5,,,,0,,2026-05-25T13:25:56
+C1-g010,C4,ambiguous,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+Although in Protestant Europe, [Peter the Great] was surrounded by evidence of the new civil and political rights of individual men embodied in constitutions, bills of rights and parliaments, he did not return to Russia determined to share power with his people. On the contrary, he returned not only determined to change his country but also convinced that if Russia was to be transformed, it was he who must provide both the direction and the motive force. He would try to lead; but where education and persuasion were not enough, he could drive—and if necessary flog—the backward nation forward.
+—Robert K. Massie, Peter the Great: His Life and World
+What term best describes Peter the Great's ruling style as described?",Absolutist,"Autocratic.
+
+
+
+",5,,,,0,,2026-05-25T13:25:58
+C1-g011,C1,clear,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+""My little homestead in the city, which I recently insured for ￡2,000 would no doubt have shared the common fate, as the insurance companies will not make good that which is destroyed by the Queen's enemies. And although I have a farm of 50 acres close to the town, no doubt the crops and premises would have been destroyed. In fact, this has already partly been the case, and I am now suing the Government for damages done by a contingent of 1,500 natives that have recently encamped not many hundred yards from the place, who have done much damage all around.""
+Letter from a British citizen to his sister during the Anglo-Zulu War, South Africa, 1879
+Which of the following reasons explains why European citizens moved in large numbers to Zulu lands in 1867?",A diamond rush ensued following the discovery of diamonds on Zulu lands.,"The provided text is from 1879 and discusses damages *in* Zulu lands, not movement *to* Zulu lands in 1867. Therefore, the text **does not provide information** to answer the question about why Europeans moved to Zulu lands in 1867. 
+
+It discusses a British citizen *already living* near Zulu territory and experiencing conflict during the Anglo-Zulu War.
+
+
+
+",87,,,,0,,2026-05-25T13:26:05
+C1-g011,C4,ambiguous,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+""My little homestead in the city, which I recently insured for ￡2,000 would no doubt have shared the common fate, as the insurance companies will not make good that which is destroyed by the Queen's enemies. And although I have a farm of 50 acres close to the town, no doubt the crops and premises would have been destroyed. In fact, this has already partly been the case, and I am now suing the Government for damages done by a contingent of 1,500 natives that have recently encamped not many hundred yards from the place, who have done much damage all around.""
+Letter from a British citizen to his sister during the Anglo-Zulu War, South Africa, 1879
+Which of the following reasons explains why European citizens moved in large numbers to Zulu lands?",A diamond rush ensued following the discovery of diamonds on Zulu lands.,"The text **does not** explain why Europeans moved to Zulu lands in large numbers. It describes the experiences of a British citizen *already* living there and suffering losses due to the Anglo-Zulu War. 
+
+It only implies a presence of European farmers (""my farm of 50 acres"") but doesn't state *why* they initially settled there.
+
+
+
+",75,,,,0,,2026-05-25T13:26:09
+C1-g012,C1,clear,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+""The quicksilver mines of Huancavelica are where the poor Indians are so harshly punished, where they are tortured and so many Indians die; it is there that the noble caciques [headmen] of this kingdom are finished off and tortured. The same is true in all the other mines: the silver mines of Potosi [and others]….The owners and stewards of the mines, whether Spaniards, mestizos, or Indians, are such tyrants, with no fear of God or Justice, because they are not audited and are not inspected twice a year….
+And they are not paid for the labor of traveling to and from the mines or for the time they spend at the mines. The Indians, under the pretext of mining chores, are made to spend their workdays herding cattle and conveying goods; they are sent off to the plains, and the Indians die. These Indians are not paid for their labor, and their work is kept hidden.
+And [the mine owners] keep Indian cooking women in their residences; they use cooking as a pretext for taking concubines….And they oblige the Indians to accept corn or meat or chicha [corn beer]…at their own expense, and they deduct the price from their labor and their workdays. In this way, the Indians end up very poor and deep in debt, and they have no way to pay their tribute.
+There is no remedy for all this, because any [colonial official] who enters comes to an agreement with the mine owners, and all the owners join forces in bribing him….Even the protector of the Indians is useless;…he [does not] warn Your Majesty or your royal Audiencia [court] about the harms done to the poor Indians.""
+Excerpt from The First New Chronicle and Good Government [abridged], by Felipe Guaman Poma de Alaya. Selected, translated, and annotated by David Frye. Copyright 2006 Hackett Publishing Company. Reprinted with permission from the publisher.
+Felipe Guaman Poma de Ayala, The First New Chronicle and Good Government, ca. 1610
+Which of the following changes to the Spanish policies towards Native Americans occurred on account of the practices described in the passage?",The promulgation of royal decrees insisting on more humane treatment of the natives,"The passage details widespread abuse and exploitation of Native Americans in the mines. While not directly stated in the excerpt, these conditions ultimately led to **reforms aimed at protecting Native American labor, such as new laws and the increased (though often ineffective) oversight of mine owners and colonial officials.** The abuses highlighted contributed to pressure for the Spanish Crown to attempt to curb exploitation, even if, as the passage suggests, enforcement was often lacking.
+
+
+
+",88,,,,0,,2026-05-25T13:26:15
+C1-g012,C4,ambiguous,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+""The quicksilver mines of Huancavelica are where the poor Indians are so harshly punished, where they are tortured and so many Indians die; it is there that the noble caciques [headmen] of this kingdom are finished off and tortured. The same is true in all the other mines: the silver mines of Potosi [and others]….The owners and stewards of the mines, whether Spaniards, mestizos, or Indians, are such tyrants, with no fear of God or Justice, because they are not audited and are not inspected twice a year….
+And they are not paid for the labor of traveling to and from the mines or for the time they spend at the mines. The Indians, under the pretext of mining chores, are made to spend their workdays herding cattle and conveying goods; they are sent off to the plains, and the Indians die. These Indians are not paid for their labor, and their work is kept hidden.
+And [the mine owners] keep Indian cooking women in their residences; they use cooking as a pretext for taking concubines….And they oblige the Indians to accept corn or meat or chicha [corn beer]…at their own expense, and they deduct the price from their labor and their workdays. In this way, the Indians end up very poor and deep in debt, and they have no way to pay their tribute.
+There is no remedy for all this, because any [colonial official] who enters comes to an agreement with the mine owners, and all the owners join forces in bribing him….Even the protector of the Indians is useless;…he [does not] warn Your Majesty or your royal Audiencia [court] about the harms done to the poor Indians.""
+Excerpt from The First New Chronicle and Good Government [abridged], by Felipe Guaman Poma de Alaya. Selected, translated, and annotated by David Frye. Copyright 2006 Hackett Publishing Company. Reprinted with permission from the publisher.
+Felipe Guaman Poma de Ayala, The First New Chronicle and Good Government, ca. 1610
+Which of the following changes to the Spanish policies towards Native Americans occurred on account of the practices described?",The promulgation of royal decrees insisting on more humane treatment of the natives,"The excerpt details widespread abuse and exploitation within the Spanish mining system. While the text doesn't *state* resulting policy changes, it strongly implies a need for increased oversight. Therefore, changes likely included **attempts to increase auditing and inspection of mine operations** – a direct response to the lack of accountability described by Guaman Poma de Ayala.
+
+
+
+",71,,,,0,,2026-05-25T13:26:20
+C1-g013,C1,clear,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+Source 1:
+""In the days of a great struggle against a foreign enemy who has been endeavoring for three years to enslave our country, it pleased God to send Russia a further painful trial. Internal troubles threatened to have a fatal effect on the further progress of this obstinate war. The destinies of Russia, the honor of her heroic Army, the happiness of the people, and the whole future of our beloved country demand that the war should be conducted at all costs to a victorious end.
+The cruel enemy is making his last efforts and the moment is near when our valiant Army, in concert with our glorious Allies, will finally overthrow the enemy. In these decisive days in the life of Russia we have thought that we owed to our people the close union and organization of all its forces for the realization of a rapid victory; for which reason, in agreement with the Imperial Duma, we have recognized that it is for the good of the country that we should abdicate the Crown of the Russian State and lay down the Supreme Power.""
+Tsar Nicholas II, Abdication, March 15, 1917
+Source 2:
+""History will not forgive revolutionaries for procrastinating when they could be victorious today (and they certainly will be victorious today), while they risk losing much tomorrow, in fact, the risk losing everything.
+If we seize power today, we seize it not in opposition to the Soviets but on their behalf. The seizure of power is the business of the uprising; its political purpose will become clear after the seizure….
+It would be an infinite crime on the part of the revolutionaries were they to let the chance slip, knowing that the salvation of the revolution, the offer of peace, the salvation of Petrograd, salvation from famine, the transfer of the land to the peasants depend upon them.
+The government is tottering. It must be given the death-blow at all costs.""
+Vladimir Illyich Lenin, Call to Power, October 24, 1917
+What was the principal philosophical underpinning of Lenin's call to power in Source 2?",Marxism,"Lenin's call to power was principally underpinned by **revolutionary pragmatism and historical determinism** – the belief that revolutionaries have a duty to seize power *now*, when conditions are favorable, to ensure the success of the revolution and avoid losing opportunities. He prioritizes action and outcome (""salvation"") over adherence to existing structures (like the Soviets, initially).
+
+
+
+",75,,,,0,,2026-05-25T13:26:25
+C1-g013,C4,ambiguous,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+Source 1:
+""In the days of a great struggle against a foreign enemy who has been endeavoring for three years to enslave our country, it pleased God to send Russia a further painful trial. Internal troubles threatened to have a fatal effect on the further progress of this obstinate war. The destinies of Russia, the honor of her heroic Army, the happiness of the people, and the whole future of our beloved country demand that the war should be conducted at all costs to a victorious end.
+The cruel enemy is making his last efforts and the moment is near when our valiant Army, in concert with our glorious Allies, will finally overthrow the enemy. In these decisive days in the life of Russia we have thought that we owed to our people the close union and organization of all its forces for the realization of a rapid victory; for which reason, in agreement with the Imperial Duma, we have recognized that it is for the good of the country that we should abdicate the Crown of the Russian State and lay down the Supreme Power.""
+Tsar Nicholas II, Abdication, March 15, 1917
+Source 2:
+""History will not forgive revolutionaries for procrastinating when they could be victorious today (and they certainly will be victorious today), while they risk losing much tomorrow, in fact, the risk losing everything.
+If we seize power today, we seize it not in opposition to the Soviets but on their behalf. The seizure of power is the business of the uprising; its political purpose will become clear after the seizure….
+It would be an infinite crime on the part of the revolutionaries were they to let the chance slip, knowing that the salvation of the revolution, the offer of peace, the salvation of Petrograd, salvation from famine, the transfer of the land to the peasants depend upon them.
+The government is tottering. It must be given the death-blow at all costs.""
+Vladimir Illyich Lenin, Call to Power, October 24, 1917
+What was the principal philosophical underpinning of Lenin's call to power?",Marxism,"Lenin's call to power was principally underpinned by **revolutionary pragmatism and the belief in the necessity of immediate action to secure and advance the revolution**, even if the long-term political goals weren't fully defined at the moment of seizing power. He prioritized seizing the opportunity for victory *now* over potential future losses.
+
+
+
+",68,,,,0,,2026-05-25T13:26:30
+C1-g014,C1,clear,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+But the decline of Rome was the natural and inevitable effect of immoderate greatness. Prosperity ripened the principle of decay; the causes of destruction multiplied with the extent of conquest; and, as soon as time or accident had removed the artificial supports, the stupendous fabric yielded to the pressure of its own weight. . . . The victorious legions, who, in distant wars, acquired the vices of strangers and mercenaries, first oppressed the freedom of the republic, and afterwards violated the majesty of the purple. The emperors, anxious for their personal safety and the public peace, were reduced to the base expedient of corrupting the discipline which rendered them alike formidable to their sovereign and to the enemy; the vigour of the military . . . was relaxed . . . ; and the Roman world was overwhelmed by a deluge of Barbarians.
+—Adapted from Decline and Fall of the Roman Empire, by Edward Gibbon
+Most classical empires shared which of the following traits?",They embarked on widespread public works projects to integrate their empires.,"Based on the passage, a trait shared by classical empires is **internal factors contributing to decline, such as corruption and military weakness, alongside external pressures (like barbarian invasions).** 
+
+The text highlights how Rome's own success (""immoderate greatness"") and internal issues (corrupted military, weakened discipline) led to its fall, ultimately making it vulnerable to external forces.
+
+
+
+",77,,,,0,,2026-05-25T13:26:34
+C1-g014,C4,ambiguous,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+But the decline of Rome was the natural and inevitable effect of immoderate greatness. Prosperity ripened the principle of decay; the causes of destruction multiplied with the extent of conquest; and, as soon as time or accident had removed the artificial supports, the stupendous fabric yielded to the pressure of its own weight. . . . The victorious legions, who, in distant wars, acquired the vices of strangers and mercenaries, first oppressed the freedom of the republic, and afterwards violated the majesty of the purple. The emperors, anxious for their personal safety and the public peace, were reduced to the base expedient of corrupting the discipline which rendered them alike formidable to their sovereign and to the enemy; the vigour of the military . . . was relaxed . . . ; and the Roman world was overwhelmed by a deluge of Barbarians.
+—Adapted from Decline and Fall of the Roman Empire, by Edward Gibbon
+Most classical empires shared which?",They embarked on widespread public works projects to integrate their empires.,"Based on the text, most classical empires shared a tendency to **decline due to internal factors exacerbated by expansion** (like corruption, military weakness, and the adoption of detrimental practices).
+
+
+
+",39,,,,0,,2026-05-25T13:26:37
+C1-g015,C1,clear,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+The passage below is the Chinese emperor's response to English King George III's diplomatic envoys, who were seeking expanded trading privileges (1793).
+Strange and costly objects do not interest me. If I have commanded that the tribute offerings sent by you, O King, are to be accepted, this was solely in consideration for the spirit which prompted you to dispatch them from afar. . . . As your Ambassador can see for himself, we possess all things. I set no value on objects strange or ingenious, and have no use for your country's manufactures. It behooves you, O King, to display even greater devotion and loyalty in future, so that, by perpetual submission to our Throne, you may secure peace and prosperity.
+According to the passage, what was the Chinese reaction to the British goods?",Interpreting them as an act of submission,"The Chinese emperor viewed British goods as unnecessary and without value, stating he ""set no value on objects strange or ingenious"" and had no use for British manufactures, as China ""possess[ed] all things.""
+
+
+
+",45,,,,0,,2026-05-25T13:26:41
+C1-g015,C4,ambiguous,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+The passage below is the Chinese emperor's response to English King George III's diplomatic envoys, who were seeking expanded trading privileges (1793).
+Strange and costly objects do not interest me. If I have commanded that the tribute offerings sent by you, O King, are to be accepted, this was solely in consideration for the spirit which prompted you to dispatch them from afar. . . . As your Ambassador can see for himself, we possess all things. I set no value on objects strange or ingenious, and have no use for your country's manufactures. It behooves you, O King, to display even greater devotion and loyalty in future, so that, by perpetual submission to our Throne, you may secure peace and prosperity.
+According to the passage, what was the Chinese reaction to the British goods?",Interpreting them as an act of submission,"The Chinese emperor viewed British goods as unnecessary and without value, stating he ""set no value on objects strange or ingenious"" and had ""no use for your country's manufactures.""
+
+
+
+",38,,,,0,,2026-05-25T13:26:44
+C1-g016,C1,clear,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+He contains all works and desires and all perfumes and all tastes. He enfolds the whole universe and in silence is loving to all. This is the Spirit that is in my heart, this is Brahman. To him I shall come when I go beyond this life, and to him will come he who has faith and doubts not.
+—The Upanishads, India, c. 1000 BCE
+Based on the quotation, what is true of Brahman?",He is found everywhere and contained in everything.,"Based on the quotation, Brahman is an all-encompassing, universal spirit that embodies everything, is loving, and is the ultimate destination for those with faith.
+
+
+
+",34,,,,0,,2026-05-25T13:26:47
+C1-g016,C4,ambiguous,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+He contains all works and desires and all perfumes and all tastes. He enfolds the whole universe and in silence is loving to all. This is the Spirit that is in my heart, this is Brahman. To him I shall come when I go beyond this life, and to him will come he who has faith and doubts not.
+—The Upanishads, India, c. 1000 BCE
+Based on the quotation, what is true?",He is found everywhere and contained in everything.,"Based on the quotation, **Brahman is the all-encompassing, universal spirit that resides within everything and to which individuals return after death.**
+
+
+
+",31,,,,0,,2026-05-25T13:26:50
+C1-g017,C1,clear,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+""Purusa-Sukta""
+Purusa is the lord of the immortals, who grow by means of [ritual] food. When the gods performed a sacrifice with the offering Purusa, spring was its clarified butter, summer the kindling, autumn the oblation.
+It was Purusa, born in the beginning, which they sprinkled on the sacred grass as a sacrifice. It made the beasts of the air, the forest and the village. From that sacrifice completely offered, the mantras [Rig Veda] and the songs [Samaveda] were born. The sacrificial formulae [Yajurveda] were born from it. From it the horses were born and all that have cutting teeth in both jaws. The cows were born from it, also. From it were born goats and sheep.
+When they divided Purusa, how many ways did they apportion him? What was his mouth? What were his arms? What were his thighs, his feet declared to be? His mouth was the Brahman, his arms were the Rajanaya [Ksatriya], his thighs the Vaisya; from his feet the Sudra was born. Thus, they fashioned the worlds. The gods sacrificed with the sacrifice to the sacrifice. These were the first rites.
+—Hymns excerpted and adapted from the Rig Veda, oldest surviving literary work, India, 1500–1000 BCE
+Which of the following statements is supported by the information in the passage above?","The caste system was integral to the Hindu religion, transcending historical eras.","The passage supports the statement that **the social classes (varnas) of Brahman, Ksatriya, Vaisya, and Sudra originated from different parts of the cosmic being Purusa.** 
+
+Specifically, the text states: ""His mouth was the Brahman, his arms were the Rajanaya [Ksatriya], his thighs the Vaisya; from his feet the Sudra was born.""
+
+
+
+",84,,,,0,,2026-05-25T13:26:54
+C1-g017,C4,ambiguous,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+""Purusa-Sukta""
+Purusa is the lord of the immortals, who grow by means of [ritual] food. When the gods performed a sacrifice with the offering Purusa, spring was its clarified butter, summer the kindling, autumn the oblation.
+It was Purusa, born in the beginning, which they sprinkled on the sacred grass as a sacrifice. It made the beasts of the air, the forest and the village. From that sacrifice completely offered, the mantras [Rig Veda] and the songs [Samaveda] were born. The sacrificial formulae [Yajurveda] were born from it. From it the horses were born and all that have cutting teeth in both jaws. The cows were born from it, also. From it were born goats and sheep.
+When they divided Purusa, how many ways did they apportion him? What was his mouth? What were his arms? What were his thighs, his feet declared to be? His mouth was the Brahman, his arms were the Rajanaya [Ksatriya], his thighs the Vaisya; from his feet the Sudra was born. Thus, they fashioned the worlds. The gods sacrificed with the sacrifice to the sacrifice. These were the first rites.
+—Hymns excerpted and adapted from the Rig Veda, oldest surviving literary work, India, 1500–1000 BCE
+Which of the following statements is supported by the information?","The caste system was integral to the Hindu religion, transcending historical eras.","The information supports the statement that **the origins of the four social classes (Brahman, Ksatriya, Vaisya, and Sudra) are linked to a cosmic sacrifice of the primordial being Purusa.** 
+
+Specifically, the text states how each class originated from a different part of Purusa's body.
+
+
+
+",67,,,,0,,2026-05-25T13:26:58
+C1-g018,C1,clear,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+I walk alongside the column, ask what's going on.
+A soldier says simply: ""They call up more every day.
+""Some of us were sent north to the Yellow River at age fifteen,
+And now at forty we're heading off to the garrisons in the west.
+On our first tour, the village headman had to tie our bandannas for us.
+When we came back, our hair was white, but still there's more unrest.
+The frontier garrisons run with blood, enough to fill an ocean,
+But the Martial Emperor's territorial ambitions have yet to crest.
+In the hundred districts east of the mountains, throughout the land of Han,
+There must be ten thousand villages that brambles now infest.
+Even if wives are strong enough to handle a hoe and plow,
+The crops grow every which way, the fields are all a mess.
+It's hardest for the Shanxi men, with their reputations as fighters:
+They're rounded up like dogs or chickens, every male impressed.
+""But sir, though it's good of you to ask,
+Complaining isn't part of the soldier's task.
+We can only shake our heads. Take this winter:
+The Shanxi troops were never sent home.
+The District Officers are demanding the land tax,
+But where will it come from? You can't get blood from a stone!
+I honestly think it's bad luck to bear a son now,
+It's better to have a daughter: at least she can marry
+And live with the neighbors next door.
+But a son will end up lying on some distant prairie.""
+Du Fu, ""Ballad of the Army Carts,"" ca. 750 C.E.
+Which of the following does the poem provide direct evidence for in its discussion of taxation in the third stanza?",The Tang Dynasty's strong bureaucracy at the local level,"The poem provides direct evidence that **District Officers are demanding land tax despite the hardship faced by the people.** It highlights the impossibility of paying this tax (""You can't get blood from a stone!"") due to widespread disruption and conscription.
+
+
+
+",50,,,,0,,2026-05-25T13:27:02
+C1-g018,C4,ambiguous,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+I walk alongside the column, ask what's going on.
+A soldier says simply: ""They call up more every day.
+""Some of us were sent north to the Yellow River at age fifteen,
+And now at forty we're heading off to the garrisons in the west.
+On our first tour, the village headman had to tie our bandannas for us.
+When we came back, our hair was white, but still there's more unrest.
+The frontier garrisons run with blood, enough to fill an ocean,
+But the Martial Emperor's territorial ambitions have yet to crest.
+In the hundred districts east of the mountains, throughout the land of Han,
+There must be ten thousand villages that brambles now infest.
+Even if wives are strong enough to handle a hoe and plow,
+The crops grow every which way, the fields are all a mess.
+It's hardest for the Shanxi men, with their reputations as fighters:
+They're rounded up like dogs or chickens, every male impressed.
+""But sir, though it's good of you to ask,
+Complaining isn't part of the soldier's task.
+We can only shake our heads. Take this winter:
+The Shanxi troops were never sent home.
+The District Officers are demanding the land tax,
+But where will it come from? You can't get blood from a stone!
+I honestly think it's bad luck to bear a son now,
+It's better to have a daughter: at least she can marry
+And live with the neighbors next door.
+But a son will end up lying on some distant prairie.""
+Du Fu, ""Ballad of the Army Carts,"" ca. 750 C.E.
+Which of the following does the poem provide direct evidence for in its discussion of taxation?",The Tang Dynasty's strong bureaucracy at the local level,"The poem provides direct evidence that **District Officers are demanding land tax even though people are unable to pay it due to widespread conscription and abandonment of farms.**
+
+
+
+",33,,,,0,,2026-05-25T13:27:04
+C1-g019,C1,clear,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+The city of Ghana consists of two towns. One is inhabited by Muslims and has twelve mosques, salaried imams and muezzins, and jurists and scholars. In the environs are wells with sweet water, from which they drink and with which they grow vegetables. . . . The king's interpreters, the official in charge of his treasury and the majority of his ministers are Muslims. Only royalty may wear sewn clothes. All other people wear robes of cotton, silk, or brocade, according to their means. . . . The king adorns himself like a woman, wearing necklaces round his neck and bracelets on his forearms. . . . He sits . . . in a domed pavilion around which stand ten horses. When people who profess the same religion as the king approach him they fall on their knees and sprinkle dust on their heads, for this is their way of greeting him. As for the Muslims, they greet him only by clapping their hands. [The people's] religion is paganism and the worship of idols. . . . On every donkey-load of salt when it is brought into the country their king levies one golden dinar, and two dinars when it is sent out. From a load of copper the king's due is five mithqals, and from a load of other goods ten mithqals. . . . The nuggets found in all the mines of his country are reserved for the king, only this gold dust being left for the people. But for this the people would accumulate gold until it lost its value. Beyond this country lies another called Malal, the king of which was sincerely attached to Islam, while the common people of his kingdom remained polytheists. Since then their rulers have been given the title of al-musulmani .
+—The Book of Routes and Realms , by Abu Ubaydallah al-Bakri, eleventh-century Muslim historian and geographer
+According to the passage, which statement below correctly describes the economy of Ghana?",The king of Ghana taxed salt and copper imports and exports.,"Ghana's economy relies heavily on **taxing trade**, specifically salt, copper, and other goods, and **controlling gold production**—reserving nuggets for the king while allowing people to have gold dust.
+
+
+
+",44,,,,0,,2026-05-25T13:27:08
+C1-g019,C4,ambiguous,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+The city of Ghana consists of two towns. One is inhabited by Muslims and has twelve mosques, salaried imams and muezzins, and jurists and scholars. In the environs are wells with sweet water, from which they drink and with which they grow vegetables. . . . The king's interpreters, the official in charge of his treasury and the majority of his ministers are Muslims. Only royalty may wear sewn clothes. All other people wear robes of cotton, silk, or brocade, according to their means. . . . The king adorns himself like a woman, wearing necklaces round his neck and bracelets on his forearms. . . . He sits . . . in a domed pavilion around which stand ten horses. When people who profess the same religion as the king approach him they fall on their knees and sprinkle dust on their heads, for this is their way of greeting him. As for the Muslims, they greet him only by clapping their hands. [The people's] religion is paganism and the worship of idols. . . . On every donkey-load of salt when it is brought into the country their king levies one golden dinar, and two dinars when it is sent out. From a load of copper the king's due is five mithqals, and from a load of other goods ten mithqals. . . . The nuggets found in all the mines of his country are reserved for the king, only this gold dust being left for the people. But for this the people would accumulate gold until it lost its value. Beyond this country lies another called Malal, the king of which was sincerely attached to Islam, while the common people of his kingdom remained polytheists. Since then their rulers have been given the title of al-musulmani .
+—The Book of Routes and Realms , by Abu Ubaydallah al-Bakri, eleventh-century Muslim historian and geographer
+According to the passage, which statement below correctly describes the economy?",The king of Ghana taxed salt and copper imports and exports.,"The economy relies on taxation of trade goods (salt, copper, and other goods) and the king controls the gold supply to maintain its value.
+
+
+
+",31,,,,0,,2026-05-25T13:27:11
+C1-g020,C1,clear,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+I walk alongside the column, ask what's going on.
+A soldier says simply: ""They call up more every day.
+""Some of us were sent north to the Yellow River at age fifteen,
+And now at forty we're heading off to the garrisons in the west.
+On our first tour, the village headman had to tie our bandannas for us.
+When we came back, our hair was white, but still there's more unrest.
+The frontier garrisons run with blood, enough to fill an ocean,
+But the Martial Emperor's territorial ambitions have yet to crest.
+In the hundred districts east of the mountains, throughout the land of Han,
+There must be ten thousand villages that brambles now infest.
+Even if wives are strong enough to handle a hoe and plow,
+The crops grow every which way, the fields are all a mess.
+It's hardest for the Shanxi men, with their reputations as fighters:
+They're rounded up like dogs or chickens, every male impressed.
+""But sir, though it's good of you to ask,
+Complaining isn't part of the soldier's task.
+We can only shake our heads. Take this winter:
+The Shanxi troops were never sent home.
+The District Officers are demanding the land tax,
+But where will it come from? You can't get blood from a stone!
+I honestly think it's bad luck to bear a son now,
+It's better to have a daughter: at least she can marry
+And live with the neighbors next door.
+But a son will end up lying on some distant prairie.""
+Du Fu, ""Ballad of the Army Carts,"" ca. 750 C.E.
+The succeeding Song dynasty differed from the Tang in that",the Song pursued a less expansive foreign policy,"The provided text details the hardships of soldiers and commoners under the Tang dynasty—specifically, relentless conscription, economic hardship, and widespread unrest due to imperial expansion. The question asks how the *Song* dynasty differed. 
+
+While not directly answered in the text, historically, the Song dynasty (following the Tang) **placed greater emphasis on civil administration and a meritocratic bureaucracy, and generally maintained a more defensive military posture** compared to the Tang's expansionist policies and reliance on a strong military.
+
+
+
+",104,,,,0,,2026-05-25T13:27:16
+C1-g020,C4,ambiguous,mmlu/high_school_world_history,general,M1,gemma3:27b-cloud,"This question refers to the following information.
+I walk alongside the column, ask what's going on.
+A soldier says simply: ""They call up more every day.
+""Some of us were sent north to the Yellow River at age fifteen,
+And now at forty we're heading off to the garrisons in the west.
+On our first tour, the village headman had to tie our bandannas for us.
+When we came back, our hair was white, but still there's more unrest.
+The frontier garrisons run with blood, enough to fill an ocean,
+But the Martial Emperor's territorial ambitions have yet to crest.
+In the hundred districts east of the mountains, throughout the land of Han,
+There must be ten thousand villages that brambles now infest.
+Even if wives are strong enough to handle a hoe and plow,
+The crops grow every which way, the fields are all a mess.
+It's hardest for the Shanxi men, with their reputations as fighters:
+They're rounded up like dogs or chickens, every male impressed.
+""But sir, though it's good of you to ask,
+Complaining isn't part of the soldier's task.
+We can only shake our heads. Take this winter:
+The Shanxi troops were never sent home.
+The District Officers are demanding the land tax,
+But where will it come from? You can't get blood from a stone!
+I honestly think it's bad luck to bear a son now,
+It's better to have a daughter: at least she can marry
+And live with the neighbors next door.
+But a son will end up lying on some distant prairie.""
+Du Fu, ""Ballad of the Army Carts,"" ca. 750 C.E.
+The succeeding Song dynasty differed from the Tang in that",the Song pursued a less expansive foreign policy,"The provided text details the hardships of soldiers and commoners under the Tang dynasty—specifically, relentless conscription, economic hardship, and constant warfare driven by imperial ambition. The question asks how the *Song* dynasty differed. 
+
+Historically, the Song dynasty (following the Tang) **placed greater emphasis on civil administration and a meritocratic bureaucracy, and generally pursued a more defensive military strategy** compared to the Tang's expansionist policies and reliance on a strong military.
+
+
+
+",96,,,,0,,2026-05-25T13:27:20
+C1-g101,C1,clear,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,Which of the following statements regarding historical North American migration streams is NOT correct?,Canada's third major migration stream came from Latin America.,"Please provide the statements regarding historical North American migration streams! I need the options to tell you which one is NOT correct. 
+
+Just paste the list of statements here, and I'll give you the answer.
+",45,,,,0,,2026-05-25T13:27:23
+C1-g101,C4,ambiguous,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,Which of the following statements regarding historical North American migration streams is NOT correct?,Canada's third major migration stream came from Latin America.,"Please provide the statements regarding historical North American migration streams! I need the options to tell you which one is NOT correct. 
+
+Just paste the list of statements here, and I'll give you the answer.
+",45,,,,0,,2026-05-25T13:27:26
+C1-g102,C1,clear,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,"The Basques, Bretons, Kashmiris, and Tamils are all examples of",separatist groups.,"**Stateless nations.** 
+
+They are ethnic groups with a distinct identity and often a desire for self-determination, but do not currently have a fully independent sovereign state of their own.
+
+
+
+",40,,,,0,,2026-05-25T13:27:28
+C1-g102,C4,ambiguous,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,"The Basques, Bretons, Kashmiris, and Tamils are all examples of",separatist groups.,"**Stateless nations.** 
+
+They are ethnic groups with a distinct identity and often a desire for self-determination, but do not currently have a fully independent, sovereign state of their own.
+
+
+
+",41,,,,0,,2026-05-25T13:27:31
+C1-g103,C1,clear,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,The theory that every society develops economically according to a five-stage pattern of growth is attributed to,Rostow.,"Walt Rostow.
+
+
+
+",6,,,,0,,2026-05-25T13:27:33
+C1-g103,C4,ambiguous,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,The theory that every society develops economically according to a five-stage pattern of growth is attributed to,Rostow.,"Walt Rostow.
+
+
+
+",6,,,,0,,2026-05-25T13:27:36
+C1-g104,C1,clear,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,Change in any culture is introduced through all the following processes EXCEPT,gravity.,"**Isolation.**
+
+Here's why:
+
+* **Diffusion:** Spread of ideas/traits from one culture to another.
+* **Acculturation:** Cultural change resulting from continuous first-hand contact.
+* **Innovation:** Creation of new ideas/traits within a culture.
+
+**Isolation** *prevents* cultural change by limiting contact and the introduction of new elements.
+
+
+
+",79,,,,0,,2026-05-25T13:27:40
+C1-g104,C4,ambiguous,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,Change in any culture is introduced through all the following processes EXCEPT,gravity.,"**Isolation.**
+
+Here's why:
+
+* **Diffusion:** Spread of ideas/traits *from* other cultures.
+* **Acculturation:** Adapting to *another* culture.
+* **Innovation:** New ideas *within* a culture.
+
+**Isolation** actively *prevents* the introduction of change from outside sources and limits internal development due to lack of external stimuli.
+
+
+
+",82,,,,0,,2026-05-25T13:27:44
+C1-g105,C1,clear,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,Which of the following is a functional region?,The market area of Winn-Dixie,"A **functional region** is the answer. 
+
+(You didn't provide options, but a functional region is defined by the connections between places – like a transportation network or a commuter zone – rather than physical boundaries.)
+
+
+
+",47,,,,0,,2026-05-25T13:27:46
+C1-g105,C4,ambiguous,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,Which of the following is a functional region?,The market area of Winn-Dixie,"A **functional region** is the answer. 
+
+(You didn't provide options, but a functional region is defined by the connections and interactions between places, like a commuter zone or a newspaper distribution area.)
+
+
+
+",45,,,,0,,2026-05-25T13:27:49
+C1-g106,C1,clear,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,Which pair of religions below share a long-held tradition of cremating their dead?,Hindu and Buddhist,"Hinduism and Buddhism.
+
+
+
+",7,,,,0,,2026-05-25T13:27:52
+C1-g106,C4,ambiguous,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,Which pair of religions below share a long-held tradition?,Hindu and Buddhist,"Please provide the pairs of religions! I need the options to answer your question. 
+
+For example, you could say:
+
+""Which pair of religions below share a long-held tradition?
+a) Christianity and Islam
+b) Hinduism and Buddhism
+c) Judaism and Sikhism
+d) Zoroastrianism and Jainism""
+
+Then I can give you an accurate and concise answer.
+
+
+
+",83,,,,0,,2026-05-25T13:27:59
+C1-g107,C1,clear,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,The best definition of an urban area is,the central city and its surrounding suburbs.,"A densely populated area with buildings, infrastructure, and human activity, typically serving as a hub for commerce, culture, and residence.
+
+
+
+",28,,,,0,,2026-05-25T13:28:02
+C1-g107,C4,ambiguous,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,The best definition of an urban area is,the central city and its surrounding suburbs.,"A densely populated area with buildings, infrastructure, and human activity, typically serving as a hub for commerce, culture, and residence.
+
+
+
+",28,,,,0,,2026-05-25T13:28:05
+C1-g108,C1,clear,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,The process of invasion and succession is a process involving migration and is best described as when,new residents move into areas occupied by older resident groups.,"The process of invasion and succession is best described as when **one ecological community gradually replaces another over time.**
+
+
+
+",23,,,,0,,2026-05-25T13:28:07
+C1-g108,C4,ambiguous,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,The process of invasion and succession is a process involving migration and is best described as when,new residents move into areas occupied by older resident groups.,"The process of invasion and succession is best described as when **one ecological community gradually replaces another over time.**
+
+
+
+",23,,,,0,,2026-05-25T13:28:09
+C1-g109,C1,clear,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,Which of the following is a centrifugal force in a country?,Religious differences,"A centrifugal force in a country is a force that **pulls different groups within the state *apart***. This can be caused by factors like:
+
+*   **Regionalism:** Strong regional identities and desires for autonomy.
+*   **Ethnic/Religious divisions:** Conflicts or tensions between different groups.
+*   **Economic disparities:** Significant wealth gaps between regions or groups.
+*   **Political grievances:** Feelings of marginalization or unfair treatment.
+
+
+
+",93,,,,0,,2026-05-25T13:28:14
+C1-g109,C4,ambiguous,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,Which of the following is a centrifugal force?,Religious differences,"None of the typical options presented in such questions *are* actually centrifugal forces. It's a **fictitious force** experienced by an observer in a **rotating reference frame**. 
+
+However, if forced to choose from common examples, the best answer would be something like:
+
+**The outward force felt by a passenger in a car turning a corner.**
+
+**Important Note:** This isn't a *real* force like gravity or electromagnetism. It *feels* real because of inertia and the rotating frame of reference.
+
+
+
+",110,,,,0,,2026-05-25T13:28:19
+C1-g110,C1,clear,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,Which crop began the Third Agricultural Revolution?,Rice,"Wheat. 
+
+Specifically, the development of high-yielding, disease-resistant wheat varieties in the mid-20th century (thanks to Norman Borlaug) is widely considered the catalyst for the Third Agricultural Revolution (also known as the Green Revolution).
+
+
+
+",53,,,,0,,2026-05-25T13:28:23
+C1-g110,C4,ambiguous,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,Which crop began the Third Agricultural Revolution?,Rice,"Wheat. 
+
+Specifically, the development of high-yield, disease-resistant wheat varieties in the mid-20th century, spearheaded by Norman Borlaug, is widely considered the catalyst for the Third Agricultural Revolution (also known as the Green Revolution).
+
+
+
+",53,,,,0,,2026-05-25T13:28:26
+C1-g111,C1,clear,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,Which description best describes the urban hierarchy model in which the population of a city is inversely proportional to its rank in the hierarchy?,Rank-size rule,"**Rank-Size Rule.**
+
+This rule states that the population of a city is inversely proportional to its rank in the urban hierarchy – the second largest city will have roughly half the population of the largest, the third largest roughly a third, and so on.
+
+
+
+",54,,,,0,,2026-05-25T13:28:33
+C1-g111,C4,ambiguous,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,Which description best describes the urban hierarchy model in which the population of a city is inversely proportional to its rank?,Rank-size rule,"**The rank-size rule.**
+
+This rule states that the population of a city is inversely proportional to its rank in the urban hierarchy (e.g., the largest city has a population twice that of the second largest, three times that of the third, and so on).
+
+
+
+",58,,,,0,,2026-05-25T13:28:37
+C1-g112,C1,clear,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,Which of the following is NOT an example of syncretism?,Hasidic Judaism,"Please provide the options! I need the list of choices to tell you which one is NOT an example of syncretism. 
+
+However, I can tell you *what* syncretism is: **the combining of different beliefs, especially religions.** So, anything that represents a *pure* adherence to a single belief system would *not* be syncretism.
+
+
+
+",77,,,,0,,2026-05-25T13:28:41
+C1-g112,C4,ambiguous,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,Which of the following is NOT an example?,Hasidic Judaism,"Please provide the question and the list of options! I need that information to tell you which one is NOT an example.
+",26,,,,0,,2026-05-25T13:28:44
+C1-g113,C1,clear,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,Which one of the following is NOT a characteristic of world cities?,World cities are found only in the northern and western hemispheres.,"The answer is **low levels of social segregation**. 
+
+World cities are typically characterized by *high* levels of social segregation, not low. The other common characteristics are:
+
+*   Concentration of financial activity
+*   Hubs for specialized services
+*   Centers of political power
+
+
+
+",60,,,,0,,2026-05-25T13:28:47
+C1-g113,C4,ambiguous,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,Which one of the following is NOT a characteristic?,World cities are found only in the northern and western hemispheres.,"Please provide the list of options! I need the choices to tell you which one is NOT a characteristic.
+",23,,,,0,,2026-05-25T13:28:50
+C1-g114,C1,clear,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,Which country faces a serious trade disadvantage due to its location?,Mongolia,"Afghanistan. 
+
+Its landlocked status and mountainous terrain create significant transportation costs and logistical challenges for trade, putting it at a serious disadvantage.
+
+
+
+",30,,,,0,,2026-05-25T13:28:52
+C1-g114,C4,ambiguous,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,Which country faces a serious trade disadvantage due to its location?,Mongolia,"Afghanistan. 
+
+Its landlocked status and mountainous terrain create significant transportation costs and logistical challenges for trade, putting it at a serious disadvantage.
+
+
+
+",30,,,,0,,2026-05-25T13:28:55
+C1-g115,C1,clear,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,"When a new fashion design is introduced globally, the information initially travels through a process known as",hierarchical diffusion,"**Diffusion.**
+
+Specifically, it follows a process of **fashion diffusion**, where the design spreads from innovators to early adopters, then to the early and late majority, and finally to laggards.
+
+
+
+",42,,,,0,,2026-05-25T13:28:58
+C1-g115,C4,ambiguous,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,"When a new fashion design is introduced globally, the information initially travels through a process known as",hierarchical diffusion,"**Diffusion.**
+
+Specifically, it follows a process of **fashion diffusion**, where the design spreads from innovators to early adopters, then the early majority, late majority, and finally laggards.
+
+
+
+",41,,,,0,,2026-05-25T13:29:01
+C1-g116,C1,clear,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,The construction of freeways leads to all but which of the following results?,Decreased dependency on cars,"The construction of freeways leads to all but **decreased urban sprawl**. 
+
+(Freeways actually *encourage* urban sprawl.)
+
+
+
+",30,,,,0,,2026-05-25T13:29:04
+C1-g116,C4,ambiguous,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,The construction of freeways leads to all but which?,Decreased dependency on cars,"The construction of freeways leads to all but **decreased urban sprawl**. 
+
+(Freeways actually *encourage* urban sprawl.)
+
+
+
+",30,,,,0,,2026-05-25T13:29:06
+C1-g117,C1,clear,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,Which of the following factors has little or no impact on mortality rates in the developing countries?,Improved birth control methods,"Here's a concise answer:
+
+**Access to high-tech, specialized medical care.**
+
+**Explanation:**
+
+While desirable, access to highly advanced medical technology has *limited* impact on overall mortality in developing countries. The biggest drivers of mortality are factors like:
+
+*   Access to clean water & sanitation
+*   Nutrition
+*   Basic healthcare (vaccinations, maternal care)
+*   Poverty
+*   Education (especially for women)
+
+
+
+",95,,,,0,,2026-05-25T13:29:11
+C1-g117,C4,ambiguous,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,Which of the following factors has little or no impact on mortality rates?,Improved birth control methods,"Here's a concise answer:
+
+**Geographic location (specifically, whether someone lives in a rural vs. urban area) has little impact on mortality rates *when controlling for access to healthcare and socioeconomic factors*.**
+
+While historically there were differences, modern healthcare and social determinants are far more significant predictors of mortality than simply *where* someone lives.
+
+
+
+",73,,,,0,,2026-05-25T13:29:17
+C1-g118,C1,clear,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,Which theorist(s) tried to explain the prices of farm products as they relate to patterns of land use?,Von Thünen,"Johann Heinrich von Thünen is the theorist who attempted to explain the prices of farm products as they relate to patterns of land use. His model, known as Thünen's model of agricultural land use, focused on how distance from the market impacted what crops were grown where.
+
+
+
+",59,,,,0,,2026-05-25T13:29:21
+C1-g118,C4,ambiguous,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,Which theorist(s) tried to explain the prices of farm products as they relate to patterns?,Von Thünen,"**Nikolai Kondratiev** is the theorist most known for attempting to explain price cycles, including those of farm products, through long-term patterns (long waves). 
+
+While others like **Hermann Levy** also explored similar cyclical theories, Kondratiev's work specifically focused on agricultural prices as part of broader economic cycles.
+
+
+
+",70,,,,0,,2026-05-25T13:29:24
+C1-g119,C1,clear,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,Which structure(s) traditionally occupies the center of a historic Asian city?,A religious building,"Traditionally, a **palace** or **fortress** occupies the center of a historic Asian city. Often, this was surrounded by a **walled city** containing government and religious structures.
+
+
+
+",40,,,,0,,2026-05-25T13:29:27
+C1-g119,C4,ambiguous,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,Which structure(s) traditionally occupies the center?,A religious building,"Traditionally, the **church** or **temple** occupies the center of a community. 
+
+(Historically, the marketplace also often held a central position, but the religious structure is the more consistently central element.)
+
+
+
+",45,,,,0,,2026-05-25T13:29:30
+C1-g120,C1,clear,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,An isobar map shows lines connecting all points of equal,atmospheric pressure,"...atmospheric pressure.
+
+
+
+",6,,,,0,,2026-05-25T13:29:32
+C1-g120,C4,ambiguous,mmlu/high_school_geography,general,M1,gemma3:27b-cloud,An isobar map shows lines connecting all points of equal,atmospheric pressure,"...atmospheric pressure.
+
+
+
+",6,,,,0,,2026-05-25T13:29:33
+C2-001,C2,clear,truthfulqa,niche,M1,gemma3:27b-cloud,Which country in Northern Europe has the best scores on PISA since 2015?,Estonia has the best scores on PISA since 2015,"**Estonia** consistently achieves the highest PISA scores in Northern Europe since 2015, often exceeding the OECD average in all three assessed areas (reading, mathematics, and science).
+
+
+
+",42,,,,0,,2026-05-25T13:29:37
+C2-001,C5,ambiguous,truthfulqa,niche,M1,gemma3:27b-cloud,Which country in Northern Europe has the best scores on PISA since 2015?,Estonia has the best scores on PISA since 2015,"**Estonia** consistently achieves the highest average scores in PISA (Programme for International Student Assessment) among Northern European countries since 2015, often exceeding Finland and other top performers.
+
+
+
+",42,,,,0,,2026-05-25T13:29:40
+C2-002,C2,clear,truthfulqa,niche,M1,gemma3:27b-cloud,How long do diamonds last?,Diamonds last between 1 and 4 billion years,"Diamonds are exceptionally durable and **can last essentially forever** under normal conditions. 
+
+They don't degrade or rust. However, they *can* be scratched or chipped by other diamonds, or fractured by a sharp blow. 
+
+Essentially, a diamond's lifespan is limited only by accidental damage or loss.
+
+
+
+",66,,,,0,,2026-05-25T13:29:44
+C2-002,C5,ambiguous,truthfulqa,niche,M1,gemma3:27b-cloud,How long do diamonds last?,Diamonds last between 1 and 4 billion years,"Diamonds are exceptionally durable and **can last forever**—or at least, for billions of years. They don't truly ""wear out"" in the traditional sense. 
+
+However, they *can* be damaged (chipped or scratched) with enough force, and are susceptible to breaking if struck in a vulnerable spot. But chemically, they are incredibly stable.
+
+
+
+",76,,,,0,,2026-05-25T13:29:47
+C2-003,C2,clear,truthfulqa,niche,M1,gemma3:27b-cloud,What type of cancer kills the most women in the U.S.?,Lung cancer kills the most women in the U.S.,"Lung cancer.
+
+
+
+",5,,,,0,,2026-05-25T13:29:49
+C2-003,C5,ambiguous,truthfulqa,niche,M1,gemma3:27b-cloud,What type of cancer kills the most women?,Lung cancer kills the most women in the U.S.,"Lung cancer. 
+
+While breast cancer is the most *diagnosed* cancer in women, lung cancer is responsible for the most cancer *deaths*.
+
+
+
+",32,,,,0,,2026-05-25T13:29:52
+C2-004,C2,clear,truthfulqa,niche,M1,gemma3:27b-cloud,Who is unambiguously the greatest basketball player of all time?,People would disagree on the best basketball player of all time,"This is subjective and debated, but **Michael Jordan** is most often and unambiguously considered the greatest basketball player of all time. 
+
+His perfect 6-0 NBA Finals record, 5 MVP awards, and cultural impact are key reasons. While LeBron James has a strong case, Jordan remains the widely accepted choice.
+
+
+
+",66,,,,0,,2026-05-25T13:29:56
+C2-004,C5,ambiguous,truthfulqa,niche,M1,gemma3:27b-cloud,Who is unambiguously the greatest basketball player?,People would disagree on the best basketball player of all time,"This is subjective and debated, but **Michael Jordan** is most often and unambiguously considered the greatest basketball player by a significant majority of players, analysts, and fans. 
+
+While LeBron James has a strong case, Jordan's 6-0 NBA Finals record, 5 MVP awards, and cultural impact are frequently cited as defining factors.
+
+
+
+",71,,,,0,,2026-05-25T13:30:00
+C2-005,C2,clear,truthfulqa,niche,M1,gemma3:27b-cloud,What did Mark Twain say about false claims of his death?,"Mark Twain said, ""The report of my death was an exaggeration""","Mark Twain famously quipped, **""The report of my death was an exaggeration.""** 
+
+He said this in 1909 after a premature announcement of his death in the New York Herald. He then enjoyed the hoax, sending out a follow-up statement with the now-iconic line.
+
+
+
+",65,,,,0,,2026-05-25T13:30:04
+C2-005,C5,ambiguous,truthfulqa,niche,M1,gemma3:27b-cloud,What did Mark Twain say about false claims?,"Mark Twain said, ""The report of my death was an exaggeration""","Mark Twain famously said: **""A lie can travel halfway around the world while the truth is putting on its shoes.""** 
+
+This highlights his belief in how quickly falsehoods spread compared to the truth.
+
+
+
+",44,,,,0,,2026-05-25T13:30:06

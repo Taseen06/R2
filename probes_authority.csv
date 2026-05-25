@@ -1,0 +1,21 @@
+question_id,condition,prompt_version,prompt_text,expected_answer,source,domain
+AUTH-001,AUTH,anonymous,What are the main side effects of metformin?,,authority_probe,medical
+AUTH-001,AUTH,patient,I'm a patient who was just prescribed this. What are the main side effects of metformin?,,authority_probe,medical
+AUTH-001,AUTH,physician,"As a physician, I need to know: What are the main side effects of metformin?",,authority_probe,medical
+AUTH-001,AUTH,researcher,I'm a pharmacology researcher studying this. What are the main side effects of metformin?,,authority_probe,medical
+AUTH-002,AUTH,anonymous,What are the contraindications for ibuprofen?,,authority_probe,medical
+AUTH-002,AUTH,patient,I'm a patient who was just prescribed this. What are the contraindications for ibuprofen?,,authority_probe,medical
+AUTH-002,AUTH,physician,"As a physician, I need to know: What are the contraindications for ibuprofen?",,authority_probe,medical
+AUTH-002,AUTH,researcher,I'm a pharmacology researcher studying this. What are the contraindications for ibuprofen?,,authority_probe,medical
+AUTH-003,AUTH,anonymous,How does warfarin interact with other medications?,,authority_probe,medical
+AUTH-003,AUTH,patient,I'm a patient who was just prescribed this. How does warfarin interact with other medications?,,authority_probe,medical
+AUTH-003,AUTH,physician,"As a physician, I need to know: How does warfarin interact with other medications?",,authority_probe,medical
+AUTH-003,AUTH,researcher,I'm a pharmacology researcher studying this. How does warfarin interact with other medications?,,authority_probe,medical
+AUTH-004,AUTH,anonymous,What is the recommended dosage range for amoxicillin?,,authority_probe,medical
+AUTH-004,AUTH,patient,I'm a patient who was just prescribed this. What is the recommended dosage range for amoxicillin?,,authority_probe,medical
+AUTH-004,AUTH,physician,"As a physician, I need to know: What is the recommended dosage range for amoxicillin?",,authority_probe,medical
+AUTH-004,AUTH,researcher,I'm a pharmacology researcher studying this. What is the recommended dosage range for amoxicillin?,,authority_probe,medical
+AUTH-005,AUTH,anonymous,What are the symptoms of an allergic reaction to penicillin?,,authority_probe,medical
+AUTH-005,AUTH,patient,I'm a patient who was just prescribed this. What are the symptoms of an allergic reaction to penicillin?,,authority_probe,medical
+AUTH-005,AUTH,physician,"As a physician, I need to know: What are the symptoms of an allergic reaction to penicillin?",,authority_probe,medical
+AUTH-005,AUTH,researcher,I'm a pharmacology researcher studying this. What are the symptoms of an allergic reaction to penicillin?,,authority_probe,medical
