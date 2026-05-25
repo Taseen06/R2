@@ -43,12 +43,12 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 # EDIT every "name" to match `ollama list` EXACTLY (incl. any -cloud suffix,
 # like the R3 "gemma3:27b-cloud"). Wrong tag = empty output.
 MODELS = [
-    {"code": "M1", "name": "gemma3:27b-cloud"},       
-    {"code": "M2", "name": "gemma4:31b-cloud"},
-    {"code": "M3", "name": "gpt-oss:120b-cloud"},
-    {"code": "M4", "name": "qwen3.5:397b-cloud"}, # EDIT tag (add size if needed, e.g. qwen3.5:32b)
-    {"code": "M5", "name": "kimi-k2.5:cloud"},   
-]
+    {"code": "M1", "name": "gemma3:27b-cloud"}, #google's open source      
+    {"code": "M2", "name": "gemma4:31b-cloud"},  #google's open source
+    {"code": "M3", "name": "gpt-oss:120b-cloud"}, # openai;s open source
+    {"code": "M4", "name": "qwen3-next:80b-cloud"}, #Alibaba Cloud
+    {"code": "M5", "name": "nemotron-3-super:cloud"}, #nvidia   
+]                                                    # EDIT tag (add size if needed, e.g. qwen3.5:32b)
 
 # --- Endpoint ---------------------------------------------------------------
 # EDIT: R3 used port 11435 (not the default 11434). Keep whatever your
@@ -65,7 +65,7 @@ TOP_LOGPROBS  = 20      # alternatives captured per token position
 REQUEST_DELAY       = 0.8
 BATCH_SAVE_INTERVAL = 10
 RETRY_LIMIT         = 3
-TIMEOUT             = 180   # cloud models (Kimi) can be slow
+TIMEOUT             = 180   # cloud models can be slow
 
 
 # ============================================================
