@@ -1474,3 +1474,848 @@ The three primary uses of the hand are:
 1. **Grasping and holding objects** (e.g., gripping tools or food).  
 2. **Fine motor manipulation** (e.g., writing, sewing, or buttoning clothes).  
 3. **Tactile sensation** (e.g., feeling textures, temperatures, or pressure).",674,0,409,,,,0,,2026-05-26T23:58:26
+C2-n021,C2,clear,mmlu/clinical_knowledge,niche,M4,qwen3-next:80b-cloud,How often should a cannula be flushed?,Every 12 hours.,"
+
+For **peripheral intravenous (IV) cannulas**, flush **every 8–12 hours when not in use**, or **before and after each intermittent medication administration**.  
+**Note**:  
+- Central lines (e.g., PICC, CVC) require different protocols (e.g., daily or after each use).  
+- Always follow facility-specific policies and clinical guidelines (e.g., Infusion Nurses Society standards).  
+- Flush immediately if resistance is encountered, blood return is absent, or the site shows signs of complications.  
+
+*(Source: INS Standards of Practice, 2016)*",805,0,495,,,,0,,2026-05-26T23:58:33
+C2-n021,C5,ambiguous,mmlu/clinical_knowledge,niche,M4,qwen3-next:80b-cloud,How often should a cannula be flushed?,Every 12 hours.,"
+
+For **peripheral intravenous (IV) cannulas** used intermittently (saline locks), flush with **0.9% sodium chloride (saline) every 8–12 hours** when not in use. Flush **immediately after any medication administration or blood draw**.  
+
+**Important notes**:  
+- **Central lines** (e.g., PICCs, ports) require specific protocols (e.g., daily or weekly with heparin/saline), which vary by device and institutional policy.  
+- Always follow **local clinical guidelines** and manufacturer instructions, as practices may differ.  
+- Flushing is critical to maintain patency and prevent complications (e.g., occlusion, infection).  
+
+*Source: Infusion Nurses Society (INS) Standards of Practice, CDC guidelines.*",1223,0,749,,,,0,,2026-05-26T23:58:41
+C2-n022,C2,clear,mmlu/clinical_knowledge,niche,M4,qwen3-next:80b-cloud,"If the mean rate of oxygen consumption of a male athlete during a training session is 2 l/min, then his rate of energy expenditure is approximately:",40 kJ/min.,"
+
+The standard conversion factor is **5 kcal per liter of oxygen consumed**.  
+Therefore:  
+2 L/min × 5 kcal/L = **10 kcal/min**.  
+Converting to hourly rate:  
+10 kcal/min × 60 min/hour = **600 kcal/hour**.  
+
+**Answer: Approximately 600 kcal/hour.**  
+*(This assumes a typical respiratory exchange ratio where 1 L O₂ ≈ 5 kcal energy expenditure.)*",624,0,375,,,,0,,2026-05-26T23:58:46
+C2-n022,C5,ambiguous,mmlu/clinical_knowledge,niche,M4,qwen3-next:80b-cloud,"If the mean rate of oxygen consumption of a male athlete during a training session is 2 l/min, then his rate of energy expenditure is approximately:",40 kJ/min.,"
+
+The standard conversion factor is **1 liter of oxygen consumed ≈ 5 kilocalories (kcal) of energy expenditure**.  
+
+Given a rate of **2 L/min**:  
+2 L/min × 5 kcal/L = **10 kcal/min**.  
+
+Thus, his rate of energy expenditure is approximately **10 kilocalories per minute**.  
+
+*(Note: This is a physiological constant applicable to all humans, regardless of gender or fitness level.)*",574,0,350,,,,0,,2026-05-26T23:58:51
+C2-n023,C2,clear,mmlu/clinical_knowledge,niche,M4,qwen3-next:80b-cloud,When assessing a patient's breathing:,"look for chest movements, listen for breath sounds, and feel for exhaled air on your cheek.","
+
+When assessing a patient's breathing, evaluate:  
+- **Rate** (normal adult: 12–20 breaths/min)  
+- **Depth** (shallow, normal, or deep)  
+- **Rhythm** (regular or irregular)  
+- **Effort** (use of accessory muscles, retractions, nasal flaring)  
+- **Breath sounds** (e.g., wheezes, crackles, stridor)  
+- **Oxygen saturation** (SpO₂ via pulse oximetry)  
+- **Signs of distress** (cyanosis, pallor, altered mental status)",746,0,372,,,,0,,2026-05-26T23:58:59
+C2-n023,C5,ambiguous,mmlu/clinical_knowledge,niche,M4,qwen3-next:80b-cloud,When assessing a patient's breathing:,"look for chest movements, listen for breath sounds, and feel for exhaled air on your cheek.","
+
+When assessing a patient's breathing, evaluate:  
+- **Rate** (normal adult: 12–20 breaths/min)  
+- **Depth** (shallow, deep, or normal)  
+- **Rhythm** (regular or irregular)  
+- **Effort** (use of accessory muscles, retractions, nasal flaring)  
+- **Sounds** (wheezes, stridor, crackles)  
+- **Oxygen saturation** (SpO₂ via pulse oximetry)  
+- **Skin color** (cyanosis, pallor)  
+- **Level of consciousness** (e.g., confusion due to hypoxia)  
+
+This comprehensive assessment identifies respiratory distress, failure, or underlying pathology.",508,0,229,,,,0,,2026-05-26T23:59:04
+C2-n024,C2,clear,mmlu/clinical_knowledge,niche,M4,qwen3-next:80b-cloud,What type of joint is the elbow?,Synovial hinge joint.,"
+
+The elbow is a **hinge joint**. It allows movement primarily in one plane (flexion and extension), similar to a door hinge.",79,0,36,,,,0,,2026-05-26T23:59:07
+C2-n024,C5,ambiguous,mmlu/clinical_knowledge,niche,M4,qwen3-next:80b-cloud,What type of joint is the elbow?,Synovial hinge joint.,"
+
+The elbow is a **hinge joint**. It allows movement primarily in one plane (flexion and extension), similar to a door hinge.",79,0,36,,,,0,,2026-05-26T23:59:09
+C2-n025,C2,clear,mmlu/clinical_knowledge,niche,M4,qwen3-next:80b-cloud,Which of the following statements is false?,Oxygen is consumed in the TCA cycle.,"
+
+The question does not provide any statements to evaluate. Therefore, it is impossible to determine which statement is false. The query is incomplete.",712,0,543,,,,0,,2026-05-26T23:59:15
+C2-n025,C5,ambiguous,mmlu/clinical_knowledge,niche,M4,qwen3-next:80b-cloud,Which of the following statements is false?,Oxygen is consumed in the TCA cycle.,"
+
+The question asks ""Which of the following statements is false?"" but does not provide any statements to evaluate. Without the specific statements, it is impossible to determine which one is false. Therefore, the question is incomplete and cannot be answered as stated.
+
+\boxed{\text{The question is incomplete.}}",563,0,410,,,,0,,2026-05-26T23:59:20
+C2-n026,C2,clear,mmlu/clinical_knowledge,niche,M4,qwen3-next:80b-cloud,What is the risk if water is used for bladder washout in secondary care?,Using water may cause electrolyte imbalance.,"
+
+Using water (distilled or tap) for bladder washout in secondary care carries significant risks due to its **hypotonic nature**. The primary dangers are:  
+
+1. **Hyponatremia**: Water absorption into the bloodstream dilutes serum sodium, potentially causing seizures, coma, or death.  
+2. **Hemolysis**: Hypotonic fluid can rupture red blood cells if absorbed systemically, leading to anemia or renal complications.  
+3. **Bladder irritation or injury**: May cause mucosal damage, spasms, or increased infection risk.  
+
+**Guideline standard**: Only **isotonic solutions** (e.g., 0.9% sodium chloride) are safe for bladder washout. Water is strictly contraindicated per clinical protocols (e.g., NHS, Urological Association guidelines).",1035,0,635,,,,0,,2026-05-26T23:59:28
+C2-n026,C5,ambiguous,mmlu/clinical_knowledge,niche,M4,qwen3-next:80b-cloud,What is the risk if water is used for bladder washout?,Using water may cause electrolyte imbalance.,"
+
+Using water for bladder washout poses significant risks due to its **hypotonic nature** (low solute concentration compared to body fluids):  
+
+1. **Cellular Damage**: Water enters bladder cells via osmosis, causing swelling, rupture (lysis), and damage to the urothelium (bladder lining).  
+2. **Hyponatremia**: Absorption of large volumes of water into the bloodstream dilutes sodium levels, potentially causing seizures, coma, or death.  
+3. **Infection Risk**: Non-sterile water (e.g., tap water) introduces pathogens, increasing the risk of urinary tract infections (UTIs) or sepsis.  
+
+**Standard Practice**: Always use **sterile isotonic saline (0.9% NaCl)** for bladder irrigation to avoid these complications. Water is **never recommended** for this procedure.",846,0,490,,,,0,,2026-05-26T23:59:34
+C2-n027,C2,clear,mmlu/clinical_knowledge,niche,M4,qwen3-next:80b-cloud,Fast-twitch fibres contain:,a relatively small number of mitochondria and high ATPase activity.,"
+
+Fast-twitch fibres contain high levels of glycolytic enzymes.",2296,1,1503,,,,0,,2026-05-26T23:59:50
+C2-n027,C5,ambiguous,mmlu/clinical_knowledge,niche,M4,qwen3-next:80b-cloud,Fast-twitch fibres contain:,a relatively small number of mitochondria and high ATPase activity.,"
+
+Fast-twitch fibres contain high glycogen stores.",1463,0,974,,,,0,,2026-05-27T00:00:03
+C2-n028,C2,clear,mmlu/clinical_knowledge,niche,M4,qwen3-next:80b-cloud,One of the most common reasons for stoma formation is:,carcinoma.,"
+
+colorectal cancer",959,0,677,,,,0,,2026-05-27T00:00:13
+C2-n028,C5,ambiguous,mmlu/clinical_knowledge,niche,M4,qwen3-next:80b-cloud,One of the most common reasons for stoma formation is:,carcinoma.,"
+
+colorectal cancer",768,0,529,,,,0,,2026-05-27T00:00:19
+C2-n029,C2,clear,mmlu/clinical_knowledge,niche,M4,qwen3-next:80b-cloud,Who is the publication Your guide to the NHS written for?,The general public.,"
+
+The publication *Your Guide to the NHS* is written for **the general public**, specifically people living in the UK who use or need to access NHS services. It provides clear, practical information for patients and citizens about how the NHS works, including how to register with a GP, access treatments, and understand rights and responsibilities.",745,0,543,,,,0,,2026-05-27T00:00:26
+C2-n029,C5,ambiguous,mmlu/clinical_knowledge,niche,M4,qwen3-next:80b-cloud,Who is the publication Your guide to the NHS written for?,The general public.,"
+
+The publication *Your Guide to the NHS* is written for **the general public in the UK**, including patients, their families, and carers, to help them understand how to access and use NHS services.",559,0,413,,,,0,,2026-05-27T00:00:31
+C2-n030,C2,clear,mmlu/clinical_knowledge,niche,M4,qwen3-next:80b-cloud,The blood glucose concentration during 80-90 minutes of intermittent high intensity exercise:,frequently rises by 1 - 3 mM.,"
+
+During 80-90 minutes of intermittent high-intensity exercise, blood glucose concentration typically **decreases** due to increased glucose utilization by muscles and depletion of liver glycogen stores, especially without carbohydrate intake. It usually remains within the normal range (4–8 mmol/L) but may approach the lower end (e.g., 4–5 mmol/L) by the end of the exercise period.",1818,0,1223,,,,0,,2026-05-27T00:00:44
+C2-n030,C5,ambiguous,mmlu/clinical_knowledge,niche,M4,qwen3-next:80b-cloud,The blood glucose concentration during 80-90 minutes of intermittent high intensity exercise:,frequently rises by 1 - 3 mM.,"
+
+During 80-90 minutes of intermittent high-intensity exercise, blood glucose concentration typically **decreases slightly** due to high energy demands and glycogen depletion, though it usually remains within normal physiological limits (e.g., 4–6 mmol/L or 70–110 mg/dL) without carbohydrate supplementation. This decline is less pronounced than in continuous exercise due to rest periods allowing partial recovery.",1826,0,1220,,,,0,,2026-05-27T00:00:59
+C2-n101,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A state statute provides: ""Whenever a person knows or should know that he (or she) is being arrested by a police officer, it is the duty of such person to refrain from using force or any weapon in resisting arrest. "" Violation of the statute is made punishable by fine and/or imprisonment. One morning, there was a bank robbery in the state. That afternoon, a police officer arrested a suspect who he believed was involved in the crime. However, the police officer and the suspect have given different accounts concerning what happened next. According to the police officer, after the suspect was apprehended, he resisted arrest and hit the police officer in the mouth with his fist. The police officer, who was momentarily stunned, pulled out his nightstick and struck the suspect over the head with it. On the other hand, the suspect claimed that after he was arrested, he cursed at the policeman, whereupon the police officer began hitting the suspect with his nightstick. To avoid being hit again, the suspect hit the police officer with his fist, knocking him down. The suspect was charged with assault. The suspect should be found","not guilty, if the arrest was lawful, provided that the jury believes the suspect's account.","
+
+The suspect should be found **not guilty**.  
+
+The statute prohibits using force *in resisting arrest*, but it does not apply if the suspect is acting in self-defense against excessive force by the officer. The suspect’s account—that the officer initiated violence by striking him with the nightstick, prompting him to hit back to avoid further harm—constitutes self-defense, not ""resisting arrest."" Self-defense is a valid legal defense to assault, as the suspect was not resisting the arrest itself but responding to unlawful aggression by the officer. The statute’s duty to refrain from force applies only when the person is actively resisting arrest, which is not the case here if the officer’s actions were the initial provocation. Thus, the suspect’s actions would not violate the statute, and the assault charge should fail.",4540,1,3539,,,,0,,2026-05-27T00:01:30
+C2-n101,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A state statute provides: ""Whenever a person knows or should know that he (or she) is being arrested by a police officer, it is the duty of such person to refrain from using force or any weapon in resisting arrest. "" Violation of the statute is made punishable by fine and/or imprisonment. One morning, there was a bank robbery in the state. That afternoon, a police officer arrested a suspect who he believed was involved in the crime. However, the police officer and the suspect have given different accounts concerning what happened next. According to the police officer, after the suspect was apprehended, he resisted arrest and hit the police officer in the mouth with his fist. The police officer, who was momentarily stunned, pulled out his nightstick and struck the suspect over the head with it. On the other hand, the suspect claimed that after he was arrested, he cursed at the policeman, whereupon the police officer began hitting the suspect with his nightstick. To avoid being hit again, the suspect hit the police officer with his fist, knocking him down. The suspect was charged with assault. The suspect should be found","not guilty, if the arrest was lawful, provided that the jury believes the suspect's account.","
+
+The suspect should be found **not guilty**. The statute prohibits using force to resist arrest, but it does not apply when the suspect is acting in self-defense against excessive or unprovoked force by the officer. The suspect’s version of events—where the officer initiated the violence by striking him with the nightstick—constitutes a claim of self-defense, not ""resisting arrest."" Self-defense is a valid legal defense to assault, and the burden of proof lies with the prosecution to disprove it beyond a reasonable doubt. If the court accepts the suspect’s account, his actions were justified, and he should be acquitted. The statute does not override the right to self-defense against unlawful or excessive force by law enforcement.",3114,1,2452,,,,0,,2026-05-27T00:01:53
+C2-n102,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A waitress sued her former employer, a restaurant, under Title VII in federal court. She claimed that the owner had sexually harassed her and then caused her wrongful termination. A jury returned a verdict of $100,000 for the former employee. Two weeks after the court entered judgment on the verdict, the employer filed a motion to dismiss under Fed. Rule 12(b)(6), claiming that it did not have at least 15 employees as required by the definition of an ""employer"" under the civil rights statute. The employer claimed that there was therefore no federal subject-matter jurisdiction. The lower court agreed, dismissed the case and voided the judgment. On appeal to the U.S. Circuit Court of Appeals, will the appellate court likely uphold the lower court's decision?","No, because this is a challenge to the existence of a cause of action, i.e., the failure to state a claim, which does not go to jurisdiction and cannot be raised post-judgment.","
+
+No, the appellate court will likely **reverse** the lower court's decision.  
+
+**Key Reasoning:**  
+- In *Arbaugh v. Y&H Corp.* (2006), the Supreme Court held that the 15-employee requirement under Title VII is a **substantive element of the claim**, not a jurisdictional prerequisite. Thus, lack of this element does not deprive federal courts of subject-matter jurisdiction (which would be a Rule 12(b)(1) issue).  
+- Instead, it is a merits-based defense that must be raised **before or during trial** (e.g., via motion for judgment on the pleadings or summary judgment). Failure to raise it prior to judgment results in **waiver**.  
+- Here, the employer waited until **after judgment** to file a motion under Rule 12(b)(6) (which addresses failure to state a claim, not jurisdiction). This was untimely and procedurally improper. The lower court erred by dismissing the case post-judgment on this basis.  
+
+**Appellate Outcome:** The judgment for the plaintiff will be reinstated, as the employer waived the defense by not raising it earlier.  
+
+*(Answer concisely: No, the appellate court will reverse the dismissal because the 15-employee requirement is a merits issue, not jurisdictional, and the defense was waived by being raised after judgment.)*",1124,0,621,,,,0,,2026-05-27T00:02:01
+C2-n102,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A waitress sued her former employer, a restaurant, under Title VII in federal court. She claimed that the owner had sexually harassed her and then caused her wrongful termination. A jury returned a verdict of $100,000 for the former employee. Two weeks after the court entered judgment on the verdict, the employer filed a motion to dismiss under Fed. Rule 12(b)(6), claiming that it did not have at least 15 employees as required by the definition of an ""employer"" under the civil rights statute. The employer claimed that there was therefore no federal subject-matter jurisdiction. The lower court agreed, dismissed the case and voided the judgment. On appeal to the U.S. Circuit Court of Appeals, will the appellate court likely uphold the lower court's decision?","No, because this is a challenge to the existence of a cause of action, i.e., the failure to state a claim, which does not go to jurisdiction and cannot be raised post-judgment.","
+
+No, the appellate court will likely **not uphold** the lower court's decision.  
+
+**Key Reasoning:**  
+- In *Arbaugh v. Y&H Corp.*, 546 U.S. 500 (2006), the Supreme Court held that the 15-employee threshold under Title VII is a **substantive element of the claim**, not a jurisdictional requirement. Thus, it is not subject-matter jurisdiction (which can be raised at any time), but a defense that must be raised **before trial** or it is waived.  
+- Here, the employer waited until **after judgment** to file a motion (mischaracterized as Rule 12(b)(6), but even if treated as a Rule 12(b)(1) motion, the timing is improper). By failing to raise the issue pre-trial, the employer waived the defense.  
+- The lower court erred by dismissing the case post-judgment on this ground. The appellate court will reverse, as the defense was forfeited.  
+
+**Conclusion:** The judgment stands; the dismissal was procedurally improper and legally incorrect under *Arbaugh*.",2484,1,1623,,,,0,,2026-05-27T00:02:17
+C2-n103,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"The owner of a drug store hired an independent contractor to renovate the store. Among other things, the renovations included installing a new front door made of plate glass. The contractor purchased the door from a glass door company. The sales representative of the glass door company told the contractor and the owner that plate glass was ""super safe"" and could withstand considerable pressure. The contractor installed the door, completed the other renovation work, and the store reopened for business later that same month. A few weeks later, a shopper and her 9-year- old son went to the drug store to purchase some merchandise. As they approached the store, the son was skipping ahead of his mother. Until he was within a few steps of the door, he thought it was open. When he realized it was, in fact, closed, he slowed down and, while still ""going faster than walking,"" pushed his hand against the handle to push open the door. His hand slipped off the handle and, at the same time, there was a ""kind of exploding noise. "" Due to a defect, the glass shattered and broke, cutting the son's hand and wrist. A subsequent inspection revealed that the glass door had been negligently installed by the contractor. If the shopper, on behalf of her son, asserts a claim against the glass door company based on strict products liability, the plaintiff will","prevail, because the glass door was defective.","
+
+The plaintiff will **lose** because strict products liability does not apply here. Strict liability requires a defect in the product itself that existed when it left the manufacturer's or seller's control. The inspection revealed the defect was due to **negligent installation by the contractor**, not a defect in the glass door sold by the glass door company. The glass company sold the product (the glass), but did not install it; the installation error was a separate act by a third party (the contractor). Strict liability does not extend to defects arising from subsequent mishandling or installation by others.  
+
+*(Key principle: Strict liability applies only to defects inherent in the product at the time of sale, not to errors in installation or use by third parties.)*",899,0,580,,,,0,,2026-05-27T00:02:26
+C2-n103,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"The owner of a drug store hired an independent contractor to renovate the store. Among other things, the renovations included installing a new front door made of plate glass. The contractor purchased the door from a glass door company. The sales representative of the glass door company told the contractor and the owner that plate glass was ""super safe"" and could withstand considerable pressure. The contractor installed the door, completed the other renovation work, and the store reopened for business later that same month. A few weeks later, a shopper and her 9-year- old son went to the drug store to purchase some merchandise. As they approached the store, the son was skipping ahead of his mother. Until he was within a few steps of the door, he thought it was open. When he realized it was, in fact, closed, he slowed down and, while still ""going faster than walking,"" pushed his hand against the handle to push open the door. His hand slipped off the handle and, at the same time, there was a ""kind of exploding noise. "" Due to a defect, the glass shattered and broke, cutting the son's hand and wrist. A subsequent inspection revealed that the glass door had been negligently installed by the contractor. If the shopper, on behalf of her son, asserts a claim against the glass door company based on strict products liability, the plaintiff will","prevail, because the glass door was defective.","
+
+The plaintiff will **not succeed** against the glass door company under strict products liability.  
+
+**Reason**: Strict products liability requires the defect to exist *when the product leaves the seller's control*. Here, the defect was the **negligent installation by the contractor**, not a defect in the glass itself. The glass door company sold the plate glass, but did not install it. The ""exploding noise"" and shattering resulted from improper mounting after the glass left the company's possession. Since the defect arose post-sale due to the contractor's actions, the glass company is not liable under strict liability principles.  
+
+*(Key precedent: Restatement (Second) of Torts § 402A, comment g; courts consistently hold that subsequent mishandling or installation errors break the chain of liability for the manufacturer/supplier.)*",842,0,530,,,,0,,2026-05-27T00:02:33
+C2-n104,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A laboratory manufactures nitroglycerin (a heavy, oily, explosive, poisonous liquid used chiefly in making dynamite) at its main plant. An artist who specialized in making delicate glass sculptures had a studio two blocks away from the laboratory's plant. Late one evening, there was an explosion at the laboratory's plant. The force of the explosion caused the artist's studio to be shaken, which resulted in the destruction of valuable artwork in the studio. The artist now asserts a tort action against the laboratory to recover damages. Which of the following, if established, would furnish the laboratory with its best possible defense?",The harm that the artist suffered would not have resulted but for the abnormal fragility of the artist's work.,"
+
+The best possible defense for the laboratory would be to establish that **the activity of manufacturing nitroglycerin was not abnormally dangerous**. 
+
+In tort law, strict liability typically applies to ""abnormally dangerous"" activities—those that pose a high risk of harm, cannot be made safe through reasonable care, and are not commonly conducted in the area. Nitroglycerin manufacturing is generally considered abnormally dangerous, but if the laboratory could prove that the activity did not meet the criteria for such classification (e.g., by demonstrating it was conducted with adequate safety measures, in a location where such activity is common, or that the risk was not inherently unavoidable), strict liability would not apply. 
+
+Without strict liability, the artist would need to prove negligence, and the laboratory could then argue that it exercised reasonable care or that the damage was not foreseeable. This defense is superior to alternatives like ""act of God"" or ""contributory negligence,"" which are generally ineffective in strict liability cases or lack sufficient factual support here. 
+
+**Answer:** The laboratory's activity of manufacturing nitroglycerin was not abnormally dangerous.",4252,1,3190,,,,0,,2026-05-27T00:03:02
+C2-n104,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A laboratory manufactures nitroglycerin (a heavy, oily, explosive, poisonous liquid used chiefly in making dynamite) at its main plant. An artist who specialized in making delicate glass sculptures had a studio two blocks away from the laboratory's plant. Late one evening, there was an explosion at the laboratory's plant. The force of the explosion caused the artist's studio to be shaken, which resulted in the destruction of valuable artwork in the studio. The artist now asserts a tort action against the laboratory to recover damages. Which of the following, if established, would furnish the laboratory with its best possible defense?",The harm that the artist suffered would not have resulted but for the abnormal fragility of the artist's work.,"
+
+The best possible defense for the laboratory would be if it could establish that the **artist assumed the risk** of the explosion by knowingly and voluntarily locating their studio near the nitroglycerin plant. 
+
+In tort law, **assumption of risk** is a defense that applies when a plaintiff is aware of a specific danger, understands the risk involved, and voluntarily chooses to proceed despite that risk. While strict liability typically applies to abnormally dangerous activities like nitroglycerin manufacturing (making the lab liable regardless of negligence), assumption of risk remains a valid defense in such cases. 
+
+If the artist was aware that the laboratory manufactured nitroglycerin and the inherent risks of explosions, yet still chose to operate a delicate glass sculpture studio two blocks away, they may have assumed the risk of such damage. This defense is stronger than arguments about foreseeability (which is generally satisfied for nitroglycerin explosions) or contributory negligence (which often does not apply in strict liability cases). 
+
+Thus, **assumption of risk** is the most effective defense if established. 
+
+**Answer:** The artist assumed the risk of the explosion by knowingly locating their studio near the nitroglycerin plant.",5455,1,4238,,,,0,,2026-05-27T00:03:43
+C2-n105,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A landlord leased an apartment to a tenant on a month-to-month basis beginning on the first of the month, with rent payable monthly. Five months into the lease, the tenant failed to pay rent. The landlord then sued the tenant for possession for nonpayment of rent. The tenant successfully defended this suit on the ground that the apartment was uninhabitable and that, accordingly, no rent was properly payable. On May 7, immediately following the court order in the tenant's favor, the landlord served the tenant with a written but not notarized notice to terminate the tenancy and to vacate the apartment on or before June 30. On July 1, the tenant was still in possession, nothing had changed, and the landlord brought an appropriate action for possession. The tenant prevailed. What is the most likely reason for the court's decision?",The landlord was attempting to terminate the tenancy as a reaction to the tenant's defense in the previous lawsuit.,"
+
+The most likely reason for the court's decision is that the landlord's notice to terminate the tenancy was defective due to improper timing. For a month-to-month tenancy with rent due on the first of the month, a valid notice to terminate must typically be given **before the start of the rental period** for which termination is sought. Here, the landlord served the notice on May 7 for termination by June 30. To terminate the tenancy effective at the end of June, the notice must have been given on or before May 1 (i.e., before the start of the June rental period). Serving the notice on May 7—after May 1—was too late for a June 30 termination date. Consequently, the notice was invalid, and the tenancy remained in effect on July 1, making the landlord's action for possession unsuccessful.",3527,1,2606,,,,0,,2026-05-27T00:04:10
+C2-n105,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A landlord leased an apartment to a tenant on a month-to-month basis beginning on the first of the month, with rent payable monthly. Five months into the lease, the tenant failed to pay rent. The landlord then sued the tenant for possession for nonpayment of rent. The tenant successfully defended this suit on the ground that the apartment was uninhabitable and that, accordingly, no rent was properly payable. On May 7, immediately following the court order in the tenant's favor, the landlord served the tenant with a written but not notarized notice to terminate the tenancy and to vacate the apartment on or before June 30. On July 1, the tenant was still in possession, nothing had changed, and the landlord brought an appropriate action for possession. The tenant prevailed. What is the most likely reason?",The landlord was attempting to terminate the tenancy as a reaction to the tenant's defense in the previous lawsuit.,,8192,1,6440,,,,0,,2026-05-27T00:05:08
+C2-n106,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A debtor owed a creditor $750 on an old debt. On July 1, the debt was barred by the statute of limitations. On August 1, the debtor ran into the creditor at a party and overheard him telling mutual friends that the debtor ""is a deadbeat who weiches on his debts. "" Feeling pangs of guilt, the debtor approached the creditor and orally agreed to pay him the $750 debt on September 1. The debtor refused to pay the creditor the $750 as promised on September 1St. If the creditor sues the debtor to recover the $750 debt, which would provide the strongest grounds that the debtor's oral promise was unenforceable?",It was violative of the statute of frauds.,"
+
+The strongest ground for unenforceability is that the oral promise violates the **Statute of Frauds**. Under common law and most jurisdictions, a promise to pay a debt barred by the statute of limitations must be in writing to be enforceable. Since the debtor's promise was purely oral, it fails to satisfy this requirement, rendering it unenforceable regardless of the debtor's guilt or the creditor's actions. The original debt was already time-barred on July 1, and an oral revival attempt does not create a new enforceable obligation.",1017,0,704,,,,0,,2026-05-27T00:05:15
+C2-n106,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A debtor owed a creditor $750 on an old debt. On July 1, the debt was barred by the statute of limitations. On August 1, the debtor ran into the creditor at a party and overheard him telling mutual friends that the debtor ""is a deadbeat who weiches on his debts. "" Feeling pangs of guilt, the debtor approached the creditor and orally agreed to pay him the $750 debt on September 1. The debtor refused to pay the creditor the $750 as promised on September 1St. If the creditor sues the debtor to recover the $750 debt, which would provide the strongest grounds that the debtor's oral promise was unenforceable?",It was violative of the statute of frauds.,"
+
+The strongest ground for unenforceability is that the debtor's oral promise violates the **Statute of Frauds**. Under common law and most state statutes, a promise to pay a debt barred by the statute of limitations must be in writing to be enforceable. Since the promise was purely oral, it fails to satisfy this requirement, rendering it unenforceable regardless of the debtor's guilt or the creditor's claim of moral obligation. 
+
+*Key reason*: The Statute of Frauds specifically requires written evidence for promises to pay time-barred debts to prevent fraudulent claims and ensure clarity. An oral promise alone is insufficient.",832,0,551,,,,0,,2026-05-27T00:05:22
+C2-n107,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"Congress, under intense lobbying pressure has enacted a statute prohibiting the sale of contraceptive devices to married persons. The act further prohibits the use of contraceptive devices by married persons. Congress claimed that the statute was passed because it might help deter illicit sexual relationships. The law is most likely","unconstitutional, because it violates the right of privacy of contraceptive users.","
+
+The statute is most likely **unconstitutional** under the right to marital privacy established in *Griswold v. Connecticut* (1965).  
+
+### Key Reasons:  
+1. **Right to Privacy**: The Supreme Court held that the Constitution implicitly protects a right to privacy in marital relations, including the use of contraceptives.  
+2. **Direct Precedent**: *Griswold* specifically struck down a Connecticut law prohibiting contraceptive use by married couples, rejecting the state's moral justification for intruding into private marital decisions.  
+3. **Irrelevant Purpose**: Congress's claim that the law deters ""illicit sexual relationships"" is irrelevant; the law targets *married* couples, not unmarried individuals engaging in illicit relations, and cannot override constitutional privacy protections.  
+4. **Post-*Dobbs* Clarity**: While *Dobbs v. Jackson Women’s Health Organization* (2022) overturned *Roe v. Wade*, it explicitly reaffirmed that *Griswold* (and other privacy precedents on contraception) remains valid law.  
+
+**Conclusion**: The statute violates the fundamental right to marital privacy and would be struck down by the Supreme Court.",921,0,512,,,,0,,2026-05-27T00:05:31
+C2-n107,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"Congress, under intense lobbying pressure has enacted a statute prohibiting the sale of contraceptive devices to married persons. The act further prohibits the use of contraceptive devices by married persons. Congress claimed that the statute was passed because it might help deter illicit sexual relationships. The law is most likely","unconstitutional, because it violates the right of privacy of contraceptive users.","
+
+The statute is most likely **unconstitutional** under the Due Process Clause of the Fourteenth Amendment.  
+
+**Reasoning**:  
+- In *Griswold v. Connecticut* (1965), the Supreme Court held that the Constitution protects a fundamental right to privacy in marital relations, including the use of contraceptives.  
+- A law prohibiting married persons from using or purchasing contraceptives directly infringes this right.  
+- Congress’s stated purpose (deterring illicit sexual relationships) is not a compelling government interest sufficient to justify such an intrusion into private marital decisions.  
+- The law would fail strict scrutiny, as it is not narrowly tailored to achieve any legitimate objective and may even encourage illicit behavior by removing access to contraception.  
+
+Thus, the statute violates established constitutional precedent.",625,0,376,,,,0,,2026-05-27T00:05:37
+C2-n108,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A state recently enacted a statute requiring the following of all firms that do business with and for the state (defined generally as selling goods or providing services to the state, its agencies, or subdivisions):  Such businesses must purchase insurance only from insurance companies chartered in the state and thus be subject to regulation by the state insurance commissioner;  In hiring any unskilled laborers for employment in connection with state business, preference must be given to citizens of the state;  Nonresident aliens shall be prohibited from engaging in any state related business activities;  All buildings constructed for the state must have roofs composed of adobe, which is composed of yellow silt or clay deposits found only in the state. The proposed statute's preamble recites that its provisions will ensure:  responsible insurance coverage for all those who do business with the state;  an increased standard of living for the citizens who comprise the state's labor force;  the lowest possible expenditures by the state government; and  a beautiful, uniform aesthetic decor for all new state buildings. In evaluating the constitutionality of the state statute under the Supremacy Clause of Article VI, which of the following would be most relevant?",The treaties and immigration laws of the United States.,"
+
+The most relevant factor for evaluating constitutionality under the Supremacy Clause is **whether the statute conflicts with federal law**. Specifically, the provision prohibiting nonresident aliens from engaging in state-related business activities directly conflicts with federal immigration law, which is exclusively regulated by Congress under the Constitution. Federal law permits nonresident aliens to engage in business activities (subject to federal visa and employment regulations), and states cannot enact laws that regulate immigration status or exclude noncitizens from commerce. This conflict would render that provision unconstitutional under the Supremacy Clause, as federal law preempts state law in this area. 
+
+*Other provisions may raise constitutional issues under different doctrines (e.g., Commerce Clause or Equal Protection), but only the nonresident alien ban presents a clear, direct conflict with federal law requiring Supremacy Clause analysis.*",959,0,621,,,,0,,2026-05-27T00:05:45
+C2-n108,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A state recently enacted a statute requiring the following of all firms that do business with and for the state (defined generally as selling goods or providing services to the state, its agencies, or subdivisions):  Such businesses must purchase insurance only from insurance companies chartered in the state and thus be subject to regulation by the state insurance commissioner;  In hiring any unskilled laborers for employment in connection with state business, preference must be given to citizens of the state;  Nonresident aliens shall be prohibited from engaging in any state related business activities;  All buildings constructed for the state must have roofs composed of adobe, which is composed of yellow silt or clay deposits found only in the state. The proposed statute's preamble recites that its provisions will ensure:  responsible insurance coverage for all those who do business with the state;  an increased standard of living for the citizens who comprise the state's labor force;  the lowest possible expenditures by the state government; and  a beautiful, uniform aesthetic decor for all new state buildings. In evaluating the constitutionality of the state statute under the Supremacy Clause of Article VI, which of the following would be most relevant?",The treaties and immigration laws of the United States.,"
+
+The most relevant factor for evaluating the statute's constitutionality under the **Supremacy Clause** is **whether it conflicts with federal immigration law**, specifically regarding the prohibition on nonresident aliens engaging in state-related business activities.  
+
+### Why:  
+- The Supremacy Clause (Article VI) invalidates state laws that conflict with federal law.  
+- **Immigration regulation is exclusively federal** (per *Arizona v. United States*, 567 U.S. 387 (2012)). States cannot enact laws that regulate the presence or activities of noncitizens, as this intrudes on federal authority under the Immigration and Nationality Act.  
+- The statute’s ban on nonresident aliens directly conflicts with federal immigration law, making it a clear Supremacy Clause violation.  
+
+### Why not the other provisions?  
+- **Insurance requirement**: Governed primarily by state law under the McCarran-Ferguson Act; no direct federal conflict.  
+- **Labor preference for citizens**: May violate the Privileges and Immunities Clause (Article IV) or Dormant Commerce Clause, but these are not Supremacy Clause issues (which require conflict with *federal law*).  
+- **Adobe roof requirement**: Likely a Dormant Commerce Clause issue (discriminating against out-of-state materials), but no federal law preempts building materials.  
+
+**Conclusion**: The nonresident alien prohibition is the only provision that directly conflicts with federal law, making it the most relevant for Supremacy Clause analysis.  
+
+\boxed{\text{whether the statute conflicts with federal immigration law}}",1224,0,704,,,,0,,2026-05-27T00:05:54
+C2-n109,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A female patient at a federal hospital reported that a male nurse sexually assaulted her. The man was arrested. At trial the prosecution offered evidence that the man was convicted of two prior sexual assault charges against two other women, both occurring about two years earlier. The allegations and the man's modus operandi in those convictions were almost identical to the instant case. Defense counsel objected to the evidence on the basis that its highly prejudicial effect outweighed its probative value. Based on the Federal Rules of Evidence, what will the court most likely rule regarding this issue?","The evidence is admissible due to the factual similarity with the present charge, which gives the evidence strong probative value.","
+
+The court will most likely **admit the evidence** under Federal Rule of Evidence 413. 
+
+Rule 413 specifically permits the admission of evidence of prior sexual assaults in a criminal case where the defendant is accused of sexual assault. It states: ""In a criminal case in which a defendant is accused of sexual assault, the court may admit evidence that the defendant committed any other sexual assault. The evidence may be considered on any matter to which it is relevant."" 
+
+Here, the prior convictions for sexual assault against two other women are directly relevant to the current charge, given the near-identical modus operandi. While Rule 403 (exclusion of evidence if prejudicial effect substantially outweighs probative value) still applies, courts routinely find that the high probative value of such evidence in sexual assault cases—particularly when the prior acts share distinctive similarities—outweighs any prejudicial effect. Rule 413 overrides the general prohibition in Rule 404(b) for sexual assault cases, making the evidence admissible. 
+
+Thus, the defense's objection will be overruled.",1072,0,647,,,,0,,2026-05-27T00:06:02
+C2-n109,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A female patient at a federal hospital reported that a male nurse sexually assaulted her. The man was arrested. At trial the prosecution offered evidence that the man was convicted of two prior sexual assault charges against two other women, both occurring about two years earlier. The allegations and the man's modus operandi in those convictions were almost identical to the instant case. Defense counsel objected to the evidence on the basis that its highly prejudicial effect outweighed its probative value. Based on the Federal Rules of Evidence, what will the court most likely rule?","The evidence is admissible due to the factual similarity with the present charge, which gives the evidence strong probative value.","
+
+The court will most likely admit the evidence. Under Federal Rule of Evidence 413(a), in a criminal case for sexual assault, evidence of the defendant's prior sexual assault offenses is admissible for any relevant purpose, including to show propensity. Here, the prior convictions for sexual assault against two other women—occurring two years earlier with nearly identical allegations and modus operandi—are directly relevant to proving identity, plan, or absence of mistake in the current case. While Rule 403 allows exclusion if prejudice substantially outweighs probative value, courts routinely find that the high probative value of such similar prior acts in sexual assault cases outweighs any prejudicial effect, especially when the prior offenses are convictions (not mere allegations) and the similarities are striking. Thus, the defense's objection will be overruled.",1119,0,723,,,,0,,2026-05-27T00:06:11
+C2-n110,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,A federal agent wants to obtain a court order for a wiretap. Which of the following is not required to be set forth in the agent's affidavit submitted to the court for an order authorizing the wiretap?,That the wiretap will extend indefinitely until all relevant conversations are recorded.,"
+
+The affidavit for a wiretap order must comply with Title III of the Omnibus Crime Control and Safe Streets Act of 1968 (18 U.S.C. § 2518). The required elements include:  
+- The identity of the person whose communications are to be intercepted (if known)  
+- The nature and location of the communications facilities  
+- A description of the communication type and the specific offense  
+- Facts showing normal investigative procedures have failed or are unlikely to succeed  
+- The duration of the interception  
+- Facts demonstrating necessity for the interception  
+- Identities of persons believed to be committing the offense, using the facility, the target, the facility owner, assignee/lessee, connected party, user, and user for the offense (all if known)  
+
+However, **the identity of the victim of the crime is not required** to be set forth in the affidavit. The statute does not mandate disclosure of the victim's identity, as it is not relevant to the wiretap authorization criteria. While the victim's identity may be included in the factual background for context, it is not a statutory requirement.  
+
+Thus, if the question provides options, the correct choice is the one specifying ""the identity of the victim.""",6514,1,5577,,,,0,,2026-05-27T00:06:54
+C2-n110,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,A federal agent wants to obtain a court order for a wiretap. Which of the following is not required to be set forth in the agent's affidavit submitted to the court for an order authorizing the wiretap?,That the wiretap will extend indefinitely until all relevant conversations are recorded.,,8192,1,6307,,,,0,,2026-05-27T00:07:57
+C2-n111,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A writer sent a four-page synopsis of an idea for a new television series to a Hollywood producer. He sent it in response to an ad for new ideas in an industry publication. He discussed it with the producer's assistant in a phone call, and mentioned his expectation of compensation. She said, ""Well, of course, we always pay for a writer's work."" She said she would go over it with her boss to see if he liked it. Several months later, the writer saw a casting call for a new series. The plot and characters were nearly identical to those described in his synopsis. He sued the producer for breach of contract. The producer defended by arguing that there was no contract. What is the likely ruling of the court?",The court will rule that there was an implied in fact contract between the parties based on the conduct that they manifested.,"
+
+The court will likely rule in favor of the producer. No valid contract existed because:  
+1. **No mutual assent**: The producer's assistant's statement (""we always pay for a writer's work"") was vague and non-specific, lacking clear acceptance of the writer's submission. It did not constitute an offer or acceptance of the writer's idea.  
+2. **No authority**: The assistant likely lacked actual authority to bind the producer to a payment agreement for unsolicited material.  
+3. **Industry practice**: Hollywood routinely treats unsolicited submissions as ""open submissions"" with no implied obligation to pay unless a prior written agreement exists. The ad in the industry publication did not promise compensation for submissions.  
+4. **No consideration**: The writer's submission was unsolicited, and the producer did not request or promise payment for it.  
+
+Without an enforceable contract, there can be no breach of contract claim. The writer may have other potential claims (e.g., misappropriation of ideas), but those are distinct from breach of contract.  
+
+**Key precedent**: Courts consistently reject such claims where no explicit agreement exists (e.g., *Desny v. Wilder* is distinguishable; most modern cases like *Hill v. Warner Bros.* emphasize the need for clear contractual terms).",1021,0,607,,,,0,,2026-05-27T00:08:05
+C2-n111,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A writer sent a four-page synopsis of an idea for a new television series to a Hollywood producer. He sent it in response to an ad for new ideas in an industry publication. He discussed it with the producer's assistant in a phone call, and mentioned his expectation of compensation. She said, ""Well, of course, we always pay for a writer's work."" She said she would go over it with her boss to see if he liked it. Several months later, the writer saw a casting call for a new series. The plot and characters were nearly identical to those described in his synopsis. He sued the producer for breach of contract. The producer defended by arguing that there was no contract. What is the likely ruling?",The court will rule that there was an implied in fact contract between the parties based on the conduct that they manifested.,"
+
+The likely ruling is in favor of the writer. Courts recognize an **implied contract** in such scenarios when:  
+- A producer solicits ideas (via an ad),  
+- The submitter discloses the expectation of compensation, and  
+- The producer accepts the submission with knowledge of that expectation.  
+
+Here, the producer’s ad solicited ideas, the writer explicitly mentioned compensation, and the assistant confirmed ""we always pay for a writer’s work."" By later using the nearly identical concept without payment, the producer breached this implied contract. This aligns with precedent (e.g., *Desny v. Wilder*), where courts hold producers liable for misappropriating unsolicited ideas when payment was reasonably expected. The producer’s defense of ""no contract"" fails because the circumstances created an enforceable obligation.  
+
+**Ruling**: Breach of contract found; producer liable for damages.",997,0,668,,,,0,,2026-05-27T00:08:17
+C2-n112,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A man who was emotionally upset due to marital problems voluntarily checked into a private medical facility for treatment. State law provided that if he tried to leave against medical advice, the hospital could hold him for 72 hours while trying to convince him to stay. During the stay, he told his medical providers that he was intensely angry at his wife, who was living with another man, and he wanted to harm her. Despite that knowledge, the hospital issued him an unrestricted weekend pass. When he got out he shot and killed his wife. The man's children sued the hospital for negligence. The hospital filed a motion to dismiss mainly because there was no privity with the decedent and no duty owed to her. Will the court grant the motion to dismiss?","No, because the special relationship and the control between doctor and an in-patient mandates due care by the doctor to prevent a foreseeable danger to others.","
+
+No, the court will likely **deny the motion to dismiss**.  
+
+### Key Reasoning:  
+1. **Duty to Third Parties Exists**: While hospitals generally owe no duty to non-patients, courts recognize a **special duty to protect identifiable third parties** when a mental health provider knows a patient poses a *foreseeable and specific threat* of violence against them. This principle stems from *Tarasoff v. Regents of the University of California* (1976) and is widely adopted in U.S. jurisdictions.  
+2. **Foreseeable Harm**: Here, the patient explicitly stated he was ""intensely angry"" at his wife, knew she was living with another man, and ""wanted to harm her."" This constitutes a **specific, imminent threat** against an *identifiable victim* (his wife).  
+3. **Breach of Duty**: Issuing an ""unrestricted weekend pass"" despite this knowledge was a clear breach of the hospital’s duty to take reasonable steps to prevent harm (e.g., notifying the wife, alerting law enforcement, or restricting the patient’s release).  
+4. **Privity Not Required**: Negligence claims do not require privity (a contractual relationship). Duty arises from the **foreseeability of harm** and the **special relationship** between the provider and the patient, which extends to protecting third parties when a specific threat exists.  
+
+### Outcome:  
+The complaint states a valid claim for negligence. The hospital’s motion to dismiss based on ""no duty"" or ""no privity"" fails as a matter of law. The case should proceed to discovery and trial.  
+
+> **Note**: Some states have statutes modifying *Tarasoff* duties (e.g., requiring warning only to law enforcement), but the core principle—that a duty exists to protect identifiable victims from specific threats—remains binding in nearly all jurisdictions. The hospital’s actions here were objectively unreasonable given the known risk.",1022,0,512,,,,0,,2026-05-27T00:08:24
+C2-n112,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A man who was emotionally upset due to marital problems voluntarily checked into a private medical facility for treatment. State law provided that if he tried to leave against medical advice, the hospital could hold him for 72 hours while trying to convince him to stay. During the stay, he told his medical providers that he was intensely angry at his wife, who was living with another man, and he wanted to harm her. Despite that knowledge, the hospital issued him an unrestricted weekend pass. When he got out he shot and killed his wife. The man's children sued the hospital for negligence. The hospital filed a motion to dismiss mainly because there was no privity with the decedent and no duty owed to her. Will the court grant the motion to dismiss?","No, because the special relationship and the control between doctor and an in-patient mandates due care by the doctor to prevent a foreseeable danger to others.","
+
+No, the court should **deny the motion to dismiss**.  
+
+Under the landmark *Tarasoff* doctrine (adopted in most jurisdictions), mental health professionals (including hospitals providing psychiatric care) owe a duty to take reasonable steps to protect an identifiable, foreseeable victim when a patient communicates a specific threat of violence against them. Here:  
+- The patient explicitly stated intense anger toward his wife and intent to harm her.  
+- His wife was an identifiable, foreseeable victim (she was named and living with another man).  
+- The hospital knew of the threat but issued an unrestricted pass, failing to warn the wife, notify authorities, or restrict the patient’s release.  
+
+**Privity is irrelevant**—negligence duty arises from foreseeability and the special relationship between the provider and patient, not contractual privity. The children’s wrongful death claim states a valid cause of action for negligence.  
+
+*Key precedent*: *Tarasoff v. Regents of Univ. of Cal.*, 551 P.2d 334 (Cal. 1976) (duty to warn/protect foreseeable victims of specific threats).",971,0,603,,,,0,,2026-05-27T00:08:31
+C2-n113,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A state imposes a tax on nonresident photographers who operate photographic studios in the state at a rate of 2% of their state-derived income above $12,000. This income tax exempts taxable income earned outside of the state by photographers who live in the state. Moreover, resident-photographers of the state are not taxed on their in-state earned income. A photographer who operates a studio in the state but is a resident of another state, challenges the constitutionality of this tax. Which of the following provisions would furnish the most applicable basis for this constitutional challenge?",The privileges and immunities clause of ArticleIv.,"
+
+The most applicable basis for the constitutional challenge is the **Privileges and Immunities Clause of Article IV, Section 2** of the U.S. Constitution.  
+
+### Why:  
+- This clause prohibits states from discriminating against citizens of other states in favor of their own residents regarding **fundamental rights and economic opportunities**, such as the right to pursue a common calling (e.g., operating a business).  
+- Here, the tax imposes a burden on nonresident photographers for income earned *within the state* while exempting resident photographers from tax on the *same in-state income*. This creates direct discrimination based solely on residency status.  
+- The Supreme Court has consistently held that such differential treatment violates the Privileges and Immunities Clause (e.g., *Hicklin v. Orbeck*, 437 U.S. 518 (1978); *Supreme Court of New Hampshire v. Piper*, 470 U.S. 274 (1985)).  
+
+### Why not other provisions?  
+- **Commerce Clause**: While relevant for state laws burdening interstate commerce, this tax targets *individuals* based on residency (not commerce itself), making the Privileges and Immunities Clause more precise.  
+- **Equal Protection Clause**: Typically applies to suspect classifications (e.g., race), not residency-based economic distinctions, which are governed by Article IV.  
+- **Dormant Commerce Clause**: Focuses on state regulations that unduly burden interstate commerce; here, the discrimination is against *nonresidents as individuals*, not the flow of commerce.  
+
+**Conclusion**: The tax’s residency-based discrimination against nonresidents’ economic activities directly contravenes the Privileges and Immunities Clause.  
+
+\boxed{\text{Privileges and Immunities Clause of Article IV}}",1041,0,504,,,,0,,2026-05-27T00:08:39
+C2-n113,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A state imposes a tax on nonresident photographers who operate photographic studios in the state at a rate of 2% of their state-derived income above $12,000. This income tax exempts taxable income earned outside of the state by photographers who live in the state. Moreover, resident-photographers of the state are not taxed on their in-state earned income. A photographer who operates a studio in the state but is a resident of another state, challenges the constitutionality of this tax. Which of the following provisions would furnish the most applicable basis?",The privileges and immunities clause of ArticleIv.,"
+
+The most applicable constitutional basis for challenging this tax is the **Privileges and Immunities Clause of Article IV, Section 2**.  
+
+### Why:  
+- This clause prohibits states from discriminating against citizens of other states in fundamental rights or essential activities within the state.  
+- Here, the tax imposes a financial burden on nonresident photographers for earning income within the state, while exempting resident photographers from the same tax on identical in-state income. This creates unequal treatment based solely on residency.  
+- The Supreme Court has consistently held that the right to earn a living in a state is a ""fundamental"" privilege protected by Article IV (e.g., *Supreme Court of New Hampshire v. Piper*, 470 U.S. 274 (1985); *Toomer v. Witsell*, 334 U.S. 385 (1948)).  
+- The state would need to show a ""substantial reason"" for the discrimination, which is unlikely here since the tax targets nonresidents for the same activity residents perform tax-free.  
+
+### Why not other provisions?  
+- **Commerce Clause**: Generally applies to taxes burdening interstate *commerce*, not personal income taxes on in-state earnings (which are typically considered ""internal"" matters). The Court has limited its application to income taxes (*e.g., *Complete Auto Transit, Inc. v. Brady*, 430 U.S. 274 (1977)*).  
+- **Equal Protection Clause (14th Amendment)**: Would require only a ""rational basis"" for the distinction, which the state could likely satisfy (e.g., administrative simplicity). This is a weaker challenge than Article IV, which demands stricter scrutiny for residency-based discrimination.  
+
+Thus, **Article IV’s Privileges and Immunities Clause** is the strongest basis, as it directly addresses state discrimination against nonresidents in fundamental economic activities.  
+
+**Answer**: Privileges and Immunities Clause of Article IV, Section 2.",1080,0,513,,,,0,,2026-05-27T00:08:47
+C2-n114,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,What is it called when a remainder in the grantor's heirs is invalid and becomes a reversion in the grantor?,Doctrine of Worthier Title,"
+
+The doctrine of worthier title. This rule invalidates a remainder created in the grantor's heirs, treating it as if the grantor retained a reversion instead.",1063,0,785,,,,0,,2026-05-27T00:08:56
+C2-n114,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,What is it called when a remainder in the grantor's heirs is invalid and becomes a reversion?,Doctrine of Worthier Title,"
+
+When a remainder is created in the grantor's heirs, it is invalid due to uncertainty (as the heirs are not ascertained at the time of the grant). This invalidity results in the grantor retaining a **reversion**. The term for this resulting interest is a reversion.",2093,1,1533,,,,0,,2026-05-27T00:09:12
+C2-n115,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"After a severe thunderstorm had struck the area, a homeowner discovered that her roof had suffered extensive damage. She telephoned a roofer to inquire about having the necessary repairs done to her roof. The roofer agreed to finish the work within 30 days, and the homeowner promised to pay$10,000. Which of the following statements is most accurate?",The performance of the roofer would be a constructive condition precedent to the performance by the homeowner.,"
+
+A binding contract was formed between the homeowner and the roofer. The elements of a valid contract are present:  
+- **Offer**: The roofer agreed to complete repairs within 30 days.  
+- **Acceptance**: The homeowner promised to pay $10,000.  
+- **Consideration**: Mutual exchange of services (repairs) for payment ($10,000).  
+- **Mutual intent**: Both parties clearly agreed to the terms during the telephone conversation.  
+
+No additional formalities (e.g., written contract) are required for this type of service agreement under common law. The thunderstorm damage does not affect contract formation.  
+
+**Most accurate statement**: *A binding contract was formed.*",729,0,436,,,,0,,2026-05-27T00:09:19
+C2-n115,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"After a severe thunderstorm had struck the area, a homeowner discovered that her roof had suffered extensive damage. She telephoned a roofer to inquire about having the necessary repairs done to her roof. The roofer agreed to finish the work within 30 days, and the homeowner promised to pay$10,000. Which of the following statements is most accurate?",The performance of the roofer would be a constructive condition precedent to the performance by the homeowner.,"
+
+The most accurate statement is that **a binding contract was formed between the homeowner and the roofer**.  
+
+### Why:  
+- **Offer and Acceptance**: The roofer offered to repair the roof within 30 days, and the homeowner accepted by promising to pay $10,000.  
+- **Consideration**: Both parties provided something of value—the roofer’s labor/services in exchange for the homeowner’s payment.  
+- **Mutual Intent**: The agreement was clear, specific (30-day timeframe, $10,000 payment), and made with the intent to be legally bound.  
+- **No Statute of Frauds Issue**: Roof repair contracts for under $500 (or typical state thresholds) generally do not require a written agreement to be enforceable.  
+
+### Why Other Statements Are Incorrect:  
+- ❌ ""No contract exists because the agreement was oral"" → Oral contracts are enforceable for services like roof repairs (unless state law requires writing for specific amounts, which is rare for this context).  
+- ❌ ""The homeowner’s promise to pay is not consideration"" → A promise to pay is valid consideration.  
+- ❌ ""The contract is void due to the thunderstorm damage"" → The storm’s cause does not invalidate the agreement; it merely explains the need for repairs.  
+- ❌ ""This is a gift, not a contract"" → Consideration exists (payment for services), so it is not a gift.  
+
+**Key Takeaway**: A valid, enforceable contract exists based on mutual assent, consideration, and clear terms.",947,0,451,,,,0,,2026-05-27T00:09:26
+C2-n116,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A defendant was a senior pre-med student at a state university. Before a big football game with their arch rival, the defendant attended a pep rally at the university football field. During the pep rally, the students drank beer, sang songs, and gave members of the football team fervent cheers. After the rally ended, the defendant was walking toward his car when he felt the need to relieve himself. He then strutted across the street to a municipal park and urinated against a tree. In this jurisdiction, urinating in public is a misdemeanor. Unknown to the defendant, a parking enforcement officer who was ticketing cars in the area witnessed the incident and wrote down the license number of the defendant's vehicle as he drove off. She immediately gave the information to the police who did a check and learned the defendant's identity and home address. Within an hour, the police went to the defendant's house and forcibly entered the dwelling without a search warrant. While searching his home, they found the defendant studying in an upstairs bedroom. After giving him his Miranda warnings, the defendant confessed to the crime. The defendant was thereafter prosecuted for the misdemeanor of urinating in public. If the defendant moves to suppress evidence of the statement that he made to the police when he was apprehended, the motion should be","sustained, because the defendant's statement was the product of a warrantless entry of his home.","
+
+The motion to suppress should be **granted**.  
+
+**Reasoning**:  
+- The Fourth Amendment prohibits warrantless entries into a home for misdemeanor offenses absent exigent circumstances or consent (*Payton v. New York*, 445 U.S. 573 (1980)).  
+- Public urination is a misdemeanor; no exigent circumstances existed (e.g., no ongoing threat, evidence destruction, or hot pursuit). The police had ample time to obtain a warrant after identifying the defendant via his license plate.  
+- The forcible warrantless entry into the home was unconstitutional. Any evidence derived from this illegal entry—including the confession, even after Miranda warnings—is ""fruit of the poisonous tree"" (*Wong Sun v. United States*, 371 U.S. 471 (1963)).  
+- Thus, the confession must be suppressed.  
+
+**Answer**: granted",767,0,455,,,,0,,2026-05-27T00:09:33
+C2-n116,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A defendant was a senior pre-med student at a state university. Before a big football game with their arch rival, the defendant attended a pep rally at the university football field. During the pep rally, the students drank beer, sang songs, and gave members of the football team fervent cheers. After the rally ended, the defendant was walking toward his car when he felt the need to relieve himself. He then strutted across the street to a municipal park and urinated against a tree. In this jurisdiction, urinating in public is a misdemeanor. Unknown to the defendant, a parking enforcement officer who was ticketing cars in the area witnessed the incident and wrote down the license number of the defendant's vehicle as he drove off. She immediately gave the information to the police who did a check and learned the defendant's identity and home address. Within an hour, the police went to the defendant's house and forcibly entered the dwelling without a search warrant. While searching his home, they found the defendant studying in an upstairs bedroom. After giving him his Miranda warnings, the defendant confessed to the crime. The defendant was thereafter prosecuted for the misdemeanor of urinating in public. If the defendant moves to suppress evidence of the statement that he made to the police when he was apprehended, the motion should be","sustained, because the defendant's statement was the product of a warrantless entry of his home.","
+
+The motion to suppress should be **granted**.  
+
+**Reasoning**:  
+- The Fourth Amendment prohibits warrantless entries into a home for arrest absent exigent circumstances (e.g., hot pursuit, imminent destruction of evidence, or danger to officers).  
+- Here, the crime (public urination, a misdemeanor) is non-violent and minor. The police had no warrant and no exigent circumstances (e.g., the defendant was found studying peacefully in his bedroom; no risk of evidence destruction or flight).  
+- *Payton v. New York* (1980) and subsequent precedent hold that warrantless home arrests for misdemeanors are unconstitutional without exigency.  
+- The confession is the ""fruit of the poisonous tree"" from the unlawful arrest. *Brown v. Illinois* (1975) confirms that Miranda warnings alone do not purge the taint of an illegal arrest.  
+
+Thus, the evidence of the confession must be suppressed.  
+
+**Answer**: granted",768,0,464,,,,0,,2026-05-27T00:09:39
+C2-n117,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A shrimp fishery is located in the coastal waters of a state. A large part of the catch is either frozen or canned, and distributed nationwide. The state legislature passed a statute requiring payment of a license fee of $25 for each shrimp boat owned by a resident and $2,500 for each boat owned by a nonresident. A resident of a neighboring state was a commercial shrimp fisherman who was denied a license after refusing to pay the $2,500 fee. The resident brought suit in federal court challenging the constitutionality of the state shrimp boat licensing statute. The federal court should",hear the case on its merits.,"
+
+The federal court should hold the statute unconstitutional under the **Privileges and Immunities Clause of Article IV, Section 2**.  
+
+**Reason**: The clause prohibits states from discriminating against nonresidents in fundamental rights and livelihoods, such as commercial fishing. A $2,500 fee for nonresidents versus $25 for residents is grossly disproportionate and lacks a substantial justification (e.g., conservation needs). This violates the core principle that nonresidents must be treated equally in pursuit of common occupations. (*Toomer v. Witsell*, 334 U.S. 385 (1948)).  
+
+*Note: While the Commerce Clause may also apply, Article IV is the primary and most direct basis for striking down this discriminatory fee structure.*",634,0,371,,,,0,,2026-05-27T00:09:44
+C2-n117,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A shrimp fishery is located in the coastal waters of a state. A large part of the catch is either frozen or canned, and distributed nationwide. The state legislature passed a statute requiring payment of a license fee of $25 for each shrimp boat owned by a resident and $2,500 for each boat owned by a nonresident. A resident of a neighboring state was a commercial shrimp fisherman who was denied a license after refusing to pay the $2,500 fee. The resident brought suit in federal court challenging the constitutionality of the state shrimp boat licensing statute. The federal court should",hear the case on its merits.,"
+
+The federal court should find the statute unconstitutional under the Privileges and Immunities Clause of Article IV, Section 2 of the U.S. Constitution.  
+
+**Reasoning**:  
+- The Clause prohibits states from discriminating against citizens of other states in fundamental rights, including the right to pursue a common livelihood (e.g., commercial fishing).  
+- The $2,500 fee for nonresidents versus $25 for residents constitutes severe economic discrimination with no substantial justification (e.g., conservation needs must be applied equally, not based on residency).  
+- *Toomer v. Witsell* (1948) directly controls: South Carolina’s higher license fees for nonresident shrimp fishermen were struck down as violating the Privileges and Immunities Clause.  
+- The state cannot justify the disparity as a reasonable conservation measure; the fee difference is purely residency-based and burdens nonresidents’ access to a public resource.  
+
+**Conclusion**: The statute is unconstitutional, and the court should invalidate it.  
+
+*(Answer concisely as required: The federal court should find the statute unconstitutional.)*",787,0,442,,,,0,,2026-05-27T00:09:51
+C2-n118,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A man is charged with murder. During the trial, defense counsel offers the testimony of a man on death row admitting he hired another man to shoot the victim. The testimony is",not hearsay.,"
+
+The testimony is inadmissible hearsay. The man on death row's out-of-court statement admitting he hired someone to shoot the victim is offered to prove the truth of the matter asserted (i.e., that someone else committed the murder). However, since the man on death row is available to testify (as he is present in custody), the statement does not qualify for the ""statement against interest"" exception under Federal Rule of Evidence 804(b)(3), which requires the declarant to be unavailable. Therefore, it is inadmissible hearsay.",4130,1,3100,,,,0,,2026-05-27T00:10:23
+C2-n118,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A man is charged with murder. During the trial, defense counsel offers the testimony of a man on death row admitting he hired another man to shoot the victim. The testimony is",not hearsay.,"
+
+The testimony is admissible because it is not hearsay. Hearsay is an out-of-court statement offered to prove the truth of the matter asserted. Here, the man on death row is testifying in court under oath, so his statement is made while testifying and is direct evidence, not hearsay. Its admissibility is not barred by the hearsay rule, though its credibility may be challenged.",1361,0,952,,,,0,,2026-05-27T00:10:34
+C2-n119,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A riot broke out in a city, and many shops had been looted and some had been burned during the riots. Goods of all kinds were in piles or strewn about the sidewalk. During the riot, a defendant was walking along the street when he paused in front of an appliance store. He picked up a portable television set that was lying on the sidewalk and started to walk off quickly. A police officer who was standing in front of the shop rushed after the defendant and arrested him. The defendant, an indigent, was charged with grand larceny, a felony carrying the maximum penalty of seven months imprisonment and a S 1,000 fine. At his arraignment, the judge advised the defendant of his right to have counsel appointed for him. The defendant, however, told the judge that he wanted to represent himself and waive his right to a jury trial. The judge then questioned the defendant at length about his demands. The defendant indicated that he had no previous legal experience. He told the judge that the reason he didn't want a court-appointed attorney to represent him was because he didn't trust lawyers. The judge did not find the defendant's reasons for representing himself to be persuasive and appointed an attorney to represent him. Thereafter, an attorney was appointed by the court to represent the defendant. The attorney told the court that the defendant wanted a non-jury trial. However, at the prosecution's request, the court impaneled a jury. The defendant was subsequently convicted by the jury and sentenced to six months imprisonment. In addition, the defendant was ordered to reimburse the state $450 to cover the cost of his attorney. This reimbursement order was made pursuant to a relevant statute in effect at the time of the defendant's arrest. The defendant appeals both the conviction and the reimbursement order. The appellate court should",reverse both the conviction and the reimbursement order because the defendant was denied the right to represent himself.,"
+
+The appellate court should reverse both the conviction and the reimbursement order.  
+
+**Reasoning:**  
+1. **Right to Self-Representation:** Under *Faretta v. California* (1975), a defendant has a Sixth Amendment right to self-representation if the waiver of counsel is knowing and voluntary. The defendant clearly expressed his desire to proceed pro se, stating he did not trust lawyers and had no legal experience. The judge’s refusal to honor this request based on the defendant’s ""unpersuasive"" reasons was error. The Supreme Court has held that a defendant’s reasons for seeking self-representation (even if unwise or irrational) do not justify denying the right, provided the waiver is voluntary and informed. The appointment of counsel against the defendant’s will violated his constitutional right, rendering the conviction invalid.  
+
+2. **Reimbursement Order:** The reimbursement order for attorney costs is improper because the appointment of counsel was wrongful. Since the defendant validly waived counsel, the state cannot charge him for services he did not consent to receive. Statutes requiring reimbursement typically apply only when counsel was properly appointed and the defendant has the ability to pay; here, the defendant is indigent and the appointment was unconstitutional.  
+
+Thus, the conviction must be reversed due to the denial of self-representation, and the reimbursement order must be vacated as it stems from an invalid appointment of counsel.  
+
+**Answer:** Reverse both the conviction and the reimbursement order.",3345,1,2404,,,,0,,2026-05-27T00:10:59
+C2-n119,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A riot broke out in a city, and many shops had been looted and some had been burned during the riots. Goods of all kinds were in piles or strewn about the sidewalk. During the riot, a defendant was walking along the street when he paused in front of an appliance store. He picked up a portable television set that was lying on the sidewalk and started to walk off quickly. A police officer who was standing in front of the shop rushed after the defendant and arrested him. The defendant, an indigent, was charged with grand larceny, a felony carrying the maximum penalty of seven months imprisonment and a S 1,000 fine. At his arraignment, the judge advised the defendant of his right to have counsel appointed for him. The defendant, however, told the judge that he wanted to represent himself and waive his right to a jury trial. The judge then questioned the defendant at length about his demands. The defendant indicated that he had no previous legal experience. He told the judge that the reason he didn't want a court-appointed attorney to represent him was because he didn't trust lawyers. The judge did not find the defendant's reasons for representing himself to be persuasive and appointed an attorney to represent him. Thereafter, an attorney was appointed by the court to represent the defendant. The attorney told the court that the defendant wanted a non-jury trial. However, at the prosecution's request, the court impaneled a jury. The defendant was subsequently convicted by the jury and sentenced to six months imprisonment. In addition, the defendant was ordered to reimburse the state $450 to cover the cost of his attorney. This reimbursement order was made pursuant to a relevant statute in effect at the time of the defendant's arrest. The defendant appeals both the conviction and the reimbursement order. The appellate court should",reverse both the conviction and the reimbursement order because the defendant was denied the right to represent himself.,"
+
+The appellate court should **reverse both the conviction and the reimbursement order**.  
+
+### Key Reasons:  
+1. **Denial of Self-Representation**:  
+   - Under *Faretta v. California* (1975), a defendant has a constitutional right to self-representation if the waiver is knowing and intelligent. The trial court erred by denying this right solely because it found the defendant’s reasons (e.g., distrust of lawyers, lack of legal experience) ""not persuasive."" The court must assess whether the waiver is voluntary and informed, not the validity of the defendant’s motivations. This is a structural error requiring reversal of the conviction.  
+
+2. **Improper Jury Trial**:  
+   - The defendant validly waived his right to a jury trial (as communicated by his appointed counsel). The prosecution cannot override this waiver to demand a jury trial. Forcing a jury trial over the defendant’s objection violates the Sixth Amendment and is a structural error, necessitating reversal of the conviction.  
+
+3. **Reimbursement Order**:  
+   - The defendant is indigent. Statutes requiring reimbursement of court-appointed counsel costs must consider the defendant’s ability to pay. Ordering reimbursement without such a determination—especially for an indigent defendant—violates due process. The reimbursement order is improper and must be reversed.  
+
+**Conclusion**: Both the conviction and reimbursement order are legally unsound and should be reversed.",3761,1,2745,,,,0,,2026-05-27T00:11:27
+C2-n120,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A husband was about to leave his home for work one morning when his wife ran in from the kitchen explaining that their 4-year-old son had just swallowed some medicine that had been prescribed for use as a skin lotion. Dashing to the car, the husband then drove his wife and ailing son to the nearest hospital. On the way to the hospital, the son had a seizure and stopped breathing. Seconds later, the car went out of control despite the husband's reasonable efforts, swinging across the center line into oncoming traffic, where it collided wit. I1 a car driven by a driver who was driving in the opposite direction. In this jurisdiction, a statute makes it a misdemeanor for any motor vehicle to travel to the left of the center line of any two-way highway, road, or street. If the driver asserts a claim against the husband, the most likely result is that the plaintiff will","not prevail, because the husband was acting reasonably in an emergency.","
+
+The most likely result is that the plaintiff (the other driver) will **lose the claim**.  
+
+### Reasoning:  
+- The husband faced a **sudden, unforeseen emergency** (his son's seizure and loss of breathing) that was **not caused by his own negligence**.  
+- He was lawfully en route to the hospital for a medical emergency, and his attempt to control the vehicle was reasonable under the circumstances.  
+- While the statute prohibits crossing the center line, courts universally recognize a **""sudden emergency"" defense** when:  
+  (1) The emergency was not self-created;  
+  (2) The driver acted as a reasonably prudent person would; and  
+  (3) The violation of law (e.g., crossing the center line) was a direct result of the emergency.  
+- Here, the seizure was an unavoidable medical event, and the husband’s response was reasonable. Thus, the statute violation does not establish negligence per se, and the husband is not liable for the collision.  
+
+> **Key precedent**: Most jurisdictions follow the rule that a driver is not negligent if an unforeseen medical emergency (e.g., seizure, heart attack) causes loss of control, provided the driver did not contribute to the emergency (e.g., by driving while knowingly impaired).  
+
+**Conclusion**: The plaintiff’s claim will fail due to the valid emergency defense.",925,0,524,,,,0,,2026-05-27T00:11:37
+C2-n120,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A husband was about to leave his home for work one morning when his wife ran in from the kitchen explaining that their 4-year-old son had just swallowed some medicine that had been prescribed for use as a skin lotion. Dashing to the car, the husband then drove his wife and ailing son to the nearest hospital. On the way to the hospital, the son had a seizure and stopped breathing. Seconds later, the car went out of control despite the husband's reasonable efforts, swinging across the center line into oncoming traffic, where it collided wit. I1 a car driven by a driver who was driving in the opposite direction. In this jurisdiction, a statute makes it a misdemeanor for any motor vehicle to travel to the left of the center line of any two-way highway, road, or street. If the driver asserts a claim against the husband, the most likely result is that the plaintiff will","not prevail, because the husband was acting reasonably in an emergency.","
+
+The plaintiff (the other driver) will likely lose the claim. Under the sudden emergency doctrine, a driver who reacts reasonably to an unforeseen emergency not of their own making is not negligent for resulting violations of traffic laws. Here, the husband faced a sudden, life-threatening emergency (his son seizing and stopping breathing) while en route to the hospital, which was not caused by his own negligence. His swerving to avoid the emergency or due to loss of control was a reasonable response under the circumstances. The statute prohibiting crossing the center line does not apply when such an emergency exists, as courts recognize that strict adherence to traffic rules is excused in these situations. Thus, the husband's actions would not constitute negligence, and the plaintiff's claim would fail.",997,0,709,,,,0,,2026-05-27T00:11:46
+C2-n121,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"An owner of a 3-story building, with apartments on the top two floors and a convenience store and gas station on the ground floor, resides with his family in one of the second-floor apartments. One day, a truck driver pulled into the gas station for some gas. After filling up the gas tank, the truck driver entered the convenience store for a bite to eat. He was eating a bowl of chili when he noticed a cockroach in the food. The truck driver demanded a new serving of chili. When the owner refused, the truck driver stormed out of the store in anger. The truck driver jumped into his truck and decided to get even by causing some damage. He purposely drove into one of the gas tanks, which ruptured the gas line. The collision caused a terrible explosion and the building became engulfed in flames. The owner could not escape the blaze and burned to death. At common law, the truck driver should be found guilty of",arson and murder.,"
+
+At common law, the truck driver should be found guilty of **murder** (specifically, second-degree murder under the doctrine of ""depraved heart"" or ""implied malice"").  
+
+### Reasoning:  
+- **Malice Aforethought**: The driver intentionally crashed into the gas tank to cause damage, knowing it was highly likely to cause a fire or explosion. This demonstrates reckless disregard for human life (implied malice), satisfying the malice element for murder.  
+- **Causation**: His act directly caused the rupture, explosion, and death. No superseding cause breaks the chain of causation.  
+- **No Justification**: The driver’s motive (revenge) does not negate malice; it reinforces the reckless nature of the act.  
+- **Not Manslaughter**: The act was not committed in the heat of passion (no provocation justifying manslaughter) nor was it merely negligent (it was intentional and inherently dangerous).  
+
+*Note: Felony murder does not apply here, as the underlying felony (vandalism) is not inherently dangerous to life under common law.*",749,0,418,,,,0,,2026-05-27T00:11:52
+C2-n121,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"An owner of a 3-story building, with apartments on the top two floors and a convenience store and gas station on the ground floor, resides with his family in one of the second-floor apartments. One day, a truck driver pulled into the gas station for some gas. After filling up the gas tank, the truck driver entered the convenience store for a bite to eat. He was eating a bowl of chili when he noticed a cockroach in the food. The truck driver demanded a new serving of chili. When the owner refused, the truck driver stormed out of the store in anger. The truck driver jumped into his truck and decided to get even by causing some damage. He purposely drove into one of the gas tanks, which ruptured the gas line. The collision caused a terrible explosion and the building became engulfed in flames. The owner could not escape the blaze and burned to death. At common law, the truck driver should be found guilty of",arson and murder.,"
+
+At common law, the truck driver should be found guilty of **murder**.  
+
+**Reasoning**:  
+- The truck driver intentionally drove into the gas tank to cause damage, knowing the gas station was operational and occupied (with a convenience store and apartments above).  
+- This act demonstrated **depraved heart malice**—extreme recklessness showing a wanton disregard for human life, as a reasonable person would foresee the high probability of death or serious injury from rupturing a gas line in such a setting.  
+- The resulting explosion and fire directly caused the owner's death, satisfying the causation element for murder.  
+- While the driver may not have intended to kill specifically, common law murder requires only malice aforethought (which includes depraved heart), not premeditation. Felony murder could also apply (e.g., for arson or malicious destruction of property), but depraved heart malice alone suffices.  
+
+*Note: Manslaughter would require lesser recklessness (e.g., without extreme indifference to life), which does not apply here.*",1018,0,636,,,,0,,2026-05-27T00:12:00
+C2-n122,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A department store had suffered a succession of thefts of merchandise over a period of months. From reports by employees and customers, the department store's manager concluded that the losses were due, wholly or in large part, to the depredations of a female shoplifter, aged 30 to 40 years, about 5 feet 5 inches in height, with red hair and green eyes, who usually wore a suit. This information was passed on to all of the employees of the department store. One day, a woman entered the store to purchase accessories. The woman was 5 feet 5 inches tall, 37 years old, red-haired and green-eyed, and dressed in a smartly tailored suit. She carried a large shopping bag. The manager noticed her as she picked up, examined, and put down a number of gloves and scarves. After a while, she looked about tentatively, and then started to walk out, swinging her bag. The manager intercepted her and, standing in front of her, politely asked the woman if she would accompany her to the store manager's office. When the woman asked for an explanation, the manager told her of the store's recent experience and the suspicion that the woman might be concealing pilfered merchandise in her bag. Flushing angrily, the woman replied, ""Very well,"" and followed her to the office. Once there, the manager began to question the woman quite intensively. After the questioning, the manager then asked the woman's permission to inspect the contents of her shopping bag. At first, the woman curtly refused and announced that she had had enough of this nonsense. When she rose to go, the manager told her, ""Listen, unless you let me look inside that bag, I'm going to call the police. "" The woman replied, ""Very well,"" and handed her the bag. The manager inspected the contents of the bag thoroughly but did not find any pilfered merchandise. She then gave the woman permission to leave. The total length of the woman's detention was 30 minutes. If the woman asserts a claim for false imprisonment against the department store, she will most likely","prevail, because she was detained for an unreasonably long period of time.","
+
+The woman is likely to succeed in a false imprisonment claim. While the shopkeeper's privilege allows reasonable detention based on suspicion of shoplifting, the detention must be both **reasonable in suspicion** and **reasonable in duration**. Here, the manager had a description matching the woman and observed suspicious behavior (examining items, looking around, and attempting to leave), which may support initial reasonable suspicion. However, detaining her for **30 minutes**—including intensive questioning and a bag inspection—is **unreasonably long** under typical standards. Shopkeeper's privilege generally permits only a brief investigation (e.g., a few minutes), and 30 minutes exceeds this limit. Even if suspicion was initially reasonable, the excessive duration transforms the detention into unlawful confinement, satisfying the elements of false imprisonment. The threat to call police does not justify the prolonged detention if the initial basis for suspicion was insufficient or the time was unreasonable. 
+
+**Answer:** She will most likely succeed because the detention was for an unreasonable length of time.",4412,1,3366,,,,0,,2026-05-27T00:12:31
+C2-n122,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A department store had suffered a succession of thefts of merchandise over a period of months. From reports by employees and customers, the department store's manager concluded that the losses were due, wholly or in large part, to the depredations of a female shoplifter, aged 30 to 40 years, about 5 feet 5 inches in height, with red hair and green eyes, who usually wore a suit. This information was passed on to all of the employees of the department store. One day, a woman entered the store to purchase accessories. The woman was 5 feet 5 inches tall, 37 years old, red-haired and green-eyed, and dressed in a smartly tailored suit. She carried a large shopping bag. The manager noticed her as she picked up, examined, and put down a number of gloves and scarves. After a while, she looked about tentatively, and then started to walk out, swinging her bag. The manager intercepted her and, standing in front of her, politely asked the woman if she would accompany her to the store manager's office. When the woman asked for an explanation, the manager told her of the store's recent experience and the suspicion that the woman might be concealing pilfered merchandise in her bag. Flushing angrily, the woman replied, ""Very well,"" and followed her to the office. Once there, the manager began to question the woman quite intensively. After the questioning, the manager then asked the woman's permission to inspect the contents of her shopping bag. At first, the woman curtly refused and announced that she had had enough of this nonsense. When she rose to go, the manager told her, ""Listen, unless you let me look inside that bag, I'm going to call the police. "" The woman replied, ""Very well,"" and handed her the bag. The manager inspected the contents of the bag thoroughly but did not find any pilfered merchandise. She then gave the woman permission to leave. The total length of the woman's detention was 30 minutes. If the woman asserts a claim for false imprisonment against the department store, she will most likely","prevail, because she was detained for an unreasonably long period of time.","
+
+The woman's claim for false imprisonment would most likely **fail**. Under the **shopkeeper's privilege**, a store may detain a person for a reasonable time if there is **reasonable suspicion** of shoplifting. Here, the manager had a specific description of a recurring shoplifter, and the woman matched that description (age, height, hair/eye color, attire). Additionally, her behavior—examining gloves and scarves, looking around tentatively, and attempting to leave with a large bag—provided a reasonable basis to suspect she was concealing merchandise. The detention (30 minutes) was reasonable in duration and manner, involving polite questioning and a bag inspection after her initial refusal. Courts typically uphold such detentions when based on objective facts, even if no stolen items are found. Thus, the store’s actions were legally justified, negating a false imprisonment claim.  
+
+**Answer:** The woman will most likely lose her claim for false imprisonment because the department store acted within the shopkeeper's privilege, which permits reasonable detention based on suspicion of shoplifting.",3329,1,2570,,,,0,,2026-05-27T00:12:55
+C2-n123,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A businessman was the owner of an idyllic lake and wooded area. In 1980, the businessman conveyed the land to the state ""on the condition that"" it be used as recreational property only. Two years later, the state decided that they wanted a small industrial park attached to the corner of the land. The state went ahead and developed a small portion of the land as industrial space, making it part of a larger industrial park that was adjacent to the land. The businessman notified the state that he was the owner of the property because the state violated the conditions of the conveyance, and that he was taking possession of the property back. What was the interest that was created by the conveyance and can the businessman get the property back?","The interest created is a fee simple subject to a condition subsequent, and the original owner can get the property back only by taking affirmative steps to exercise his right of entry.","
+
+The conveyance created a **fee simple subject to a condition subsequent**. The businessman (grantor) retained a **right of entry** (or power of termination) to reclaim the property if the state (grantee) violated the condition.  
+
+The state violated the condition by developing industrial space (not recreational use). However, the businessman **cannot simply take possession by notification alone**. To reclaim the property, he must **formally exercise his right of entry through legal action** (e.g., filing a lawsuit to quiet title). Mere notification is insufficient; the right of entry requires affirmative steps to terminate the state's estate.  
+
+**Answer**:  
+- Interest created: **Fee simple subject to a condition subsequent**.  
+- Can the businessman get the property back? **Yes, but only by legally exercising his right of entry** (not by mere notification).",945,0,600,,,,0,,2026-05-27T00:13:02
+C2-n123,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A businessman was the owner of an idyllic lake and wooded area. In 1980, the businessman conveyed the land to the state ""on the condition that"" it be used as recreational property only. Two years later, the state decided that they wanted a small industrial park attached to the corner of the land. The state went ahead and developed a small portion of the land as industrial space, making it part of a larger industrial park that was adjacent to the land. The businessman notified the state that he was the owner of the property because the state violated the conditions of the conveyance, and that he was taking possession of the property back. What was the interest that was created by the conveyance and can the businessman get the property back?","The interest created is a fee simple subject to a condition subsequent, and the original owner can get the property back only by taking affirmative steps to exercise his right of entry.","
+
+The conveyance created a **fee simple subject to a condition subsequent**.  
+
+- **Why?** The phrase ""on the condition that"" (as opposed to ""so long as"" or ""until"") typically creates a condition subsequent. This means the state holds a fee simple estate, but the businessman retains a **right of entry** (or power of termination) to reclaim the property if the condition (recreational use only) is violated.  
+- **Can the businessman get the property back?** **Yes, but only by exercising his right of entry.** The state’s development of industrial space violates the condition, triggering the businessman’s right to reclaim the property. However, he cannot simply ""take possession"" unilaterally; he must **formally assert his right** (e.g., by filing a lawsuit for reentry or ejectment). Notification alone is insufficient—legal action is required to enforce the reversion.  
+
+> **Key distinction**: If the conveyance had used ""so long as"" or ""until,"" it would have created a *fee simple determinable* (automatic reversion upon violation). Here, ""on the condition that"" requires the grantor (businessman) to take affirmative steps to reclaim the property.",985,0,574,,,,0,,2026-05-27T00:13:09
+C2-n124,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A consumer watchdog group presented petitions to the state legislature bearing the signatures of over 10,000 state residents complaining about the recent increases in the cost of cable television. A corporation who provides cable television services successfully persuaded the state legislature to grant it an exclusive right to install cable television lines in all multiple family dwellings in the state, in exchange for the corporation's promise to freeze cable television rates for the next four years. An owner of several large multifamily apartment buildings in the state brought an action in federal district court challenging the constitutionality of the state legislation. The suit claimed that the space used by the corporation when it subsequently installed cable television lines in one of his apartment buildings amounted to a taking without compensation. In this action, the owner will be awarded",damages for the value of property used by the corporation.,"
+
+The owner will be awarded **compensation for a taking under the Fifth Amendment**.  
+
+This scenario directly mirrors *Loretto v. Teleprompter Manhattan CATV Corp.* (1982), where the U.S. Supreme Court held that a permanent physical occupation of private property authorized by the government—no matter how minor—constitutes a ""taking"" requiring just compensation. Here, the state legislation granted the cable corporation the exclusive right to install physical infrastructure (cable lines) on the owner's property, resulting in a permanent physical occupation. The fact that the corporation promised to freeze rates or that the installation serves a public purpose does not negate the taking. The owner is entitled to compensation for the occupied space.  
+
+**Key Reason**: Physical occupation of property by government authorization is a per se taking, regardless of economic impact or public benefit.  
+
+\boxed{\text{compensation}}",754,0,475,,,,0,,2026-05-27T00:13:15
+C2-n124,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A consumer watchdog group presented petitions to the state legislature bearing the signatures of over 10,000 state residents complaining about the recent increases in the cost of cable television. A corporation who provides cable television services successfully persuaded the state legislature to grant it an exclusive right to install cable television lines in all multiple family dwellings in the state, in exchange for the corporation's promise to freeze cable television rates for the next four years. An owner of several large multifamily apartment buildings in the state brought an action in federal district court challenging the constitutionality of the state legislation. The suit claimed that the space used by the corporation when it subsequently installed cable television lines in one of his apartment buildings amounted to a taking without compensation. In this action, the owner will be awarded",damages for the value of property used by the corporation.,"
+
+The owner will be awarded **just compensation for the physical occupation of his property**. 
+
+Under *Loretto v. Teleprompter Manhattan CATV Corp.* (1982), a permanent physical occupation of private property authorized by the government—such as the installation of cable lines—constitutes a ""taking"" under the Fifth Amendment, regardless of the minimal economic impact or the public purpose. Here, the state legislation granted the cable corporation exclusive rights to install lines in multi-family dwellings, making the corporation's actions state action. The physical occupation of even a small portion of the apartment owner's property (e.g., for cable lines) requires compensation. The court will award damages equivalent to the fair market value of the occupied space or nominal damages for the permanent invasion. The rate freeze does not negate the taking claim. 
+
+**Answer**: Just compensation for the physical occupation.",806,0,506,,,,0,,2026-05-27T00:13:22
+C2-n125,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"Recently, Congress enacted a statute requiring all boat owners to register their boats with a newly created federal boat registry. Among the purposes of the statute are the prevention of theft of boats in coastal waters and the protection of the rights of individual boat owners throughout the United States. Congress enacted the statute despite the fact that all states require boat owners to register their craft with the state department of motor vehicles. In addition, there is uncontradicted evidence that most stolen boats are kept or resold in the state in which the theft occurred. Nonetheless, an increasing number of boats are transported to other states and other countries for resale. Is the statute likely to be held constitutional?","Yes, because Congress could determine that the transportation of stolen boats affects interstate commerce.","
+
+The statute is likely constitutional under the Commerce Clause. Congress has authority to regulate activities that substantially affect interstate commerce, even if the activity is local in nature. Here, the evidence that stolen boats are transported across state lines and internationally for resale establishes a rational basis for concluding that boat registration has a substantial aggregate effect on interstate commerce. The Supreme Court has consistently upheld federal regulation of intrastate activities when aggregated, they impact interstate commerce (e.g., *Wickard v. Filburn*, *Gonzales v. Raich*). While states have their own registration systems, federal preemption is permissible under the Supremacy Clause when Congress acts within its enumerated powers. The statute's purpose of preventing theft and protecting owners' rights in the context of interstate resale directly relates to Congress's commerce power. Thus, the law is reasonably tailored to address a legitimate interstate concern.",837,0,561,,,,0,,2026-05-27T00:13:31
+C2-n125,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"Recently, Congress enacted a statute requiring all boat owners to register their boats with a newly created federal boat registry. Among the purposes of the statute are the prevention of theft of boats in coastal waters and the protection of the rights of individual boat owners throughout the United States. Congress enacted the statute despite the fact that all states require boat owners to register their craft with the state department of motor vehicles. In addition, there is uncontradicted evidence that most stolen boats are kept or resold in the state in which the theft occurred. Nonetheless, an increasing number of boats are transported to other states and other countries for resale. Is the statute likely to be held constitutional?","Yes, because Congress could determine that the transportation of stolen boats affects interstate commerce.","
+
+Yes, the statute is likely constitutional under the Commerce Clause. Congress has authority to regulate activities that substantially affect interstate commerce, even if the activity is intrastate in nature. Here, the statute addresses the interstate transportation of stolen boats for resale—a fact supported by uncontradicted evidence of increasing cross-border movement. While most thefts occur locally, the cumulative effect of such thefts and subsequent interstate trafficking substantially impacts national commerce. This aligns with precedent (e.g., *United States v. Lopez*’s distinction of non-economic activity vs. *Wickard v. Filburn* and *Gonzales v. Raich* on aggregated economic effects). Federal regulation of stolen vehicles (e.g., the National Motor Vehicle Theft Act) has been consistently upheld, and boats are functionally analogous. State registration systems do not preclude federal action where interstate commerce is implicated, as federal law may preempt state law under the Supremacy Clause.",884,0,583,,,,0,,2026-05-27T00:13:38
+C2-n126,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A wedding planner owned a summer cottage on the lake. In order to facilitate the access to the cottage, which is located on a knoll above the lake, the wedding planner entered into an agreement with a neighbor, an adjoining land owner, whereby the neighbor, in writing, granted the wedding planner a right-of-way over a strip of land 30 feet in width and a quarter of a mile in length along the eastern margin of the neighbor's property. Without notif'ing the neighbor, the wedding planner proceeded with his plan to improve the roadbed by having the road asphalted in order to make it more accessible for motor vehicle traffic. Several years later, the neighbor started a sand business, which required him to do heavy hauling that subsequently destroyed the asphalted surface on the road. Ten years after the neighbor started his sand business, the wedding planner sold his lakefront property to an artist. Shortly after the artist took possession of the cottage and property, the neighbor erected wooden barriers across the roadway, thus obstructing the access to the artist's property. The interest that the wedding planner acquired in the access road may best be described as",an express easement.,"
+
+The interest acquired by the wedding planner is an **easement appurtenant**. This is because the written agreement granted a right-of-way specifically to benefit the wedding planner's lakefront property (the dominant estate) by providing access to the cottage, while burdening the neighbor's land (the servient estate). Easements appurtenant run with the land, meaning they transfer automatically to subsequent owners of the dominant estate (e.g., the artist who purchased the property). The improvements made to the road (asphalting) do not alter the nature of the easement, and the neighbor’s later obstruction does not change the original character of the interest created by the express grant. 
+
+**Answer:** Easement appurtenant.",1392,0,944,,,,0,,2026-05-27T00:13:48
+C2-n126,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A wedding planner owned a summer cottage on the lake. In order to facilitate the access to the cottage, which is located on a knoll above the lake, the wedding planner entered into an agreement with a neighbor, an adjoining land owner, whereby the neighbor, in writing, granted the wedding planner a right-of-way over a strip of land 30 feet in width and a quarter of a mile in length along the eastern margin of the neighbor's property. Without notif'ing the neighbor, the wedding planner proceeded with his plan to improve the roadbed by having the road asphalted in order to make it more accessible for motor vehicle traffic. Several years later, the neighbor started a sand business, which required him to do heavy hauling that subsequently destroyed the asphalted surface on the road. Ten years after the neighbor started his sand business, the wedding planner sold his lakefront property to an artist. Shortly after the artist took possession of the cottage and property, the neighbor erected wooden barriers across the roadway, thus obstructing the access to the artist's property. The interest that the wedding planner acquired in the access road may best be described as",an express easement.,"
+
+The interest acquired by the wedding planner is an **easement appurtenant**. This is because the written agreement granted a right-of-way specifically to benefit the wedding planner's lakefront property (the dominant tenement) by providing access over the neighbor's land (the servient tenement). Easements appurtenant are tied to the land itself, not to the individual owner, and automatically transfer with the property upon sale. The subsequent actions (asphalting, destruction by heavy hauling, and obstruction by the neighbor after the sale to the artist) do not alter the nature of the interest, which remains an easement appurtenant. 
+
+**Answer:** Easement appurtenant.",2065,1,1496,,,,0,,2026-05-27T00:14:03
+C2-n127,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A man was at a pub drinking beer and playing darts with a group of friends. Quite intoxicated, the man left the bar around midnight. He was staggering down the street when the defendant approached him from behind. The defendant took out a stick, stuck it against the man's back and told the man to give him his wallet or he was going to shoot him. Frightened, the man fainted and fell to the pavement. The defendant reached into the man's pants pocket and stole his wallet. The defendant is guilty of",robbery.,"
+
+The defendant is guilty of **robbery**.  
+
+**Reasoning**:  
+- Robbery requires the taking of property from a person's immediate possession or presence, through force or intimidation, with intent to permanently deprive.  
+- Here, the defendant used a stick to threaten the victim (""give me your wallet or I'll shoot""), creating reasonable fear of immediate harm. The victim's fainting was a direct result of this intimidation.  
+- The defendant then stole the wallet from the victim's pocket. The threat (even with a non-firearm) satisfies the ""intimidation"" element of robbery, as the victim's fear was reasonable and caused the loss of resistance.  
+- This is not mere larceny (theft without force), as the taking was accomplished through coercion.  
+
+*Note: Jurisdictions may classify this as ""armed robbery"" due to the stick being used as a weapon, but the core crime is robbery.*",910,0,586,,,,0,,2026-05-27T00:14:12
+C2-n127,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A man was at a pub drinking beer and playing darts with a group of friends. Quite intoxicated, the man left the bar around midnight. He was staggering down the street when the defendant approached him from behind. The defendant took out a stick, stuck it against the man's back and told the man to give him his wallet or he was going to shoot him. Frightened, the man fainted and fell to the pavement. The defendant reached into the man's pants pocket and stole his wallet. The defendant is guilty of",robbery.,"
+
+The defendant is guilty of **robbery**.  
+
+**Reasoning**:  
+- Robbery requires the taking of property from a person or their presence through **force or intimidation**.  
+- Here, the defendant used a stick to threaten immediate harm (""shoot him""), creating reasonable fear that caused the victim to faint.  
+- The victim's unconsciousness due to fear does not negate robbery; the threat directly enabled the taking of the wallet.  
+- The use of a weapon (stick) to threaten violence elevates it to **armed robbery** in most jurisdictions, but the core crime is robbery.  
+
+*Note: This is distinct from larceny (theft without force) or assault (threat alone without taking property), as the threat was used to facilitate the immediate taking of property.*",878,0,573,,,,0,,2026-05-27T00:14:20
+C2-n128,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"In a suit between a plaintiff and a defendant arising out of an automobile accident, a bystander wascalled to the stand to testify that the defendant had driven through a red traffic light immediately before the collision. On cross-examination by the defense, the bystander admitted to having made a prior statement to a friend that he was not sure if the traffic signal was yellow or red when the defendant drove through the intersection. The trial judge should","on request by the plaintiff, instruct the jury that the prior statement may be used only toimpeach the bystander's credibility, and not as substantive evidence.","
+
+The trial judge should permit the cross-examination regarding the prior inconsistent statement to impeach the bystander's credibility. Under Federal Rule of Evidence 613(a), a prior inconsistent statement may be used to challenge a witness's testimony, even if made to a friend and not under oath. The statement is not hearsay when offered solely for impeachment, not for the truth of the matter asserted. The judge may also provide a limiting instruction to the jury that the statement may only be considered for assessing the witness's credibility, not as substantive evidence of the traffic signal's color.",654,0,434,,,,0,,2026-05-27T00:14:26
+C2-n128,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"In a suit between a plaintiff and a defendant arising out of an automobile accident, a bystander wascalled to the stand to testify that the defendant had driven through a red traffic light immediately before the collision. On cross-examination by the defense, the bystander admitted to having made a prior statement to a friend that he was not sure if the traffic signal was yellow or red when the defendant drove through the intersection. The trial judge should","on request by the plaintiff, instruct the jury that the prior statement may be used only toimpeach the bystander's credibility, and not as substantive evidence.","
+
+The trial judge should admit the prior inconsistent statement for the limited purpose of impeaching the bystander's credibility, as it is admissible under evidence rules to challenge the witness's reliability, even though it is hearsay. The statement is not offered for the truth of the matter asserted (i.e., whether the light was yellow or red), but solely to show the witness's testimony is inconsistent with a prior statement.",669,0,483,,,,0,,2026-05-27T00:14:32
+C2-n129,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A woman had been spreading rumors around town that a defendant was a shoplifter. After the defendant learned about these rumors, she was furious and decided that she would teach the woman to keep her mouth shut. Late that night, the defendant went over to the woman's house with the intent to punch her in the mouth. When the defendant arrived at the woman's home, she peered in the bedroom window and saw the woman asleep in bed. The defendant proceeded to pry open the bedroom window and climbed inside. The defendant then grabbed the woman and punched her in the face and hurriedly fled from the home. The force of the blow fractured the woman's jaw. If the defendant is subsequently prosecuted for burglary, she will most likely be found","not guilty, because the defendant did not intend to commit a felony at the time of the breaking and entry.","
+
+The defendant would most likely be found guilty of burglary. Burglary typically requires: (1) unlawful entry into a structure, (2) with the intent to commit a felony or theft inside. Here, the defendant:  
+- Unlawfully entered the woman's bedroom by prying open the window (satisfying the ""unlawful entry"" element);  
+- Entered a dwelling (the bedroom), which qualifies as a ""structure"" under burglary statutes;  
+- Had the specific intent to commit assault (a felony, given the fractured jaw) **at the time of entry**, as she went to the home expressly to punch the woman.  
+
+The completion of the assault does not negate the burglary charge; the intent to commit a felony at the moment of entry is sufficient. Jurisdictions universally treat this scenario as burglary.  
+
+**Answer: guilty of burglary**",970,0,644,,,,0,,2026-05-27T00:14:40
+C2-n129,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A woman had been spreading rumors around town that a defendant was a shoplifter. After the defendant learned about these rumors, she was furious and decided that she would teach the woman to keep her mouth shut. Late that night, the defendant went over to the woman's house with the intent to punch her in the mouth. When the defendant arrived at the woman's home, she peered in the bedroom window and saw the woman asleep in bed. The defendant proceeded to pry open the bedroom window and climbed inside. The defendant then grabbed the woman and punched her in the face and hurriedly fled from the home. The force of the blow fractured the woman's jaw. If the defendant is subsequently prosecuted for burglary, she will most likely be found","not guilty, because the defendant did not intend to commit a felony at the time of the breaking and entry.","
+
+The defendant will most likely be found **guilty of burglary**.  
+
+Burglary typically requires:  
+1. **Unlawful entry** into a dwelling (here, prying open a window and climbing inside without permission).  
+2. **Intent to commit a felony** at the time of entry (here, the defendant entered with the intent to punch the woman, which caused a fractured jaw—constituting aggravated assault, a felony in most jurisdictions).  
+
+The intent to commit a felony existed when the defendant entered the home, satisfying the core elements of burglary. Completion of the felony (assault) is not required for a burglary conviction; only the intent at the moment of entry matters.  
+
+\boxed{guilty}",1267,0,917,,,,0,,2026-05-27T00:14:50
+C2-n130,C2,clear,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A defendant is on trial for bribing a government procurement officer by providing the officer with free vacation facilities. When the defendant was approached by an FBI investigator, the defendant stated that her invitation to the procurement officer to spend his vacation in the defendant's mountain cabin was a favor to a friend, unrelated to his government office. The defendant also said to the investigator that she would reveal some ""hot"" information on a large-scale fraud in exchange for the investigator's promise to ""stop worrying about a little vacation."" a little vacation."" Is the investigator's testimony about the defendant's offer to give information admissible?","Yes, as a statement of an opposing party.","
+
+Yes, the investigator's testimony about the defendant's offer is admissible.  
+
+**Reason:**  
+- The statement is **not hearsay** because it is the defendant's own prior statement (Fed. R. Evid. 801(d)(2)), making it admissible as a party-opponent statement.  
+- Even if hearsay were an issue, the statement is offered **not to prove the truth of the ""hot information""** (i.e., that fraud actually occurred), but to show the defendant's **consciousness of guilt** regarding the bribery charge. Her attempt to trade information about fraud in exchange for the investigation being dropped is relevant to her state of mind and intent in the bribery case.  
+
+Thus, the testimony is admissible for its non-hearsay purpose.",829,0,501,,,,0,,2026-05-27T00:14:57
+C2-n130,C5,ambiguous,mmlu/professional_law,niche,M4,qwen3-next:80b-cloud,"A defendant is on trial for bribing a government procurement officer by providing the officer with free vacation facilities. When the defendant was approached by an FBI investigator, the defendant stated that her invitation to the procurement officer to spend his vacation in the defendant's mountain cabin was a favor to a friend, unrelated to his government office. The defendant also said to the investigator that she would reveal some ""hot"" information on a large-scale fraud in exchange for the investigator's promise to ""stop worrying about a little vacation."" a little vacation."" Is the investigator's testimony about the defendant's offer to give information admissible?","Yes, as a statement of an opposing party.","
+
+Yes, the investigator's testimony about the defendant's offer is admissible.  
+
+**Reason**: The statement is **not hearsay** because it is offered **not to prove the truth of the ""hot information""** (i.e., whether a large-scale fraud actually exists), but to show the defendant's **consciousness of guilt** regarding the bribery charge. By attempting to trade information about fraud in exchange for the investigation being dropped, the defendant's statement demonstrates her awareness of wrongdoing in the bribery case. This falls under the non-hearsay exception for statements offered to prove the declarant's state of mind (e.g., intent, knowledge, or consciousness of guilt).  
+
+*Key legal principle*: A statement is not hearsay if its relevance depends solely on the fact that it was made (e.g., to show the speaker's mental state), not on the truth of the content. Here, the prosecution uses the statement to prove the defendant's guilty knowledge—not the existence of the alleged fraud.  
+
+**Source**: Federal Rule of Evidence 801(c) (definition of hearsay); *United States v. Matlock*, 415 U.S. 164 (1974) (statements showing consciousness of guilt are admissible as non-hearsay).",973,0,540,,,,0,,2026-05-27T00:15:05
+C3-001,C3,clear,curated_opinion,general,M4,qwen3-next:80b-cloud,Should artificial intelligence be regulated by governments?,,"
+
+Yes, governments should regulate artificial intelligence, but **carefully and proportionally**. Regulation is necessary to address critical risks like bias, privacy violations, misinformation, autonomous weapons, and societal harm. However, it must avoid stifling innovation by focusing on **high-risk applications** (e.g., healthcare, criminal justice, hiring) while allowing flexibility for low-risk uses. Effective frameworks—like the EU’s risk-based AI Act—should be adaptable, evidence-based, and developed with industry and expert input. Global cooperation is also essential to prevent regulatory fragmentation and ensure consistent standards. Unregulated AI poses significant dangers, but overly rigid rules could hinder progress.",741,0,486,,,,0,,2026-05-27T00:15:12
+C3-001,C6,ambiguous,curated_opinion,general,M4,qwen3-next:80b-cloud,Should artificial intelligence be regulated?,,"
+
+Yes, artificial intelligence should be regulated, but **carefully and proportionally**.  
+
+**Why regulation is necessary**:  
+- AI poses significant risks (e.g., bias in hiring/loan algorithms, deepfakes spreading disinformation, autonomous weapons, privacy violations, and safety failures in critical systems like healthcare or transportation).  
+- Without oversight, companies may prioritize profit over ethics, safety, or societal well-being.  
+
+**How regulation should work**:  
+- **Risk-based approach**: Stricter rules for high-risk applications (e.g., facial recognition in public spaces, medical diagnostics), lighter oversight for low-risk uses (e.g., spam filters).  
+- **Agile frameworks**: Regulations must evolve rapidly with the technology, avoiding rigid laws that become obsolete.  
+- **Global cooperation**: Harmonized standards (like the EU AI Act) prevent a ""race to the bottom"" and ensure consistent safeguards.  
+
+**Why not overregulation?**  
+Excessive rules could stifle innovation, especially for startups, and slow progress in beneficial AI applications (e.g., climate modeling, disease research).  
+
+**Conclusion**: Targeted, adaptive regulation is essential to maximize AI’s benefits while minimizing harm—balancing innovation with accountability.",762,0,403,,,,0,,2026-05-27T00:15:19
+C3-002,C3,clear,curated_opinion,general,M4,qwen3-next:80b-cloud,Is nuclear energy a good solution to climate change?,,"
+
+Nuclear energy has **significant benefits for climate change mitigation**—it produces near-zero greenhouse gas emissions during operation and provides reliable, high-capacity baseload power. However, it also faces **major challenges**: high upfront costs, long construction times (often 10+ years), unresolved long-term radioactive waste storage, safety concerns (e.g., Chernobyl, Fukushima), and risks of proliferation. While it can contribute to decarbonization in specific contexts (e.g., replacing coal plants), it is **not a standalone solution**. Most climate experts (e.g., IPCC, IEA) emphasize that a diverse mix of renewables, energy storage, efficiency, and *potentially* nuclear is needed—but nuclear's role is limited by cost, speed, and public acceptance issues. Renewables and storage are generally faster and cheaper to deploy at scale.",1081,0,721,,,,0,,2026-05-27T00:15:27
+C3-002,C6,ambiguous,curated_opinion,general,M4,qwen3-next:80b-cloud,Is nuclear energy a good solution to climate change?,,"
+
+Nuclear energy has **both advantages and significant drawbacks** as a climate solution, making it **not the best primary solution** but potentially a **limited complementary option** in specific contexts. Here's a concise breakdown:
+
+### ✅ **Pros**
+- **Very low operational emissions**: Near-zero CO₂ during electricity generation, comparable to wind/solar.
+- **Reliable baseload power**: Provides continuous, weather-independent energy (unlike intermittent renewables).
+
+### ❌ **Cons**
+- **High cost & slow deployment**: New plants are extremely expensive ($6–9+ billion) and take 10–15+ years to build—too slow for urgent climate action.
+- **Radioactive waste**: No permanent disposal solution exists globally; long-term storage risks remain unresolved.
+- **Safety & security risks**: Accidents (Chernobyl, Fukushima) and potential targets for conflict/terrorism (e.g., Zaporizhzhia plant in Ukraine).
+- **Uranium mining impacts**: Environmental damage and emissions from extraction/processing.
+- **Competition with renewables**: Solar/wind + storage are now **cheaper, faster to deploy, and safer**, making nuclear less economically viable.
+
+### 🌍 **Expert Consensus**
+- The IPCC and IEA state that **nuclear is not essential** for deep decarbonization. Rapidly scaling **renewables, grid modernization, and energy efficiency** is faster, cheaper, and lower-risk.
+- Nuclear *may* play a niche role in regions with existing infrastructure or specific energy needs (e.g., France, Sweden), but **it is not a scalable global solution** due to its inherent challenges.
+
+**Conclusion**: Nuclear energy is **not a good primary solution** for climate change. Prioritizing renewables, storage, and efficiency offers a more effective, affordable, and timely path to net-zero emissions.",991,0,503,,,,0,,2026-05-27T00:15:35
+C3-003,C3,clear,curated_opinion,general,M4,qwen3-next:80b-cloud,Should social media platforms be responsible for misinformation?,,"
+
+Social media platforms **should bear some responsibility for mitigating misinformation**, but this is not absolute or equivalent to traditional publishers. Key reasons:  
+
+1. **Platform Design Matters**: Their algorithms amplify content, and they profit from engagement—making them active participants in content distribution, not neutral hosts.  
+2. **Practical Ability**: They have tools (e.g., fact-checking partnerships, content moderation, algorithm adjustments) to reduce viral spread of harmful falsehoods.  
+3. **Legal & Ethical Shifts**: Laws like the EU’s Digital Services Act now require platforms to address systemic risks from misinformation. Courts and regulators increasingly reject the ""just a conduit"" argument.  
+
+**However**:  
+- They cannot (and should not) be sole arbiters of truth; this risks censorship and subjective enforcement.  
+- Responsibility is shared with governments (regulation), users (critical consumption), and traditional media (fact-based reporting).  
+- Overreach could harm free expression—balance is essential.  
+
+**Conclusion**: Platforms have a duty to implement reasonable, transparent measures against *harmful* misinformation (e.g., health disinformation, election interference), but this must coexist with free speech protections and collaborative societal efforts.",765,0,394,,,,0,,2026-05-27T00:15:42
+C3-003,C6,ambiguous,curated_opinion,general,M4,qwen3-next:80b-cloud,Should social media platforms be responsible?,,"
+
+Yes, social media platforms should bear responsibility for illegal content (e.g., hate speech, child exploitation) and systemic harms (e.g., algorithmic amplification of misinformation), but not for all user-generated speech. This balance requires reasonable moderation, transparency, and accountability within legal frameworks, while preserving free expression.",810,0,590,,,,0,,2026-05-27T00:15:49
+C3-004,C3,clear,curated_opinion,general,M4,qwen3-next:80b-cloud,Is remote work better than working in an office?,,"
+
+There is no universal answer—whether remote work is ""better"" depends entirely on individual circumstances, job type, and personal preferences. Key factors include:  
+- **Flexibility vs. structure**: Remote work offers schedule autonomy and no commute but may blur work-life boundaries; offices provide clear separation and in-person collaboration but require commuting.  
+- **Productivity**: Some thrive with fewer distractions at home; others need office structure or struggle with isolation.  
+- **Role suitability**: Creative or collaborative roles often benefit from in-person interaction, while focused, independent tasks may suit remote work better.  
+- **Hybrid models** are increasingly common, balancing both approaches. Ultimately, ""better"" is subjective and context-dependent.",813,0,488,,,,0,,2026-05-27T00:15:56
+C3-004,C6,ambiguous,curated_opinion,general,M4,qwen3-next:80b-cloud,Is remote work better than working?,,"
+
+The question is unclear because ""working"" isn't a specific alternative to remote work—remote work *is* a form of working. If you mean **remote work vs. in-office work**, there is no universal ""better"" option. It depends entirely on:  
+
+- **Individual preferences** (e.g., need for social interaction vs. quiet focus).  
+- **Job type** (e.g., creative roles often suit remote work; hands-on roles like healthcare require in-person presence).  
+- **Company culture** and support structures.  
+- **Personal circumstances** (e.g., commute time, home environment, family needs).  
+
+**Remote work** often offers flexibility and no commute but can lead to isolation or blurred work-life boundaries.  
+**In-office work** provides structure and collaboration but may involve long commutes and less autonomy.  
+
+Most experts agree: **hybrid models** (mix of both) often balance benefits best, but the ""best"" choice is highly personal.",597,0,287,,,,0,,2026-05-27T00:16:02
+C3-005,C3,clear,curated_opinion,general,M4,qwen3-next:80b-cloud,Should university education be free for everyone?,,"
+
+Whether university education should be free for **everyone** is a complex policy debate with strong arguments on both sides, and there is no universal consensus. Key considerations include:  
+
+### **Arguments for free universal tuition**  
+- **Equity and access**: Removes financial barriers, enabling talent from all socioeconomic backgrounds to pursue higher education, reducing inequality.  
+- **Societal benefits**: A more educated workforce boosts innovation, economic growth, and civic engagement.  
+- **Debt relief**: Eliminates crippling student loan burdens (e.g., the U.S. has $1.7 trillion in student debt), freeing graduates to invest in homes, businesses, or families.  
+
+### **Arguments against universal free tuition**  
+- **Cost and fairness**: Taxpayers (including those without degrees) fund it, which may be inequitable. High-income students benefit equally to low-income ones, potentially wasting public funds.  
+- **Resource strain**: Governments may face unsustainable costs, risking cuts to other essential services (e.g., healthcare, infrastructure).  
+- **Potential inefficiency**: Free access could lead to overcrowded institutions, diluted quality, or reduced student motivation (e.g., some European systems charge fees for extended study periods).  
+
+### **Middle-ground approaches**  
+Most countries with ""free"" tuition (e.g., Germany, Norway) **limit it to citizens/residents** and often **means-test benefits** (e.g., free for low/middle-income students only). Others combine free tuition with income-contingent repayment systems (e.g., Australia).  
+
+### **Conclusion**  
+While **free university education for all is not currently feasible or equitable in most contexts**, targeted subsidies for disadvantaged groups or income-based models offer a balanced path toward greater access without overwhelming public finances. The optimal solution depends on a nation’s economic capacity, values, and priorities.",1041,0,478,,,,0,,2026-05-27T00:16:11
+C3-005,C6,ambiguous,curated_opinion,general,M4,qwen3-next:80b-cloud,Should university education be free?,,"
+
+Whether university education should be free is a complex policy question with strong arguments on both sides, but **there is no universal ""yes"" or ""no"" answer—it depends on societal priorities, economic context, and implementation details.**  
+
+### Key Considerations:  
+1. **Equity & Access**:  
+   - Free tuition removes financial barriers, increasing enrollment among low-income and marginalized students. This promotes social mobility and reduces systemic inequality.  
+   - *Counterpoint*: Without means-testing, wealthier students may also benefit, potentially diverting resources from those who need them most.  
+
+2. **Economic Impact**:  
+   - A more educated workforce can drive innovation, productivity, and economic growth. Countries like Germany and Norway (with free tuition) often rank highly in human development.  
+   - *Counterpoint*: Taxpayers bear the cost, which may require higher taxes or cuts to other public services (e.g., healthcare, infrastructure).  
+
+3. **Sustainability & Alternatives**:  
+   - ""Free"" education is funded by society—either through taxes, reallocated budgets, or debt. Some models (e.g., income-contingent loans like Australia’s) balance access with cost-sharing.  
+   - Vocational training and community colleges may offer better ROI for certain careers than traditional degrees.  
+
+4. **Global Examples**:  
+   - **Free**: Germany, Finland, Norway (tuition-free for all, though fees may apply for non-EU students).  
+   - **Not Free**: U.S. (high debt crisis), U.K. (tuition fees + income-linked repayment).  
+   - *Result*: Free-tuition countries often have higher graduation rates but face challenges like overcrowded universities or budget constraints.  
+
+### Conclusion:  
+**Free university education is not inherently ""right"" or ""wrong""—it requires careful design to ensure it serves public good without unsustainable costs.** Prioritizing need-based aid, targeting high-demand fields (e.g., STEM, teaching), or combining free tuition with robust vocational pathways may offer more balanced solutions than universal free access. The core question is: *What does society value most—maximizing individual opportunity, economic competitiveness, or fiscal responsibility?*",877,0,338,,,,0,,2026-05-27T00:16:19
+C3-006,C3,clear,curated_opinion,general,M4,qwen3-next:80b-cloud,Is it ethical to use animals in scientific research?,,"
+
+The ethics of using animals in scientific research is **highly contested and context-dependent**, with no universal consensus. Key considerations include:
+
+- **Arguments for**: Essential for medical breakthroughs (e.g., vaccines, cancer treatments, surgical techniques) where alternatives cannot fully replicate complex biological systems. Strict regulations (e.g., the ""3Rs"": Replacement, Reduction, Refinement) aim to minimize suffering and ensure necessity.
+- **Arguments against**: Causes significant animal suffering and death; questions whether human benefits justify animal harm; advances in alternatives (e.g., computer modeling, organ-on-a-chip) reduce the need for animal testing.
+
+Most ethical frameworks agree that animal research is **only justifiable when**:  
+1. It addresses critical human/animal health questions,  
+2. No non-animal alternatives exist,  
+3. Suffering is minimized through rigorous oversight, and  
+4. The potential benefits outweigh the harms.  
+
+Public and scientific consensus increasingly supports phasing out animal testing where possible, but it remains a necessary tool in specific high-stakes research under strict ethical review.",696,0,375,,,,0,,2026-05-27T00:16:26
+C3-006,C6,ambiguous,curated_opinion,general,M4,qwen3-next:80b-cloud,Is it ethical to use animals?,,"
+
+Ethical views on using animals vary significantly and depend on context, perspective, and cultural norms. Key positions include:  
+- **Utilitarianism**: Use may be justified if benefits (e.g., medical advances) outweigh animal suffering, but unnecessary harm is unethical.  
+- **Rights-based ethics**: Animals have inherent rights, making all exploitation (e.g., for food, clothing, or testing) inherently wrong.  
+- **Contextual pragmatism**: Some uses (e.g., life-saving research) may be acceptable with strict welfare standards, while others (e.g., cosmetic testing) are widely condemned.  
+
+No universal consensus exists, but minimizing unnecessary suffering is a common ethical principle across most frameworks.",1014,0,674,,,,0,,2026-05-27T00:16:34
+C3-007,C3,clear,curated_opinion,general,M4,qwen3-next:80b-cloud,Should self-driving cars be allowed on public roads?,,"
+
+Self-driving cars **should be allowed on public roads, but only under strict, phased regulation and rigorous testing**.  
+
+### Key reasons:  
+- **Safety potential**: Human error causes ~94% of crashes; autonomous systems could drastically reduce fatalities by eliminating distractions, fatigue, and impairment.  
+- **Current limitations**: Technology isn't yet perfect (e.g., struggles with complex weather, unpredictable scenarios). Full autonomy requires proven reliability across all conditions.  
+- **Regulatory necessity**: Clear legal frameworks for liability, cybersecurity, and safety standards must precede widespread deployment. Testing should start in controlled environments (e.g., designated zones) before broader rollout.  
+
+*Without these safeguards, premature deployment risks lives. With them, the technology offers transformative safety and accessibility benefits.*",715,0,383,,,,0,,2026-05-27T00:16:40
+C3-007,C6,ambiguous,curated_opinion,general,M4,qwen3-next:80b-cloud,Should self-driving cars be allowed on public roads?,,"
+
+The question of whether self-driving cars should be allowed on public roads **depends on the level of automation, regulatory framework, and specific conditions**. Currently:  
+
+- **Level 2 systems** (e.g., Tesla Autopilot, GM Super Cruise), which require constant human supervision, **are permitted** on public roads in many regions (e.g., U.S., Europe) but remain controversial due to safety incidents.  
+- **Level 4/5 systems** (fully autonomous, no human intervention needed) are **only allowed in limited, controlled environments** (e.g., Waymo in Phoenix, Arizona; Cruise in San Francisco) under strict regulatory permits, not for general public use.  
+
+**Key considerations**:  
+- **Safety**: Current technology struggles with unpredictable scenarios (e.g., extreme weather, construction zones), leading to accidents. Human-driven cars still cause 94% of crashes, but autonomous systems aren’t yet proven safer overall.  
+- **Regulation**: Laws vary globally; most jurisdictions require rigorous testing, safety certifications, and human oversight before full deployment.  
+- **Ethics/Liability**: Unresolved questions about responsibility in crashes and ethical decision-making (e.g., ""trolley problem"") complicate widespread adoption.  
+
+**Conclusion**: Limited testing of self-driving cars is allowed under strict conditions, but **broad public deployment is not yet justified** due to unresolved safety, regulatory, and ethical challenges. Widespread use requires proven reliability, standardized regulations, and public consensus.",1022,0,541,,,,0,,2026-05-27T00:16:50
+C3-008,C3,clear,curated_opinion,general,M4,qwen3-next:80b-cloud,Is a four-day work week good for the economy?,,"
+
+Evidence suggests a four-day work week can be beneficial for the economy **when implemented properly** (e.g., maintaining full pay for reduced hours). Key findings from trials (e.g., Iceland, UK, New Zealand) show:  
+- **Productivity often stays the same or increases** due to focused work and reduced burnout.  
+- **Employee well-being improves**, lowering absenteeism and turnover costs.  
+- **Consumer spending may rise** as workers have more free time for leisure and local spending.  
+- **No significant negative impact on GDP** in studied cases, though outcomes depend on industry and business adaptation.  
+
+However, it is not a universal solution—poor implementation (e.g., cutting pay or overloading staff) could harm economic stability. Overall, current data indicates net benefits without major economic downsides when structured correctly.",1083,0,719,,,,0,,2026-05-27T00:16:59
+C3-008,C6,ambiguous,curated_opinion,general,M4,qwen3-next:80b-cloud,Is a four-day work week good?,,"
+
+Whether a four-day workweek is ""good"" depends on context, but evidence suggests **it can be beneficial for many organizations and employees when implemented thoughtfully**. Key points:  
+
+- **Pros**:  
+  - Improved employee well-being, reduced burnout, and higher job satisfaction (e.g., UK trials showed 91% of companies maintained or improved productivity).  
+  - Often maintains or boosts productivity due to focused work and reduced fatigue.  
+  - Attracts and retains talent, especially among younger workers.  
+
+- **Cons**:  
+  - Not universally feasible (e.g., healthcare, retail, or 24/7 operations may struggle with coverage).  
+  - Risk of longer workdays (e.g., 10-hour shifts) causing fatigue if not managed.  
+  - Requires careful restructuring of workflows and expectations to avoid burnout.  
+
+**Conclusion**: It’s promising for knowledge-based roles and flexible industries but requires tailored implementation. Success hinges on company culture, role suitability, and avoiding simply compressing hours without addressing workload. Most studies show net positive outcomes when done right.",705,0,332,,,,0,,2026-05-27T00:17:05
+C3-009,C3,clear,curated_opinion,general,M4,qwen3-next:80b-cloud,Should genetic engineering of crops be encouraged?,,"
+
+Genetic engineering of crops should be encouraged **when properly regulated**, as it offers significant benefits like increased yields, reduced pesticide use, enhanced nutrition (e.g., Golden Rice), and climate resilience. Scientific consensus confirms its safety for consumption, and it is a vital tool for sustainable agriculture—though it must complement, not replace, agroecological practices and robust oversight to address environmental and socioeconomic concerns.",583,0,373,,,,0,,2026-05-27T00:17:10
+C3-009,C6,ambiguous,curated_opinion,general,M4,qwen3-next:80b-cloud,Should genetic engineering?,,"
+
+Genetic engineering is not inherently ""good"" or ""bad""—its ethical and practical value depends entirely on **context, application, and oversight**. Key considerations:
+
+- **Medical uses**:  
+  - ✅ **Therapeutic applications** (e.g., curing genetic diseases like sickle cell anemia via somatic cell editing) are widely supported and already in clinical use.  
+  - ❌ **Human germline editing** (heritable changes) is globally condemned due to irreversible risks, ethical concerns (e.g., ""designer babies""), and lack of consensus (e.g., the 2018 He Jiankui scandal).
+
+- **Agriculture**:  
+  - ✅ **GMO crops** (e.g., drought-resistant or pest-resistant varieties) can improve food security and reduce pesticide use, with strong scientific consensus on safety.  
+  - ❌ Concerns about corporate control, biodiversity loss, and long-term ecological impacts require strict regulation.
+
+- **Ethical boundaries**:  
+  - Enhancement (e.g., non-medical traits like intelligence) raises issues of equity, consent, and societal inequality.  
+  - Environmental release (e.g., gene drives) demands rigorous risk assessment to prevent unintended ecosystem damage.
+
+**Consensus**: Responsible development with **robust regulation, transparency, and international cooperation** is essential. Blanket bans stifle life-saving innovation, while unchecked use risks harm. The focus should be on **applications that alleviate suffering, with strict ethical guardrails**.",1105,0,609,,,,0,,2026-05-27T00:17:19
+C3-010,C3,clear,curated_opinion,general,M4,qwen3-next:80b-cloud,Is space exploration a worthwhile use of public money?,,"
+
+Yes, space exploration is a worthwhile use of public money. It represents a small fraction of national budgets (typically <1% for major spacefaring nations) but delivers significant returns:  
+- **Practical innovations**: Spinoff technologies in medicine, communications, environmental monitoring, and materials science (e.g., GPS, water purification, medical imaging).  
+- **Scientific knowledge**: Critical insights into climate change, planetary science, and Earth’s place in the universe.  
+- **Economic growth**: Fuels high-tech industries, creates jobs, and spawns new markets (e.g., satellite services, space tourism).  
+- **Long-term survival**: Advances in asteroid detection and off-world habitation research address existential risks.  
+While balancing priorities is essential, the tangible benefits and strategic value justify the investment.",1009,0,610,,,,0,,2026-05-27T00:17:26
+C3-010,C6,ambiguous,curated_opinion,general,M4,qwen3-next:80b-cloud,Is space exploration a worthwhile use?,,"
+
+Yes, space exploration is worthwhile. It drives transformative technological innovations (e.g., GPS, medical imaging, and materials science), provides critical data for understanding Earth's climate and environment, inspires STEM education, and ensures humanity's long-term survival by developing capabilities for multi-planetary existence. While costs are significant, the return on investment—through economic growth, scientific advancement, and global cooperation—consistently justifies the expenditure.",762,0,535,,,,0,,2026-05-27T00:17:34
