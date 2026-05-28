@@ -40,7 +40,8 @@ OLLAMA_URL = "http://localhost:11434/api/generate"
 # --- LOCKED PARAMETERS (never change mid-study; keep uniform across models) --
 SYSTEM_PROMPT = "Answer the following question accurately and concisely."  # LOCKED
 TEMPERATURE   = 0.0      # LOCKED (overridden only by --samples consistency mode)
-MAX_TOKENS    = 2048     # LOCKED - Your evaluation limit for truncation tracking
+GEN_CAP        = 8192    # LOCKED, uniform across all 5 models - the REAL generation limit
+LONG_THRESHOLD = 2048    # not a cap; only flags "long" (verbose-but-complete) outputs
 TOP_LOGPROBS  = 20       # only used if run locally; cloud returns none
 THINK         = False    # LOCKED - disable reasoning for fair comparison
 
@@ -66,7 +67,7 @@ def summarize_logprobs(logprob_entries):
 def call_ollama(model_name, prompt, temperature=TEMPERATURE):
     # Set a high backend generation limit so the model is allowed to exceed MAX_TOKENS 
     # instead of getting clipped off early by the engine.
-    api_num_predict = 8192 
+    api_num_predict = GEN_CAP
 
     payload = {
         "model":  model_name,
@@ -158,7 +159,10 @@ def run_one_model(model_cfg, df, tag, limit=None):
                 "domain": row.get("domain", ""), "model_code": code, "model_name": name,
                 "prompt_text": row["prompt_text"], "expected_answer": row.get("expected_answer", ""),
                 "raw_output": res["text"], "token_count": res["token_count"],
-                "truncated": int(res["token_count"] >= MAX_TOKENS),  # 1 if output >= 2048, but text remains whole!
+                # truncated=1 means the answer was actually CUT OFF (hit the 8192 cap) -> incomplete
+                "truncated": int(res["token_count"] >= GEN_CAP),
+                # long_output=1 means verbose but COMPLETE (over 2048, under the cap) -> keep as-is
+                "long_output": int(LONG_THRESHOLD <= res["token_count"] < GEN_CAP),
                 "thinking_tokens": len(res["thinking"].split()) if res["thinking"] else 0,
                 "logprob_mean": res["logprob_mean"], "logprob_min": res["logprob_min"],
                 "logprob_first": res["logprob_first"], "retry_count": res["retry_count"],

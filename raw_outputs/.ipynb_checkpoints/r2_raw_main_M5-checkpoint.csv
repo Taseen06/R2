@@ -1,135 +1,115 @@
-question_id,condition,prompt_version,source,domain,model_code,model_name,prompt_text,expected_answer,raw_output,token_count,truncated,thinking_tokens,logprob_mean,logprob_min,logprob_first,retry_count,error,timestamp
-C1-001,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,What was first worn by British soldiers in India in 1845?,Khaki,The first khaki (drab‑colored) uniform was worn by British soldiers in India in 1845 – introduced by the Corps of Guides under Sir Harry Lumsden.,343,0,184,,,,0,,2026-05-27T00:17:38
-C1-001,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,What was first worn by British soldiers?,Khaki,"The question is ambiguous, but if referring to the **first standardized uniform item** famously associated with British soldiers, it was the **red coat**.  
+question_id,condition,prompt_version,source,domain,model_code,model_name,prompt_text,expected_answer,raw_output,token_count,truncated,long_output,thinking_tokens,logprob_mean,logprob_min,logprob_first,retry_count,error,timestamp
+C1-001,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,What was first worn by British soldiers in India in 1845?,Khaki,The khaki uniform (the drab‑coloured cotton cloth first used for military clothing) was first worn by British soldiers in India in 1845.,255,0,0,138,,,,0,,2026-05-29T01:50:01
+C1-001,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,What was first worn by British soldiers?,Khaki,"The first distinctive uniform worn by British soldiers was the red coat (scarlet tunic), introduced by the New Model Army in 1645.",355,0,0,224,,,,0,,2026-05-29T01:50:05
+C1-002,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,Which US gangster was released from Alcatraz prison in November 1939?,Al Capone,Al Capone was released from Alcatraz in November 1939.,428,0,0,249,,,,0,,2026-05-29T01:50:09
+C1-002,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,Which US gangster was released from Alcatraz prison?,Al Capone,Al Capone was the notorious gangster who left Alcatraz (due to declining health) and was subsequently released from federal custody in 1939.,1333,0,0,772,,,,0,,2026-05-29T01:50:21
+C1-003,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,Of which tribe of Red Indians was Geronimo a chief,Apache,Geronimo was a chief of the Apache—specifically the Bedonkohe band of the Chiricahua Apache tribe.,140,0,0,66,,,,0,,2026-05-29T01:50:23
+C1-003,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,Of which tribe of Red Indians was Geronimo a chief,Apache,Geronimo was a chief of the Chiricahua Apache tribe (specifically of the Bedonkohe band).,140,0,0,71,,,,0,,2026-05-29T01:50:25
+C1-004,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,Which rank of the RAF is equivalent to Major in the British Army?,Squadron Leader,Squadron Leader.,72,0,0,46,,,,0,,2026-05-29T01:50:27
+C1-004,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,Which rank of the RAF is equivalent to Major?,Squadron Leader,"Squadron Leader
 
-- **Context**: Before the mid-17th century, British troops wore varied clothing (often civilian clothes or colors chosen by individual colonels).  
-- **Key development**: The **New Model Army** (formed in 1645 during the English Civil War) adopted **red coats** as its standard uniform. This marked the first widespread, systematic use of a specific color across a British army.  
-- **Why not ""first worn"" absolutely?** Soldiers always wore multiple items (e.g., shirts, trousers, boots) simultaneously; no single ""first"" item exists historically. The red coat is iconic as the *first standardized uniform element*.  
+In the Royal Air Force (RAF), the rank equivalent to a Major in the British Army (or other land forces) is **Squadron Leader**. Both ranks correspond to NATO rank code OF-3 (senior captain/junior major level). 
 
-For clarity:  
-> **The red coat was the first standardized uniform item worn by British soldiers, introduced by the New Model Army in 1645.**  
+- **RAF**: Squadron Leader (above Flight Lieutenant, below Wing Commander)
+- **Army/Royal Marines**: Major (above Captain, below Lieutenant Colonel)  
 
-*(Note: Earlier British soldiers wore no uniform; the red coat became synonymous with British military identity for centuries.)*",783,0,412,,,,0,,2026-05-27T00:17:43
-C1-002,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,Which US gangster was released from Alcatraz prison in November 1939?,Al Capone,Al Capone.,1252,0,814,,,,0,,2026-05-27T00:17:48
-C1-002,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,Which US gangster was released from Alcatraz prison?,Al Capone,Al Capone.,596,0,333,,,,0,,2026-05-27T00:17:52
-C1-003,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,Of which tribe of Red Indians was Geronimo a chief,Apache,Geronimo was a chief of the Chiricahua Apache tribe.,66,0,32,,,,0,,2026-05-27T00:17:54
-C1-003,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,Of which tribe of Red Indians was Geronimo a chief,Apache,Geronimo was a chief of the Chiricahua Apache tribe.,74,0,38,,,,0,,2026-05-27T00:17:55
-C1-004,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,Which rank of the RAF is equivalent to Major in the British Army?,Squadron Leader,Squadron Leader (OF‑3) is the RAF rank equivalent to a British Army Major.,84,0,43,,,,0,,2026-05-27T00:17:57
-C1-004,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,Which rank of the RAF is equivalent to Major?,Squadron Leader,Squadron Leader.,50,0,33,,,,0,,2026-05-27T00:17:59
-C1-005,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,Name the capital city of the Canadian Province of British Columbia?,VICTORIA,Victoria is the capital city of the Canadian province of British Columbia.,33,0,14,,,,0,,2026-05-27T00:18:01
-C1-005,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,Name the capital city of the Canadian Province?,VICTORIA,"Your question contains a slight ambiguity: **Canada has 10 provinces and 3 territories, each with its own capital city**. There is no single ""capital city of the Canadian Province"" because Canada is a country composed of multiple provinces and territories.
+This equivalence is standardized across NATO forces for officer seniority.",515,0,0,300,,,,0,,2026-05-29T01:50:43
+C1-005,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,Name the capital city of the Canadian Province of British Columbia?,VICTORIA,Victoria.,31,0,0,20,,,,0,,2026-05-29T01:50:44
+C1-005,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,Name the capital city of the Canadian Province?,VICTORIA,"Your question contains a slight ambiguity: **Canada has 10 provinces and 3 territories, each with its own capital city.** There is no single ""the Canadian Province""; instead, here are the capitals for reference:
 
-To answer accurately and concisely:
+- **Ontario**: Toronto  
+- **Quebec**: Quebec City  
+- **Nova Scotia**: Halifax  
+- **New Brunswick**: Fredericton  
+- **Manitoba**: Winnipeg  
+- **British Columbia**: Victoria  
+- **Prince Edward Island**: Charlottetown  
+- **Saskatchewan**: Regina  
+- **Alberta**: Edmonton  
+- **Newfoundland and Labrador**: St. John's  
 
-- **If you meant the capital city of Canada (the country)**: It is **Ottawa**, located in the province of Ontario.
-- **If you meant a specific province's capital**: You need to specify which province (e.g., ""What is the capital of Ontario?""). 
+*(Territories: Yukon - Whitehorse, Northwest Territories - Yellowknife, Nunavut - Iqaluit)*  
 
-Here are the capital cities of all 10 Canadian provinces for reference:
+**To answer accurately:** Please specify which Canadian province you're asking about (e.g., ""What is the capital of Ontario?""). If you meant *Canada's national capital*, that is **Ottawa**. Clarify for a precise response!",480,0,0,187,,,,0,,2026-05-29T01:50:49
+C1-006,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,Quitline is a system of centres to help people to quit what?,Tobacco or alcohol,Quitline services help people quit smoking (tobacco use).,74,0,0,39,,,,0,,2026-05-29T01:50:51
+C1-006,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,Quitline is a system of centres to help people to quit what?,Tobacco or alcohol,Quitline helps people quit smoking (tobacco use).,79,0,0,41,,,,0,,2026-05-29T01:50:53
+C1-007,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,To what note is the top string on a six-string guitar normally tuned?,E,The top (1st) string of a standard six‑string guitar is tuned to E (E₄).,231,0,0,151,,,,0,,2026-05-29T01:50:56
+C1-007,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,To what note is the top string on a six-string guitar normally tuned?,E,"E (the high E, E₄).",180,0,0,106,,,,0,,2026-05-29T01:50:58
+C1-008,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,"Named for its chairman, The Warren Commission published its final report on Sept 27, 1965. What event was it seated to investigate?",JFK Assassination,It was seated to investigate the assassination of President John F. Kennedy.,100,0,0,54,,,,0,,2026-05-29T01:51:00
+C1-008,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,"Named for its chairman, The Warren Commission published its final report on Sept 27, 1965. What event was it seated to investigate?",JFK Assassination,The Warren Commission was convened to investigate the assassination of President John F. Kennedy.,177,0,0,104,,,,0,,2026-05-29T01:51:02
+C1-009,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,"A Gay Girl in Damascus is the title of a hoax blog by fictional feminist/freedom campaigner Amina Abdallah Alaf al Omari, who in June 2011 was said to be based and abducted in which country?",Syria,Syria.,87,0,0,60,,,,0,,2026-05-29T01:51:04
+C1-009,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,"A Gay Girl in Damascus is the title of a hoax blog by fictional feminist/freedom campaigner Amina Abdallah Alaf al Omari, who in June 2011 was said to be based and abducted?",Syria,"Yes, that is accurate. ""A Gay Girl in Damascus"" was a hoax blog launched in early 2011, purportedly written by Amina Abdallah Alaf al Omari, a fictional Syrian lesbian activist. In June 2011, the blog featured a post claiming she had been abducted by Syrian authorities, which garnered significant international attention and concern before being exposed as a fabrication. The blog was created by Tom MacMaster, an American man living in Scotland, who admitted to the hoax later in 2011. No such person as Amina Abdallah Alaf al Omari existed.",623,0,0,374,,,,0,,2026-05-29T01:51:12
+C1-010,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,What was the central meeting place of ancient Rome?,Forum,"The central meeting place of ancient Rome was the Roman Forum (Forum Romanum), the city’s main public square where politics, religion, commerce, and social life converged.",118,0,0,57,,,,0,,2026-05-29T01:51:14
+C1-010,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,What was the central meeting place?,Forum,"I’m not sure which central meeting place you’re referring to—could you provide more context about the event, story, or location you have in mind?",329,0,0,228,,,,0,,2026-05-29T01:51:21
+C1-011,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,"In the novel ‘Watership Down’, Yona is what type of creature?",Hedgehog,Yona does not appear as a character in *Watership Down*; therefore there is no creature type associated with a “Yona” in the novel.,2355,0,1,1531,,,,0,,2026-05-29T01:51:57
+C1-011,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,"In the novel ‘Watership Down’, Yona is what type?",Hedgehog,Yona is a hedgehog.,2776,0,1,1562,,,,0,,2026-05-29T01:52:17
+C1-012,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,What is the International Vehicle Registration for Cambodia?,K,"The International Vehicle Registration code for Cambodia is **KH**.  
 
-| Province          | Capital City     |
-|-------------------|------------------|
-| Alberta           | Edmonton         |
-| British Columbia  | Victoria         |
-| Manitoba          | Winnipeg         |
-| New Brunswick     | Fredericton      |
-| Newfoundland and Labrador | St. John's |
-| Nova Scotia       | Halifax          |
-| Ontario           | Toronto          |
-| Prince Edward Island | Charlottetown  |
-| Quebec            | Quebec City      |
-| Saskatchewan      | Regina           |
+This code is derived from the ISO 3166-1 alpha-2 country standard and is displayed on vehicles for international identification (e.g., on oval stickers or license plates when traveling abroad).  
 
-**Territories** (for completeness):  
-- Northwest Territories: Yellowknife  
-- Nunavut: Iqaluit  
-- Yukon: Whitehorse  
+*Note: This is distinct from Cambodia's domestic license plate format, which varies locally.*",298,0,0,147,,,,0,,2026-05-29T01:52:22
+C1-012,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,What is the International Vehicle Registration?,K,"The International Vehicle Registration (IVR), often called the International Registration Mark, is a small oval sticker (or plate) displayed on a vehicle—usually on the rear—that shows a one‑to‑three‑letter country code indicating the nation in which the vehicle is officially registered. It allows authorities and other road users to quickly identify a vehicle’s home country when traveling across borders (e.g., “D” for Germany, “F” for France, “USA” for the United States). The system is governed by the Vienna Convention on Road Traffic and is used worldwide for cross‑border vehicle identification.",247,0,0,96,,,,0,,2026-05-29T01:52:25
+C1-013,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,"A 'tell' refers to a clue in which activity, which in turn refers metaphorically to an intentionally blank facial expression?",Poker,"It comes from playing poker – the “tell” is a clue about a player’s hand, and the metaphorical “blank facial expression” is a poker face.",262,0,0,153,,,,0,,2026-05-29T01:52:28
+C1-013,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,"A 'tell' refers to a clue in which activity, which in turn refers metaphorically to an intentionally blank facial expression?",Poker,Poker.,246,0,0,168,,,,0,,2026-05-29T01:52:31
+C1-014,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,Name either of the cities served by Robin Hood airport?,Doncaster/Sheffield,"Robin Hood Airport (the former name for **Doncaster Sheffield Airport**, IATA: DSA) primarily served the cities of:
 
-**Clarification**:  
-- Ottawa is the **national capital** (of Canada), not a provincial capital.  
-- Toronto is the largest city and capital of **Ontario** (Canada's most populous province).  
-- Quebec City is the capital of **Quebec** (the only province where French is the sole official language).  
+*   **Doncaster**
+*   **Sheffield**
 
-If you intended to ask about a specific province, please reply with its name for a direct answer. Otherwise, the table above provides all provincial capitals.",668,0,210,,,,0,,2026-05-27T00:18:06
-C1-006,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,Quitline is a system of centres to help people to quit what?,Tobacco or alcohol,Quitline is a telephone‑based service that helps people quit smoking.,66,0,35,,,,0,,2026-05-27T00:18:08
-C1-006,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,Quitline is a system of centres to help people to quit what?,Tobacco or alcohol,Quitline is a telephone‑based service that helps people quit smoking.,66,0,35,,,,0,,2026-05-27T00:18:09
-C1-007,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,To what note is the top string on a six-string guitar normally tuned?,E,The top (highest‑pitched) string on a standard six‑string guitar is tuned to **E** (E₄).,86,0,39,,,,0,,2026-05-27T00:18:11
-C1-007,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,To what note is the top string on a six-string guitar normally tuned?,E,The top (highest‑pitched) string on a standard six‑string guitar is tuned to **E** (E₄).,119,0,57,,,,0,,2026-05-27T00:18:13
-C1-008,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,"Named for its chairman, The Warren Commission published its final report on Sept 27, 1965. What event was it seated to investigate?",JFK Assassination,The Warren Commission was convened to investigate the assassination of President John F. Kennedy.,89,0,49,,,,0,,2026-05-27T00:18:15
-C1-008,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,"Named for its chairman, The Warren Commission published its final report on Sept 27, 1965. What event was it seated to investigate?",JFK Assassination,The Warren Commission was convened to investigate the assassination of President John F. Kennedy.,89,0,49,,,,0,,2026-05-27T00:18:17
-C1-009,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,"A Gay Girl in Damascus is the title of a hoax blog by fictional feminist/freedom campaigner Amina Abdallah Alaf al Omari, who in June 2011 was said to be based and abducted in which country?",Syria,Syria.,149,0,99,,,,0,,2026-05-27T00:18:20
-C1-009,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,"A Gay Girl in Damascus is the title of a hoax blog by fictional feminist/freedom campaigner Amina Abdallah Alaf al Omari, who in June 2011 was said to be based and abducted?",Syria,"She was said to be living in Damascus, Syria, and was allegedly abducted by Syrian security forces in June 2011.",255,0,159,,,,0,,2026-05-27T00:18:23
-C1-010,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,What was the central meeting place of ancient Rome?,Forum,"The central meeting place of ancient Rome was the **Roman Forum (Forum Romanum)**.  
+**(Either city is a correct answer.)** The airport is located near Doncaster but was marketed to serve the wider South Yorkshire region, including Sheffield. Note that it was officially renamed back to Doncaster Sheffield Airport in 2018.",365,0,0,217,,,,0,,2026-05-29T01:52:35
+C1-014,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,Name either of the cities served?,Doncaster/Sheffield,Could you please clarify which service or route you’re referring to? Then I can name one of the cities it serves.,108,0,0,65,,,,0,,2026-05-29T01:52:37
+C1-015,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,"Which film about a submarine had as one of its stars Denzil Washington, whose character had violent disagreements with his Captain played by Gene Hackman?",'CRIMSON TIDE',"Crimson Tide (1995) – Denzel Washington plays Lt. Cmdr. Ron Hunter, who clashes violently with Capt. Frank Ramsey, played by Gene Hackman.",172,0,0,86,,,,0,,2026-05-29T01:52:39
+C1-015,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,"Which film about a submarine had as one of its stars Denzil Washington, whose character had violent disagreements with his Captain played?",'CRIMSON TIDE',"The film is *Crimson Tide* (1995). Denzel Washington plays Lieutenant Commander Ron Hunter, who clashes violently with Captain Frank Ramsey (Gene Hackman) aboard a nuclear‑armed submarine.",184,0,0,89,,,,0,,2026-05-29T01:52:42
+C1-016,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,"The South African currency unit, the Rand, is divided into a hundred what?",CENTS,Cents.,51,0,0,31,,,,0,,2026-05-29T01:52:44
+C1-016,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,"The South African currency unit, the Rand, is divided into a hundred what?",CENTS,The Rand is divided into one hundred **cents**.,60,0,0,35,,,,0,,2026-05-29T01:52:45
+C1-017,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,Amarelo is Portuguese for which colour?,Yellow,Yellow.,25,0,0,12,,,,0,,2026-05-29T01:52:47
+C1-017,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,Amarelo is Portuguese?,Yellow,"Yes, ""amarelo"" is the Portuguese word for ""yellow."" It is used in both European and Brazilian Portuguese. (Note: In Spanish, the equivalent is ""amarillo,"" which differs slightly in spelling.)",490,0,0,317,,,,0,,2026-05-29T01:52:50
+C1-018,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,Which Roman Emperor succeeded his father Vespasian in 79?,Titus,Titus succeeded his father Vespasian as Roman emperor in AD 79.,66,0,0,26,,,,0,,2026-05-29T01:52:53
+C1-018,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,Which Roman Emperor succeeded his father Vespasian?,Titus,"Titus succeeded his father Vespasian as Roman Emperor. Vespasian reigned from 69–79 AD, and Titus ruled from 79–81 AD.",302,0,0,177,,,,0,,2026-05-29T01:52:56
+C1-019,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,"Eventually a newspaper photographer for the Daily Bugle, what is the alter ego of Spiderman?",Peter Parker,Peter Parker.,67,0,0,42,,,,0,,2026-05-29T01:52:57
+C1-019,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,"Eventually a newspaper photographer for the Daily Bugle, what is the alter ego?",Peter Parker,Spider-Man.,464,0,0,340,,,,0,,2026-05-29T01:53:02
+C1-020,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,What did Tikki Tikki Tembo fall into?,a Well,"Tikki Tikki Tembo fell into a **well**. This is the central event in the children's book *Tikki Tikki Tembo* by Arlene Mosel, where his long name delays the rescue effort when his brother Chang seeks help.",396,0,0,260,,,,0,,2026-05-29T01:53:05
+C1-020,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,What did Tikki Tikki Tembo fall into?,a Well,Tikki Tikki Tembo fell into a well.,347,0,0,243,,,,0,,2026-05-29T01:53:08
+C1-021,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,"What was James Herbert’s first book, published in 1974?",Rats,"James Herbert’s first book, published in 1974, was **The Rats**.",74,0,0,32,,,,0,,2026-05-29T01:53:10
+C1-021,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,"What was James Herbert’s first book, published?",Rats,"James Herbert’s first published book was **The Rats**, released in 1974.",283,0,0,141,,,,0,,2026-05-29T01:53:13
+C1-022,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,Haematite is an ore of which metal?,Iron,Haematite (Fe₂O₃) is an ore of iron.,55,0,0,21,,,,0,,2026-05-29T01:53:14
+C1-022,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,Haematite is an ore?,Iron,"Yes. Haematite (hematite) is the principal ore of iron, consisting mainly of iron(III) oxide (Fe₂O₃). It is mined extensively for iron production.",147,0,0,66,,,,0,,2026-05-29T01:53:17
+C1-023,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,In the car insurance business what do the letters TPFT suggest,Third Party Fire and Theft,"In the car insurance business, **TPFT stands for ""Third Party, Fire and Theft.""**  
 
-It served as the heart of public life for centuries, hosting political debates, legal proceedings, religious ceremonies, markets, and social gatherings. Located in a valley between the Palatine and Capitoline Hills, it was the focal point of Roman civic and cultural activity from the Republic through the Empire.  
+This refers to a specific level of coverage:  
+- **Third Party**: Covers liability for injury or damage to other people/their property.  
+- **Fire**: Covers damage to your own vehicle caused by fire.  
+- **Theft**: Covers loss or damage to your vehicle due to theft or attempted theft.  
 
-*(Note: While later emperors built additional forums (e.g., Forum of Julius Caesar, Forum of Augustus), the original Roman Forum remained the primary and most enduring central space.)*",414,0,223,,,,0,,2026-05-27T00:18:25
-C1-010,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,What was the central meeting place?,Forum,"Your question lacks necessary context. ""The central meeting place"" could refer to many different things depending on the subject (e.g., a historical site like the Athenian Agora, a fictional location like Hogwarts' Great Hall, a specific organization's headquarters, or a reference in a book, film, or event). 
+It is a common mid-tier policy option (between basic ""Third Party Only"" and fully ""Comprehensive"" coverage), primarily used in the UK and Ireland.  
 
-To provide an accurate and concise answer, please specify:
-- The historical period, event, book, movie, organization, or topic you are referring to.
+*(Note: Coverage definitions may vary slightly by region, but TPFT universally means Third Party, Fire and Theft in major auto insurance markets.)*",464,0,0,226,,,,0,,2026-05-29T01:53:21
+C1-023,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,In the car insurance business what do the letters TPFT suggest,Third Party Fire and Theft,"TPFT in car insurance stands for **Third‑Party, Fire and Theft** – a policy that covers liability to others (third‑party), as well as loss or damage to the insured vehicle caused by fire or theft.",198,0,0,99,,,,0,,2026-05-29T01:53:23
+C1-024,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,"What is the name of the cathedral in Red Square, Moscow?",St. Basil's,St. Basil’s Cathedral (the Cathedral of Vasily the Blessed).,98,0,0,54,,,,0,,2026-05-29T01:53:26
+C1-024,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,"What is the name of the cathedral in Red Square, Moscow?",St. Basil's,Saint Basil’s Cathedral (the Cathedral of Vasily the Blessed).,66,0,0,30,,,,0,,2026-05-29T01:56:46
+C1-025,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,What is the name of the lake formed in 1932 when the Zuider Zee was cut off from the North Sea by a dyke?,Ijsselmeer,IJsselmeer,119,0,0,63,,,,0,,2026-05-29T01:56:48
+C1-025,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,What is the name of the lake formed in 1932 when the Zuider Zee was cut off from the North Sea?,Ijsselmeer,The lake created when the Zuider Zee was sealed off from the North Sea in 1932 is the **IJsselmeer**.,157,0,0,72,,,,0,,2026-05-29T01:56:50
+C1-026,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,Who was married to Guinevere?,King Arthur,Guinevere was married to **King Arthur** in Arthurian legend.,192,0,0,131,,,,0,,2026-05-29T01:56:53
+C1-026,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,Who was married to Guinevere?,King Arthur,"Guinevere was married to **King Arthur** in the standard Arthurian legend tradition. This is consistently depicted across major medieval sources, including Geoffrey of Monmouth's *Historia Regum Britanniae* (12th century) and subsequent French romances (e.g., Chrétien de Troyes' works). While later tales often explore her affair with Lancelot, her lawful husband remains Arthur.  
 
-Without this context, I cannot determine which ""central meeting place"" you mean. Please clarify your question for a precise response.",430,0,229,,,,0,,2026-05-27T00:18:29
-C1-011,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,"In the novel ‘Watership Down’, Yona is what type of creature?",Hedgehog,Yona is a rabbit.,1761,0,1200,,,,0,,2026-05-27T00:18:36
-C1-011,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,"In the novel ‘Watership Down’, Yona is what type?",Hedgehog,Yona is a type (or kind) of rabbit – the Lapine word for “type” or “kind.”,7690,1,4474,,,,0,,2026-05-27T00:19:08
-C1-012,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,What is the International Vehicle Registration for Cambodia?,K,KH,113,0,73,,,,0,,2026-05-27T00:19:10
-C1-012,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,What is the International Vehicle Registration?,K,"There is **no such thing as an ""International Vehicle Registration""** system. Vehicle registration is exclusively a **national or sub-national (e.g., state/provincial) government function**. Each country (and often regions within countries, like U.S. states) issues its own license plates and registration documents for vehicles operating within its jurisdiction.
+*(Note: Some obscure variants or modern reinterpretations may differ, but the canonical answer is King Arthur.)*",436,0,0,238,,,,0,,2026-05-29T01:56:57
+C1-027,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,"In February 1987, which UK airline was privatised and listed on the London Stock Exchange?",British Airways,British Airways was privatised and listed on the London Stock Exchange in February 1987.,100,0,0,46,,,,0,,2026-05-29T01:56:58
+C1-027,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,"In February 1987, which UK airline was privatised and listed on the London Stock Exchange?",British Airways,British Airways (BA) was privatised and listed on the London Stock Exchange in February 1987.,86,0,0,37,,,,0,,2026-05-29T01:57:00
+C1-028,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,In which UK city is Great Victoria Street railway station,Belfast,Belfast.,266,0,0,200,,,,0,,2026-05-29T01:57:03
+C1-028,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,In which UK city is Great Victoria Street railway station,Belfast,"Great Victoria Street railway station is located in Belfast, Northern Ireland.",94,0,0,57,,,,0,,2026-05-29T01:57:05
+C1-029,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,In what city would you find Yale University?,New Haven,"New Haven, Connecticut.",35,0,0,18,,,,0,,2026-05-29T01:57:07
+C1-029,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,In what city would you find Yale University?,New Haven,"Yale University is located in New Haven, Connecticut.",39,0,0,19,,,,0,,2026-05-29T01:57:09
+C1-030,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,"Which visitor attraction is in Exploration Drive, Leicester?",National Space Centre,"The National Space Centre is located on Exploration Drive, Leicester (LE4 5NS).",364,0,0,259,,,,0,,2026-05-29T01:57:12
+C1-030,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,"Which visitor attraction is in Exploration Drive, Leicester?",National Space Centre,The National Space Centre is the visitor attraction located on Exploration Drive in Leicester (LE4 5NS). It is a major science museum and educational facility focused on space exploration and astronomy.,439,0,0,302,,,,0,,2026-05-29T01:57:16
+C1-031,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,"Scottish artist, Sir Henry Raeburn was knighted by which British monarch in 1822?",King George IV,King George IV.,120,0,0,65,,,,0,,2026-05-29T01:57:18
+C1-031,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,"Scottish artist, Sir Henry Raeburn was knighted by which British monarch?",King George IV,King George IV.,213,0,0,116,,,,0,,2026-05-29T01:57:20
+C1-032,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,Which mountain overlooks Rio De Janeiro and its harbour?,SUGAR LOAF,"Corcovado Mountain overlooks Rio de Janeiro and its harbour (Guanabara Bay). It is famous for housing the Christ the Redeemer statue at its summit, which provides panoramic views of the city, beaches, and the bay. While Sugarloaf Mountain (Pão de Açúcar) is another prominent peak nearby, it primarily overlooks the harbour entrance and the city's southern zone, whereas Corcovado offers the broader vista encompassing both the city centre and the harbour.",547,0,0,319,,,,0,,2026-05-29T01:57:26
+C1-032,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,Which mountain overlooks Rio De Janeiro and its harbour?,SUGAR LOAF,Corcovado Mountain overlooks Rio de Janeiro and its harbour (Guanabara Bay). It is famous for the Christ the Redeemer statue at its summit.,471,0,0,304,,,,0,,2026-05-29T01:57:30
+C1-033,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,The German company Recaro famously produces what high-performance product?,Seats,"Recaro is best known for manufacturing high‑performance automotive (car) seats, especially racing and sport‑oriented seating.",119,0,0,59,,,,0,,2026-05-29T01:57:32
+C1-033,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,The German company Recaro famously produces what high-performance product?,Seats,Recaro is best known for manufacturing high‑performance automotive (racing) seats.,100,0,0,58,,,,0,,2026-05-29T01:57:34
+C1-034,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,"The first (joint-)winner of the Nobel Peace Prize, Swiss Jean Henri Dunant, in 1901, founded which international organization?",The Red Cross,He founded the International Committee of the Red Cross (the Red Cross movement).,125,0,0,76,,,,0,,2026-05-29T01:57:36
+C1-034,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,"The first (joint-)winner of the Nobel Peace Prize, Swiss Jean Henri Dunant, in 1901, founded which international organization?",The Red Cross,He co‑founded the International Red Cross (the International Committee of the Red Cross).,181,0,0,114,,,,0,,2026-05-29T01:57:39
+C1-035,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,"Referring to the cause of a person's downfall, who is the Greek goddess of punishment?",Nemesis,"Nemesis, the Greek goddess of retribution and divine punishment who brings about the downfall of those who succumb to hubris.",135,0,0,64,,,,0,,2026-05-29T01:57:41
+C1-035,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,"Referring to the cause of a person's downfall, who is the Greek goddess?",Nemesis,"Nemesis
 
-### Key Clarifications:
-1. **National Registration Only**:  
-   - A vehicle must be registered in the country where it is primarily based/resident.  
-   - When driving internationally, you use your **home country's registration documents** (license plate, registration certificate) alongside other required paperwork (like insurance).
-
-2. **What People Often Confuse It With**:  
-   - **International Driving Permit (IDP)**: This *is* a recognized document (based on the 1949 Geneva Convention on Road Traffic) that *translates* your national driver's license into multiple languages. It **does not** replace your national license or vehicle registration. It is only valid when carried *with* your original national license.  
-   - **Cross-Border Procedures**: Some regions (like the EU) have agreements simplifying temporary vehicle use across borders (e.g., no need to re-register for short stays), but the vehicle remains registered in its home country. There is still no single ""international"" registration.
-
-3. **Beware of Scams**:  
-   - Fraudulent websites sometimes sell ""International Vehicle Registrations"" or ""International License Plates."" **These are worthless and illegal**. Using them can result in fines, vehicle impoundment, or legal trouble. Legitimate registration *only* comes from your national/local transport authority.
-
-### What You Actually Need for International Driving:
-- Your **valid national driver's license** (and possibly an **IDP** if required by the destination country).  
-- Your **vehicle's national registration documents** (proof of ownership/registration).  
-- Valid **international motor insurance** (e.g., a Green Card in Europe).  
-- Compliance with the **specific rules** of each country you visit (e.g., vignettes, tolls, equipment requirements).
-
-**In short: Always rely on your country's official vehicle registration. There is no global alternative.** If encountering offers for ""international registration,"" treat them as scams. For accurate requirements, consult the embassy or transport authority of the country you plan to visit.",834,0,256,,,,0,,2026-05-27T00:19:14
-C1-013,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,"A 'tell' refers to a clue in which activity, which in turn refers metaphorically to an intentionally blank facial expression?",Poker,"A “tell” is a clue given in the game of **poker**, which is metaphorically linked to having an intentionally blank facial expression—a “poker face.”",173,0,97,,,,0,,2026-05-27T00:19:16
-C1-013,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,"A 'tell' refers to a clue in which activity, which in turn refers metaphorically to an intentionally blank facial expression?",Poker,"A “tell” is a clue in the game of poker, which metaphorically relates to an intentionally blank facial expression known as a “poker face.”",175,0,101,,,,0,,2026-05-27T00:19:19
-C1-014,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,Name either of the cities served by Robin Hood airport?,Doncaster/Sheffield,Doncaster (or Sheffield).,62,0,39,,,,0,,2026-05-27T00:19:21
-C1-014,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,Name either of the cities served?,Doncaster/Sheffield,"I’m not sure which service or route you’re referring to. Could you let me know what you’d like to know the cities served for (e.g., a particular train line, bus route, airline, etc.)? Then I can name one of the cities it serves.",181,0,93,,,,0,,2026-05-27T00:19:23
-C1-015,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,"Which film about a submarine had as one of its stars Denzil Washington, whose character had violent disagreements with his Captain played by Gene Hackman?",'CRIMSON TIDE',"Crimson Tide (1995) – Denzel Washington’s Lt. Cmdr. Ron Hunter clashes violently with Captain Frank Ramsey, played by Gene Hackman.",134,0,62,,,,0,,2026-05-27T00:19:25
-C1-015,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,"Which film about a submarine had as one of its stars Denzil Washington, whose character had violent disagreements with his Captain played?",'CRIMSON TIDE',"Crimson Tide (1995) – Denzel Washington played Lt. Cmdr. Ron Hunter, who clashes violently with Capt. Frank Ramsey (Gene Hackman) aboard the submarine.",160,0,84,,,,0,,2026-05-27T00:19:27
-C1-016,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,"The South African currency unit, the Rand, is divided into a hundred what?",CENTS,The Rand is divided into a hundred **cents**.,49,0,26,,,,0,,2026-05-27T00:19:29
-C1-016,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,"The South African currency unit, the Rand, is divided into a hundred what?",CENTS,The Rand is divided into a hundred **cents**.,49,0,26,,,,0,,2026-05-27T00:19:31
-C1-017,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,Amarelo is Portuguese for which colour?,Yellow,Yellow.,28,0,14,,,,0,,2026-05-27T00:19:32
-C1-017,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,Amarelo is Portuguese?,Yellow,"Yes, ""amarelo"" is the Portuguese word for ""yellow."" It is used in both European and Brazilian Portuguese. (For comparison: Spanish uses ""amarillo,"" Italian ""giallo,"" French ""jaune"".)",349,0,202,,,,0,,2026-05-27T00:19:35
-C1-018,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,Which Roman Emperor succeeded his father Vespasian in 79?,Titus,Titus (Titus Flavius Vespasianus) succeeded his father Vespasian as emperor in 79 AD.,72,0,25,,,,0,,2026-05-27T00:19:37
-C1-018,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,Which Roman Emperor succeeded his father Vespasian?,Titus,Titus succeeded his father Vespasian as Roman emperor.,70,0,33,,,,0,,2026-05-27T00:19:38
-C1-019,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,"Eventually a newspaper photographer for the Daily Bugle, what is the alter ego of Spiderman?",Peter Parker,Peter Parker.,43,0,26,,,,0,,2026-05-27T00:19:40
-C1-019,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,"Eventually a newspaper photographer for the Daily Bugle, what is the alter ego?",Peter Parker,Spider‑Man (Peter Parker).,113,0,78,,,,0,,2026-05-27T00:19:42
-C1-020,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,What did Tikki Tikki Tembo fall into?,a Well,Tikki Tikki Tembo fell into a well.,281,0,192,,,,0,,2026-05-27T00:19:44
-C1-020,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,What did Tikki Tikki Tembo fall into?,a Well,Tikki Tikki Tembo fell into a well.,282,0,190,,,,0,,2026-05-27T00:19:46
-C1-021,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,"What was James Herbert’s first book, published in 1974?",Rats,"James Herbert’s first book, published in 1974, was **The Rats**.",76,0,34,,,,0,,2026-05-27T00:19:48
-C1-021,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,"What was James Herbert’s first book, published?",Rats,"James Herbert’s first book was **“The Rats,”** published in 1974.",81,0,37,,,,0,,2026-05-27T00:19:50
-C1-022,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,Haematite is an ore of which metal?,Iron,Haematite is an ore of iron.,52,0,25,,,,0,,2026-05-27T00:19:51
-C1-022,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,Haematite is an ore?,Iron,Yes. Haematite (Fe₂O₃) is a common iron‑oxide ore used to extract iron.,110,0,51,,,,0,,2026-05-27T00:19:54
-C1-023,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,In the car insurance business what do the letters TPFT suggest,Third Party Fire and Theft,TPFT stands for **Third‑Party Fire and Theft** – a car‑insurance policy that covers liability to others (third‑party) plus protection against fire damage and theft of the insured vehicle.,133,0,60,,,,0,,2026-05-27T00:19:56
-C1-023,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,In the car insurance business what do the letters TPFT suggest,Third Party Fire and Theft,"TPFT stands for **Third‑Party, Fire and Theft** – a car‑insurance policy that covers liability to others (third‑party) plus protection against fire damage and theft of the insured vehicle.",116,0,50,,,,0,,2026-05-27T00:19:57
-C1-024,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,"What is the name of the cathedral in Red Square, Moscow?",St. Basil's,"Saint Basil's Cathedral (officially the Cathedral of Vasily the Blessed) is the iconic cathedral located on Red Square in Moscow.  
-
-*Note: While it is commonly known as Saint Basil's Cathedral, its formal name is the Cathedral of the Intercession of the Most Holy Theotokos on the Moat, but ""Saint Basil's Cathedral"" is the universally recognized name for the structure on Red Square.*",380,0,204,,,,0,,2026-05-27T00:20:00
-C1-024,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,"What is the name of the cathedral in Red Square, Moscow?",St. Basil's,Saint Basil's Cathedral (officially the Cathedral of Vasily the Blessed) is the iconic cathedral located on Red Square in Moscow.,241,0,151,,,,0,,2026-05-27T00:20:03
-C1-025,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,What is the name of the lake formed in 1932 when the Zuider Zee was cut off from the North Sea by a dyke?,Ijsselmeer,IJsselmeer.,217,0,119,,,,0,,2026-05-27T00:20:05
-C1-025,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,What is the name of the lake formed in 1932 when the Zuider Zee was cut off from the North Sea?,Ijsselmeer,The lake formed in 1932 when the Zuider Zee was cut off from the North Sea is the **IJsselmeer**.,140,0,66,,,,0,,2026-05-27T00:20:06
-C1-026,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,Who was married to Guinevere?,King Arthur,"Guinevere was married to **King Arthur** in the Arthurian legend. This is consistently depicted across major medieval sources, such as the works of Chrétien de Troyes and Sir Thomas Malory's *Le Morte d'Arthur*. While her affair with Lancelot is a central plot point, her lawful husband remains King Arthur.",321,0,185,,,,0,,2026-05-27T00:20:09
-C1-026,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,Who was married to Guinevere?,King Arthur,"Guinevere was married to King Arthur. This is the central relationship in the Arthurian legend, as depicted in medieval sources like Chrétien de Troyes' romances and Sir Thomas Malory's *Le Morte d'Arthur*. While her affair with Lancelot is a famous later development, her husband remains King Arthur.",306,0,173,,,,0,,2026-05-27T00:20:15
-C1-027,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,"In February 1987, which UK airline was privatised and listed on the London Stock Exchange?",British Airways,British Airways.,103,0,68,,,,0,,2026-05-27T00:20:17
-C1-027,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,"In February 1987, which UK airline was privatised and listed on the London Stock Exchange?",British Airways,British Airways.,109,0,73,,,,0,,2026-05-27T00:20:19
-C1-028,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,In which UK city is Great Victoria Street railway station,Belfast,"Great Victoria Street railway station is located in Belfast, Northern Ireland.",56,0,31,,,,0,,2026-05-27T00:20:21
-C1-028,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,In which UK city is Great Victoria Street railway station,Belfast,"Great Victoria Street railway station is located in Belfast, Northern Ireland.",56,0,31,,,,0,,2026-05-27T00:20:22
-C1-029,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,In what city would you find Yale University?,New Haven,"Yale University is located in New Haven, Connecticut.",41,0,19,,,,0,,2026-05-27T00:20:24
-C1-029,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,In what city would you find Yale University?,New Haven,"Yale University is located in New Haven, Connecticut, USA.",45,0,19,,,,0,,2026-05-27T00:20:25
-C1-030,C1,clear,triviaqa,general,M5,nemotron-3-super:cloud,"Which visitor attraction is in Exploration Drive, Leicester?",National Space Centre,"The National Space Centre is the visitor attraction located on Exploration Drive, Leicester. It is a prominent science museum and educational facility focused on space exploration and astronomy.",304,0,231,,,,0,,2026-05-27T00:20:28
-C1-030,C4,ambiguous,triviaqa,general,M5,nemotron-3-super:cloud,"Which visitor attraction is in Exploration Drive, Leicester?",National Space Centre,"The National Space Centre is the visitor attraction located on Exploration Drive, Leicester.  
-
-Its full address is Exploration Drive, Leicester, LE4 5NS.",353,0,257,,,,0,,2026-05-27T00:20:31
+*(In Greek mythology, Nemesis is the goddess of retribution and divine vengeance, specifically responsible for bringing about the downfall of those who exhibit excessive pride or hubris.)*",347,0,0,211,,,,0,,2026-05-29T01:57:45

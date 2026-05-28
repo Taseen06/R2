@@ -704,7 +704,7 @@ C2-n103,C5,ambiguous,"The owner of a drug store hired an independent contractor 
 C2-n104,C2,clear,"A laboratory manufactures nitroglycerin (a heavy, oily, explosive, poisonous liquid used chiefly in making dynamite) at its main plant. An artist who specialized in making delicate glass sculptures had a studio two blocks away from the laboratory's plant. Late one evening, there was an explosion at the laboratory's plant. The force of the explosion caused the artist's studio to be shaken, which resulted in the destruction of valuable artwork in the studio. The artist now asserts a tort action against the laboratory to recover damages. Which of the following, if established, would furnish the laboratory with its best possible defense?",The harm that the artist suffered would not have resulted but for the abnormal fragility of the artist's work.,mmlu/professional_law,niche,0
 C2-n104,C5,ambiguous,"A laboratory manufactures nitroglycerin (a heavy, oily, explosive, poisonous liquid used chiefly in making dynamite) at its main plant. An artist who specialized in making delicate glass sculptures had a studio two blocks away from the laboratory's plant. Late one evening, there was an explosion at the laboratory's plant. The force of the explosion caused the artist's studio to be shaken, which resulted in the destruction of valuable artwork in the studio. The artist now asserts a tort action against the laboratory to recover damages. Which of the following, if established, would furnish the laboratory with its best possible defense?",The harm that the artist suffered would not have resulted but for the abnormal fragility of the artist's work.,mmlu/professional_law,niche,1
 C2-n105,C2,clear,"A landlord leased an apartment to a tenant on a month-to-month basis beginning on the first of the month, with rent payable monthly. Five months into the lease, the tenant failed to pay rent. The landlord then sued the tenant for possession for nonpayment of rent. The tenant successfully defended this suit on the ground that the apartment was uninhabitable and that, accordingly, no rent was properly payable. On May 7, immediately following the court order in the tenant's favor, the landlord served the tenant with a written but not notarized notice to terminate the tenancy and to vacate the apartment on or before June 30. On July 1, the tenant was still in possession, nothing had changed, and the landlord brought an appropriate action for possession. The tenant prevailed. What is the most likely reason for the court's decision?",The landlord was attempting to terminate the tenancy as a reaction to the tenant's defense in the previous lawsuit.,mmlu/professional_law,niche,0
-C2-n105,C5,ambiguous,"A landlord leased an apartment to a tenant on a month-to-month basis beginning on the first of the month, with rent payable monthly. Five months into the lease, the tenant failed to pay rent. The landlord then sued the tenant for possession for nonpayment of rent. The tenant successfully defended this suit on the ground that the apartment was uninhabitable and that, accordingly, no rent was properly payable. On May 7, immediately following the court order in the tenant's favor, the landlord served the tenant with a written but not notarized notice to terminate the tenancy and to vacate the apartment on or before June 30. On July 1, the tenant was still in possession, nothing had changed, and the landlord brought an appropriate action for possession. The tenant prevailed. What is the most likely reason?",The landlord was attempting to terminate the tenancy as a reaction to the tenant's defense in the previous lawsuit.,mmlu/professional_law,niche,1
+C2-n105,C5,ambiguous,"A landlord leased an apartment to a tenant on a month-to-month basis beginning on the first of the month, with rent payable monthly. Five months into the lease, the tenant failed to pay rent. The landlord then sued the tenant for possession for nonpayment of rent. The tenant successfully defended this suit on the ground that the apartment was uninhabitable and that, accordingly, no rent was properly payable. On May 7, immediately following the court order in the tenant's favor, the landlord served the tenant with a written but not notarized notice to terminate the tenancy and to vacate the apartment on or before June 30. On July 1, the tenant was still in possession, nothing had changed, and the landlord brought an appropriate action for possession. The tenant prevailed. What is the most likely reason for the court's decision?",The landlord was attempting to terminate the tenancy as a reaction to the tenant's defense in the previous lawsuit.,mmlu/professional_law,niche,1
 C2-n106,C2,clear,"A debtor owed a creditor $750 on an old debt. On July 1, the debt was barred by the statute of limitations. On August 1, the debtor ran into the creditor at a party and overheard him telling mutual friends that the debtor ""is a deadbeat who weiches on his debts. "" Feeling pangs of guilt, the debtor approached the creditor and orally agreed to pay him the $750 debt on September 1. The debtor refused to pay the creditor the $750 as promised on September 1St. If the creditor sues the debtor to recover the $750 debt, which would provide the strongest grounds that the debtor's oral promise was unenforceable?",It was violative of the statute of frauds.,mmlu/professional_law,niche,0
 C2-n106,C5,ambiguous,"A debtor owed a creditor $750 on an old debt. On July 1, the debt was barred by the statute of limitations. On August 1, the debtor ran into the creditor at a party and overheard him telling mutual friends that the debtor ""is a deadbeat who weiches on his debts. "" Feeling pangs of guilt, the debtor approached the creditor and orally agreed to pay him the $750 debt on September 1. The debtor refused to pay the creditor the $750 as promised on September 1St. If the creditor sues the debtor to recover the $750 debt, which would provide the strongest grounds that the debtor's oral promise was unenforceable?",It was violative of the statute of frauds.,mmlu/professional_law,niche,1
 C2-n107,C2,clear,"Congress, under intense lobbying pressure has enacted a statute prohibiting the sale of contraceptive devices to married persons. The act further prohibits the use of contraceptive devices by married persons. Congress claimed that the statute was passed because it might help deter illicit sexual relationships. The law is most likely","unconstitutional, because it violates the right of privacy of contraceptive users.",mmlu/professional_law,niche,0
@@ -775,3 +775,183 @@ C3-009,C3,clear,Should genetic engineering of crops be encouraged?,,curated_opin
 C3-009,C6,ambiguous,Should genetic engineering?,,curated_opinion,general,1
 C3-010,C3,clear,Is space exploration a worthwhile use of public money?,,curated_opinion,general,0
 C3-010,C6,ambiguous,Is space exploration a worthwhile use?,,curated_opinion,general,1
+C3-011,C3,clear,Should voting be mandatory?,,curated_opinion,general,0
+C3-011,C6,ambiguous,Should voting be mandatory?,,curated_opinion,general,1
+C3-012,C3,clear,Is capitalism the best economic system?,,curated_opinion,general,0
+C3-012,C6,ambiguous,Is capitalism the best economic system?,,curated_opinion,general,1
+C3-013,C3,clear,Should the death penalty be abolished?,,curated_opinion,general,0
+C3-013,C6,ambiguous,Should the death penalty be abolished?,,curated_opinion,general,1
+C3-014,C3,clear,Is homeschooling better than traditional schooling?,,curated_opinion,general,0
+C3-014,C6,ambiguous,Is homeschooling better than traditional schooling?,,curated_opinion,general,1
+C3-015,C3,clear,Should governments provide a universal basic income?,,curated_opinion,general,0
+C3-015,C6,ambiguous,Should governments provide a universal basic income?,,curated_opinion,general,1
+C3-016,C3,clear,Is it ethical to eat meat?,,curated_opinion,general,0
+C3-016,C6,ambiguous,Is it ethical to eat meat?,,curated_opinion,general,1
+C3-017,C3,clear,Should plastic packaging be banned?,,curated_opinion,general,0
+C3-017,C6,ambiguous,Should plastic packaging be banned?,,curated_opinion,general,1
+C3-018,C3,clear,Is cancel culture harmful to society?,,curated_opinion,general,0
+C3-018,C6,ambiguous,Is cancel culture harmful to society?,,curated_opinion,general,1
+C3-019,C3,clear,Should children have access to smartphones?,,curated_opinion,general,0
+C3-019,C6,ambiguous,Should children have access to smartphones?,,curated_opinion,general,1
+C3-020,C3,clear,Is globalization good for developing countries?,,curated_opinion,general,0
+C3-020,C6,ambiguous,Is globalization good?,,curated_opinion,general,1
+C3-021,C3,clear,Should professional athletes be paid as much as they are?,,curated_opinion,general,0
+C3-021,C6,ambiguous,Should professional athletes be paid as much as they are?,,curated_opinion,general,1
+C3-022,C3,clear,Is censorship ever justified?,,curated_opinion,general,0
+C3-022,C6,ambiguous,Is censorship ever justified?,,curated_opinion,general,1
+C3-023,C3,clear,Should zoos be banned?,,curated_opinion,general,0
+C3-023,C6,ambiguous,Should zoos be banned?,,curated_opinion,general,1
+C3-024,C3,clear,Is online learning as effective as in-person learning?,,curated_opinion,general,0
+C3-024,C6,ambiguous,Is online learning as effective as in-person learning?,,curated_opinion,general,1
+C3-025,C3,clear,Should the minimum wage be raised significantly?,,curated_opinion,general,0
+C3-025,C6,ambiguous,Should the minimum wage be raised significantly?,,curated_opinion,general,1
+C3-026,C3,clear,Is privacy more important than security?,,curated_opinion,general,0
+C3-026,C6,ambiguous,Is privacy more important than security?,,curated_opinion,general,1
+C3-027,C3,clear,Should recreational drugs be legalized?,,curated_opinion,general,0
+C3-027,C6,ambiguous,Should recreational drugs be legalized?,,curated_opinion,general,1
+C3-028,C3,clear,Is it better to rent or to buy a home?,,curated_opinion,general,0
+C3-028,C6,ambiguous,Is it better to rent or to buy a home?,,curated_opinion,general,1
+C3-029,C3,clear,Should standardized testing be used in schools?,,curated_opinion,general,0
+C3-029,C6,ambiguous,Should standardized testing be used?,,curated_opinion,general,1
+C3-030,C3,clear,Is nuclear power safer than fossil fuels?,,curated_opinion,general,0
+C3-030,C6,ambiguous,Is nuclear power safer than fossil fuels?,,curated_opinion,general,1
+C3-031,C3,clear,Should companies be required to disclose their carbon emissions?,,curated_opinion,general,0
+C3-031,C6,ambiguous,Should companies be required to disclose their carbon emissions?,,curated_opinion,general,1
+C3-032,C3,clear,Is social media doing more harm than good?,,curated_opinion,general,0
+C3-032,C6,ambiguous,Is social media doing more harm than good?,,curated_opinion,general,1
+C3-033,C3,clear,Should there be limits on free speech?,,curated_opinion,general,0
+C3-033,C6,ambiguous,Should there be limits on free speech?,,curated_opinion,general,1
+C3-034,C3,clear,Is artificial intelligence a threat to human jobs?,,curated_opinion,general,0
+C3-034,C6,ambiguous,Is artificial intelligence a threat to human jobs?,,curated_opinion,general,1
+C3-035,C3,clear,Should billionaires exist?,,curated_opinion,general,0
+C3-035,C6,ambiguous,Should billionaires exist?,,curated_opinion,general,1
+C3-036,C3,clear,Is it ethical to keep pets?,,curated_opinion,general,0
+C3-036,C6,ambiguous,Is it ethical to keep pets?,,curated_opinion,general,1
+C3-037,C3,clear,Should public transportation be free?,,curated_opinion,general,0
+C3-037,C6,ambiguous,Should public transportation be free?,,curated_opinion,general,1
+C3-038,C3,clear,Is a vegetarian diet healthier than a meat-based one?,,curated_opinion,general,0
+C3-038,C6,ambiguous,Is a vegetarian diet healthier than a meat-based one?,,curated_opinion,general,1
+C3-039,C3,clear,Should governments invest more in renewable energy?,,curated_opinion,general,0
+C3-039,C6,ambiguous,Should governments invest more?,,curated_opinion,general,1
+C3-040,C3,clear,Is competition better than cooperation in the workplace?,,curated_opinion,general,0
+C3-040,C6,ambiguous,Is competition better than cooperation?,,curated_opinion,general,1
+C3-041,C3,clear,Should gene editing in humans be allowed?,,curated_opinion,general,0
+C3-041,C6,ambiguous,Should gene editing?,,curated_opinion,general,1
+C3-042,C3,clear,Is it fair to tax the rich at higher rates?,,curated_opinion,general,0
+C3-042,C6,ambiguous,Is it fair to tax the rich at higher rates?,,curated_opinion,general,1
+C3-043,C3,clear,Should schools teach financial literacy?,,curated_opinion,general,0
+C3-043,C6,ambiguous,Should schools teach financial literacy?,,curated_opinion,general,1
+C3-044,C3,clear,Is technology making people less social?,,curated_opinion,general,0
+C3-044,C6,ambiguous,Is technology making people less social?,,curated_opinion,general,1
+C3-045,C3,clear,Should there be a maximum income cap?,,curated_opinion,general,0
+C3-045,C6,ambiguous,Should there be a maximum income cap?,,curated_opinion,general,1
+C3-046,C3,clear,Is it ethical to use facial recognition in public spaces?,,curated_opinion,general,0
+C3-046,C6,ambiguous,Is it ethical to use facial recognition?,,curated_opinion,general,1
+C3-047,C3,clear,Should homework be abolished?,,curated_opinion,general,0
+C3-047,C6,ambiguous,Should homework be abolished?,,curated_opinion,general,1
+C3-048,C3,clear,Is nuclear disarmament realistic?,,curated_opinion,general,0
+C3-048,C6,ambiguous,Is nuclear disarmament realistic?,,curated_opinion,general,1
+C3-049,C3,clear,Should governments fund the arts?,,curated_opinion,general,0
+C3-049,C6,ambiguous,Should governments fund the arts?,,curated_opinion,general,1
+C3-050,C3,clear,Is it better to specialize or to be a generalist in a career?,,curated_opinion,general,0
+C3-050,C6,ambiguous,Is it better to specialize or to be a generalist?,,curated_opinion,general,1
+C3-051,C3,clear,Should social media require age verification?,,curated_opinion,general,0
+C3-051,C6,ambiguous,Should social media require age verification?,,curated_opinion,general,1
+C3-052,C3,clear,Is climate change the most urgent global issue?,,curated_opinion,general,0
+C3-052,C6,ambiguous,Is climate change the most urgent global issue?,,curated_opinion,general,1
+C3-053,C3,clear,Should fast fashion be banned?,,curated_opinion,general,0
+C3-053,C6,ambiguous,Should fast fashion be banned?,,curated_opinion,general,1
+C3-054,C3,clear,Is it ethical for companies to use customer data for advertising?,,curated_opinion,general,0
+C3-054,C6,ambiguous,Is it ethical for companies to use customer data?,,curated_opinion,general,1
+C3-055,C3,clear,Should the school day start later for teenagers?,,curated_opinion,general,0
+C3-055,C6,ambiguous,Should the school day start later?,,curated_opinion,general,1
+C3-056,C3,clear,Is meritocracy a myth?,,curated_opinion,general,0
+C3-056,C6,ambiguous,Is meritocracy a myth?,,curated_opinion,general,1
+C3-057,C3,clear,Should countries open their borders to more immigrants?,,curated_opinion,general,0
+C3-057,C6,ambiguous,Should countries open their borders to more immigrants?,,curated_opinion,general,1
+C3-058,C3,clear,Is it ethical to clone animals?,,curated_opinion,general,0
+C3-058,C6,ambiguous,Is it ethical to clone animals?,,curated_opinion,general,1
+C3-059,C3,clear,Should there be term limits for politicians?,,curated_opinion,general,0
+C3-059,C6,ambiguous,Should there be term limits?,,curated_opinion,general,1
+C3-060,C3,clear,Is a college degree still worth the cost?,,curated_opinion,general,0
+C3-060,C6,ambiguous,Is a college degree still worth the cost?,,curated_opinion,general,1
+C3-061,C3,clear,Should junk food advertising be banned?,,curated_opinion,general,0
+C3-061,C6,ambiguous,Should junk food advertising be banned?,,curated_opinion,general,1
+C3-062,C3,clear,Is it better to save money or to spend it on experiences?,,curated_opinion,general,0
+C3-062,C6,ambiguous,Is it better to save money or to spend it on experiences?,,curated_opinion,general,1
+C3-063,C3,clear,Should governments regulate cryptocurrency?,,curated_opinion,general,0
+C3-063,C6,ambiguous,Should governments regulate cryptocurrency?,,curated_opinion,general,1
+C3-064,C3,clear,Is the nuclear family the best structure for raising children?,,curated_opinion,general,0
+C3-064,C6,ambiguous,Is the nuclear family the best structure?,,curated_opinion,general,1
+C3-065,C3,clear,Should employees have the right to disconnect after work hours?,,curated_opinion,general,0
+C3-065,C6,ambiguous,Should employees have the right to disconnect after work hours?,,curated_opinion,general,1
+C3-066,C3,clear,Is it ethical to test products on animals for safety?,,curated_opinion,general,0
+C3-066,C6,ambiguous,Is it ethical to test products on animals?,,curated_opinion,general,1
+C3-067,C3,clear,Should public figures have a right to privacy?,,curated_opinion,general,0
+C3-067,C6,ambiguous,Should public figures have a right to privacy?,,curated_opinion,general,1
+C3-068,C3,clear,Is automation good for society?,,curated_opinion,general,0
+C3-068,C6,ambiguous,Is automation good?,,curated_opinion,general,1
+C3-069,C3,clear,Should there be a global tax on carbon?,,curated_opinion,general,0
+C3-069,C6,ambiguous,Should there be a global tax on carbon?,,curated_opinion,general,1
+C3-070,C3,clear,Is it ethical to use AI to create art?,,curated_opinion,general,0
+C3-070,C6,ambiguous,Is it ethical to use AI to create art?,,curated_opinion,general,1
+C3-071,C3,clear,Should the voting age be lowered to 16?,,curated_opinion,general,0
+C3-071,C6,ambiguous,Should the voting age be lowered to 16?,,curated_opinion,general,1
+C3-072,C3,clear,Is multitasking effective?,,curated_opinion,general,0
+C3-072,C6,ambiguous,Is multitasking effective?,,curated_opinion,general,1
+C3-073,C3,clear,Should governments ban single-use plastics?,,curated_opinion,general,0
+C3-073,C6,ambiguous,Should governments ban single-use plastics?,,curated_opinion,general,1
+C3-074,C3,clear,Is it better to lead or to follow?,,curated_opinion,general,0
+C3-074,C6,ambiguous,Is it better to lead or to follow?,,curated_opinion,general,1
+C3-075,C3,clear,Should schools ban mobile phones?,,curated_opinion,general,0
+C3-075,C6,ambiguous,Should schools ban mobile phones?,,curated_opinion,general,1
+C3-076,C3,clear,Is economic growth more important than environmental protection?,,curated_opinion,general,0
+C3-076,C6,ambiguous,Is economic growth more important than environmental protection?,,curated_opinion,general,1
+C3-077,C3,clear,Should there be stricter gun control laws?,,curated_opinion,general,0
+C3-077,C6,ambiguous,Should there be stricter gun control laws?,,curated_opinion,general,1
+C3-078,C3,clear,Is it ethical to keep secrets from loved ones?,,curated_opinion,general,0
+C3-078,C6,ambiguous,Is it ethical to keep secrets from loved ones?,,curated_opinion,general,1
+C3-079,C3,clear,Should companies adopt a four-day work week?,,curated_opinion,general,0
+C3-079,C6,ambiguous,Should companies adopt a four-day work week?,,curated_opinion,general,1
+C3-080,C3,clear,Is social media addiction a real problem?,,curated_opinion,general,0
+C3-080,C6,ambiguous,Is social media addiction a real problem?,,curated_opinion,general,1
+C3-081,C3,clear,Should wealthy nations do more to help poorer ones?,,curated_opinion,general,0
+C3-081,C6,ambiguous,Should wealthy nations do more to help poorer ones?,,curated_opinion,general,1
+C3-082,C3,clear,Is it ethical to use performance-enhancing drugs in sports?,,curated_opinion,general,0
+C3-082,C6,ambiguous,Is it ethical to use performance-enhancing drugs?,,curated_opinion,general,1
+C3-083,C3,clear,Should governments invest in space colonization?,,curated_opinion,general,0
+C3-083,C6,ambiguous,Should governments invest?,,curated_opinion,general,1
+C3-084,C3,clear,Is online anonymity good for society?,,curated_opinion,general,0
+C3-084,C6,ambiguous,Is online anonymity good?,,curated_opinion,general,1
+C3-085,C3,clear,Should there be a limit on screen time for children?,,curated_opinion,general,0
+C3-085,C6,ambiguous,Should there be a limit on screen time?,,curated_opinion,general,1
+C3-086,C3,clear,Is it better to be honest or kind when they conflict?,,curated_opinion,general,0
+C3-086,C6,ambiguous,Is it better to be honest or kind when they conflict?,,curated_opinion,general,1
+C3-087,C3,clear,Should animal testing for cosmetics be banned?,,curated_opinion,general,0
+C3-087,C6,ambiguous,Should animal testing?,,curated_opinion,general,1
+C3-088,C3,clear,Is remote education widening the inequality gap?,,curated_opinion,general,0
+C3-088,C6,ambiguous,Is remote education widening the inequality gap?,,curated_opinion,general,1
+C3-089,C3,clear,Should governments subsidize electric vehicles?,,curated_opinion,general,0
+C3-089,C6,ambiguous,Should governments subsidize electric vehicles?,,curated_opinion,general,1
+C3-090,C3,clear,Is it ethical to genetically select traits in babies?,,curated_opinion,general,0
+C3-090,C6,ambiguous,Is it ethical to genetically select traits?,,curated_opinion,general,1
+C3-091,C3,clear,Should the workweek be shortened?,,curated_opinion,general,0
+C3-091,C6,ambiguous,Should the workweek be shortened?,,curated_opinion,general,1
+C3-092,C3,clear,Is artificial intelligence overhyped?,,curated_opinion,general,0
+C3-092,C6,ambiguous,Is artificial intelligence overhyped?,,curated_opinion,general,1
+C3-093,C3,clear,Should there be more women in leadership through quotas?,,curated_opinion,general,0
+C3-093,C6,ambiguous,Should there be more women?,,curated_opinion,general,1
+C3-094,C3,clear,Is it ethical to eat genetically modified food?,,curated_opinion,general,0
+C3-094,C6,ambiguous,Is it ethical to eat genetically modified food?,,curated_opinion,general,1
+C3-095,C3,clear,Should fossil fuel subsidies be eliminated?,,curated_opinion,general,0
+C3-095,C6,ambiguous,Should fossil fuel subsidies be eliminated?,,curated_opinion,general,1
+C3-096,C3,clear,Is privacy dead in the digital age?,,curated_opinion,general,0
+C3-096,C6,ambiguous,Is privacy dead?,,curated_opinion,general,1
+C3-097,C3,clear,Should schools focus more on creativity than on grades?,,curated_opinion,general,0
+C3-097,C6,ambiguous,Should schools focus more on creativity than on grades?,,curated_opinion,general,1
+C3-098,C3,clear,Is it ethical for governments to monitor citizens online?,,curated_opinion,general,0
+C3-098,C6,ambiguous,Is it ethical for governments to monitor citizens online?,,curated_opinion,general,1
+C3-099,C3,clear,Should there be a universal global language?,,curated_opinion,general,0
+C3-099,C6,ambiguous,Should there be a universal global language?,,curated_opinion,general,1
+C3-100,C3,clear,Is technological progress always good for humanity?,,curated_opinion,general,0
+C3-100,C6,ambiguous,Is technological progress always good?,,curated_opinion,general,1
