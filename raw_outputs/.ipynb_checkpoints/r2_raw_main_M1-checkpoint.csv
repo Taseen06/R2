@@ -1,51 +1,56 @@
 question_id,condition,prompt_version,source,domain,model_code,model_name,prompt_text,expected_answer,raw_output,token_count,truncated,long_output,thinking_tokens,logprob_mean,logprob_min,logprob_first,retry_count,error,timestamp
-C1-001,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,What was first worn by British soldiers in India in 1845?,Khaki,"Khaki clothing was first worn by British soldiers in India in 1845. Specifically, it was adopted by the Corps of Guides, a unit of the British East India Company army.
+C1-001,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,What was first worn by British soldiers in India in 1845?,Khaki,"Khaki clothing was first worn by British soldiers in India in 1845. Specifically, it was adopted by the Corps of Guides, a British Indian Army regiment.
 
 
 
-",41,0,0,0,,,,0,,2026-05-28T20:12:46
-C1-001,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,What was first worn by British soldiers?,Khaki,"The earliest consistently worn item by British soldiers was the **leather jerkin** – a sleeveless or short-sleeved garment – dating back to the 16th century. Before that, armor and varied civilian clothing were common.
+",37,0,0,0,,,,0,,2026-05-30T13:25:49
+C1-001,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,What was first worn by British soldiers?,Khaki,"The first standardized uniform worn by British soldiers was the **red coat**, introduced in the 17th century (specifically around the Restoration in 1660). However, before that, soldiers wore whatever they could afford, often identifiable by badges or colors, but not a unified outfit.
 
 
 
-",48,0,0,0,,,,0,,2026-05-28T20:12:50
-C1-002,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Which US gangster was released from Alcatraz prison in November 1939?,Al Capone,"Al Capone was **not** released from Alcatraz. He was transferred *to* Alcatraz in 1934 but later released on medical parole in **November 1939** due to neurosyphilis.
+",61,0,0,0,,,,0,,2026-05-30T13:25:52
+C1-002,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Which US gangster was released from Alcatraz prison in November 1939?,Al Capone,"Al Capone was **not** released from Alcatraz. He was transferred *to* Alcatraz in 1934 and later released on medical parole in **1939** due to neurosyphilis.
+
+**George ""Machine Gun"" Kelly** was released from Alcatraz in November 1939 after serving 17 years.
 
 
 
-",49,0,0,0,,,,0,,2026-05-28T20:12:53
+",75,0,0,0,,,,0,,2026-05-30T13:25:57
 C1-002,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Which US gangster was released from Alcatraz prison?,Al Capone,"Al Capone was **not** released from Alcatraz; he died there in 1947. 
 
-**Alvin ""Creepy"" Karpis** was the last gangster to be officially released from Alcatraz, in 1976, after serving 26 years. However, he was transferred to McNeil Island Penitentiary before his actual release.
+**Alvin ""Creepy"" Karpis** is the US gangster who was officially released from Alcatraz – he was transferred to Leavenworth in 1979 after serving nearly 30 years. However, he was the *last* gangster to be held at Alcatraz before it closed.
 
 
 
-",76,0,0,0,,,,0,,2026-05-28T20:12:59
-C1-003,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Of which tribe of Red Indians was Geronimo a chief,Apache,"Geronimo was a prominent leader and medicine man of the **Bedonkohe** Apache tribe. He also fought alongside other Apache groups like the Chiricahua and Warm Springs.
+",87,0,0,0,,,,0,,2026-05-30T13:26:01
+C1-003,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Of which tribe of Red Indians was Geronimo a chief,Apache,"Geronimo was a prominent leader and medicine man of the **Bedonkohe** Apache tribe. He also fought alongside other Apache groups like the Chiricahua.
 
 
 
-",39,0,0,0,,,,0,,2026-05-28T20:13:02
-C1-003,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Of which tribe of Red Indians was Geronimo a chief,Apache,"Geronimo was a prominent leader and medicine man of the **Bedonkohe** Apache tribe. He also fought alongside other Apache groups like the Chiricahua.
+",36,0,0,0,,,,0,,2026-05-30T13:26:03
+C1-003,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Of which tribe was this chief?,Apache,"Please provide me with the context! I need to know **who** ""this chief"" refers to. 
 
+For example, tell me:
 
+*   ""Of which tribe was Chief Joseph?""
+*   ""Of which tribe was the chief mentioned in this article [link to article]?""
 
-",36,0,0,0,,,,0,,2026-05-28T20:13:04
+Once you give me the name or a description of the chief, I can tell you their tribe.",82,0,0,0,,,,0,,2026-05-30T13:26:12
 C1-004,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Which rank of the RAF is equivalent to Major in the British Army?,Squadron Leader,"Squadron Leader.
 
 
 
-",6,0,0,0,,,,0,,2026-05-28T20:13:06
+",6,0,0,0,,,,0,,2026-05-30T13:26:15
 C1-004,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Which rank of the RAF is equivalent to Major?,Squadron Leader,"Squadron Leader.
 
 
 
-",6,0,0,0,,,,0,,2026-05-28T20:13:08
+",6,0,0,0,,,,0,,2026-05-30T13:26:17
 C1-005,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Name the capital city of the Canadian Province of British Columbia?,VICTORIA,"Victoria.
 
 
 
-",4,0,0,0,,,,0,,2026-05-28T20:13:10
+",4,0,0,0,,,,0,,2026-05-30T13:26:19
 C1-005,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Name the capital city of the Canadian Province?,VICTORIA,"Please specify *which* Canadian province you are asking about. Canada has ten provinces, each with its own capital city. 
 
 For example:
@@ -56,70 +61,4 @@ For example:
 
 
 
-",55,0,0,0,,,,0,,2026-05-28T20:13:13
-C1-006,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Quitline is a system of centres to help people to quit what?,Tobacco or alcohol,"Smoking. 
-
-Quitlines help people to quit smoking and tobacco use.
-
-
-
-",17,0,0,0,,,,0,,2026-05-28T20:13:16
-C1-006,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Quitline is a system of centres to help people to quit what?,Tobacco or alcohol,"Smoking. 
-
-Quitlines help people to quit smoking and tobacco use.
-
-
-
-",17,0,0,0,,,,0,,2026-05-28T20:13:18
-C1-007,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,To what note is the top string on a six-string guitar normally tuned?,E,"E. 
-
-(Specifically, E4 – the E in the fourth octave)
-
-
-
-",19,0,0,0,,,,0,,2026-05-28T20:13:20
-C1-007,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,To what note is the top string on a six-string guitar normally tuned?,E,"E. 
-
-(Specifically, E4 – the E in the fourth octave)
-
-
-
-",19,0,0,0,,,,0,,2026-05-28T20:13:22
-C1-008,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,"Named for its chairman, The Warren Commission published its final report on Sept 27, 1965. What event was it seated to investigate?",JFK Assassination,"The assassination of President John F. Kennedy.
-
-
-
-",11,0,0,0,,,,0,,2026-05-28T20:13:24
-C1-008,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,"Named for its chairman, The Warren Commission published its final report on Sept 27, 1965. What event was it seated to investigate?",JFK Assassination,"The assassination of President John F. Kennedy.
-
-
-
-",11,0,0,0,,,,0,,2026-05-28T20:13:25
-C1-009,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,"A Gay Girl in Damascus is the title of a hoax blog by fictional feminist/freedom campaigner Amina Abdallah Alaf al Omari, who in June 2011 was said to be based and abducted in which country?",Syria,"Syria.
-
-
-
-",5,0,0,0,,,,0,,2026-05-28T20:13:28
-C1-009,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,"A Gay Girl in Damascus is the title of a hoax blog by fictional feminist/freedom campaigner Amina Abdallah Alaf al Omari, who in June 2011 was said to be based and abducted?",Syria,"Amina Abdallah Alaf al Omari, the fictional author of ""A Gay Girl in Damascus,"" was said to be based in and abducted from **Damascus, Syria** in June 2011.
-
-
-
-",46,0,0,0,,,,0,,2026-05-28T20:13:31
-C1-010,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,What was the central meeting place of ancient Rome?,Forum,"The **Roman Forum** was the central meeting place of ancient Rome.
-
-
-
-",16,0,0,0,,,,0,,2026-05-28T20:13:33
-C1-010,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,What was the central meeting place?,Forum,"Please provide me with the context! I need to know *what* you are asking about. ""The central meeting place"" of *what*? 
-
-For example, are you asking about:
-
-* Ancient Athens?
-* The French Revolution?
-* A specific book or movie?
-
-Once you give me the topic, I can give you an accurate and concise answer.
-
-
-
-",79,0,0,0,,,,0,,2026-05-28T20:13:37
+",55,0,0,0,,,,0,,2026-05-30T13:26:22
