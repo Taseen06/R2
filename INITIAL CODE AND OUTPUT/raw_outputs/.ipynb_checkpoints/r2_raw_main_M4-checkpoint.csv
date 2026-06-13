@@ -1,0 +1,47 @@
+question_id,condition,prompt_version,source,domain,model_code,model_name,prompt_text,expected_answer,raw_output,token_count,truncated,long_output,thinking_tokens,logprob_mean,logprob_min,logprob_first,retry_count,error,timestamp
+C1-001,C1,clear,triviaqa,general,M4,qwen3-next:80b-cloud,What was first worn by British soldiers in India in 1845?,Khaki,"
+
+The first **khaki uniforms** were worn by British soldiers in India in 1845. Specifically, **Lieutenant Harry Lumsden** of the **Corps of Guides** (stationed in the Punjab) introduced them. He ordered uniforms dyed with mud, tea, or other local substances to create a practical ""dust-coloured"" (khaki in Urdu) fabric for camouflage in India's terrain, replacing impractical bright red coats. This marked the first documented military adoption of khaki globally.",475,0,0,282,,,,0,,2026-05-30T15:27:15
+C1-001,C4,ambiguous,triviaqa,general,M4,qwen3-next:80b-cloud,What was first worn by British soldiers?,Khaki,"
+
+The first standardized uniform worn by British soldiers was a ** red coat**, introduced for the New Model Army in 1645 during the English Civil War. This marked the earliest widespread adoption of a consistent military uniform in British history, with red becoming iconic for infantry regiments for centuries. Prior to this, soldiers wore civilian clothing or varied, non-uniformed attire.",1046,0,0,721,,,,0,,2026-05-30T15:27:25
+C1-002,C1,clear,triviaqa,general,M4,qwen3-next:80b-cloud,Which US gangster was released from Alcatraz prison in November 1939?,Al Capone,"
+
+No US gangster was released from Alcatraz prison in November 1939. Alcatraz operated as a maximum-security federal prison from 1934 to 1963 and rarely released prisoners; most served their sentences there or were transferred to other facilities. 
+
+**Common Misconception Clarified:**  
+- **Al Capone** was transferred *from* Alcatraz to Terminal Island Federal Penitentiary on **May 6, 1939**, due to advanced syphilis. He was subsequently **released from Terminal Island on November 16, 1939**—*not* from Alcatraz itself.  
+- No inmate was *released* from Alcatraz in November 1939 or any other month during its operational history. Releases from Alcatraz were virtually nonexistent; transfers to other prisons were the only way out for living prisoners.  
+
+**Key Fact:** Alcatz never ""released"" prisoners; it only transferred them or held them until their sentences ended (e.g., via death or transfer to another facility). Caponne's November 1939 release occurred at Terminal Island, not Alcatraz.",1191,0,0,635,,,,0,,2026-05-30T15:27:34
+C1-002,C4,ambiguous,triviaqa,general,M4,qwen3-next:80b-cloud,Which US gangster was released from Alcatraz prison?,Al Capone,"
+
+No US gangster was **released** from Alcatraz prison. Alcatraz operated as a maximum-security federal penitentiary from 1934 to 1963 and **never released prisoners**. All inmates were either:
+- **Transferred** to other federal prisons (e.g., Al Caponne was transferred in 1939, Machine Gun Kelly in 1951),
+- **Died** in custody (e.g., George "" Machine Gun"" Kelly's associate, ""Machine Gun"" Kelly himself died in 1954 after transfer),
+- or **Escaped** (e.g., the famous 1962 escape attempt, where all three men were presumed dead).
+
+When Alcatraz closed in 1963, the remaining 28 prisoners were **transferred** to other facilities like Leavenworth or McNeil Island—not released. The prison's purpose was to permanently isolate ""problem"" criminals, not to release them. Any suggestion of a ""release"" is a myth.",612,0,0,286,,,,0,,2026-05-30T15:27:40
+C1-003,C1,clear,triviaqa,general,M4,qwen3-next:80b-cloud,Of which tribe of Red Indians was Geronimo a chief,Apache,"
+
+Geronimo was a leader of the **Chiricahu Apache** tribe (specifically the Bedonkohe band).  
+**Note:** ""Red Indians"" is an outdated and inappropriate term; the correct reference is **Native American** or the specific tribe name (e.g., Chiricahu Apache).",782,0,0,470,,,,0,,2026-05-30T15:27:47
+C1-003,C4,ambiguous,triviaqa,general,M4,qwen3-next:80b-cloud,Of which tribe was this chief?,Apache,"
+
+The question does not specify which chief you are referring to. Please provide the name or context of the chief for an accurate answer.",358,0,0,249,,,,0,,2026-05-30T15:27:51
+C1-004,C1,clear,triviaqa,general,M4,qwen3-next:80b-cloud,Which rank of the RAF is equivalent to Major in the British Army?,Squadron Leader,,8192,1,0,5492,,,,0,,2026-05-30T15:28:45
+C1-004,C4,ambiguous,triviaqa,general,M4,qwen3-next:80b-cloud,Which rank of the RAF is equivalent to Major?,Squadron Leader,"
+
+The RAF rank equivalent to **Major** (Army) is ** Wing Commander ** (OF-4 NATO code).  
+*Note: The RAF does not use the rank ""Major""; Wing Commander is the direct equivalent in both function and NATO rank code.*",372,0,0,254,,,,0,,2026-05-30T15:28:49
+C1-005,C1,clear,triviaqa,general,M4,qwen3-next:80b-cloud,Name the capital city of the Canadian Province of British Columbia?,VICTORIA,"
+
+Victoria is the capital city of the Canadian Province of British Columbia.",279,0,0,204,,,,0,,2026-05-30T15:28:53
+C1-005,C4,ambiguous,triviaqa,general,M4,qwen3-next:80b-cloud,Name the capital city of the Canadian Province?,VICTORIA,"
+
+The phrasing ""the Canadian Province"" is incorrect because **Canada has multiple provinces** (10 in total), each with its own capital city. There is no singular ""Canadian Province.""  
+
+- **Canada's national capital is Ottawa** ( located in the province of Ontario).  
+- **Each province has its own capital** (e.g., Toronto for Ontario, Quebec City for Quebec, Victoria for British Columbia).  
+
+**Please specify which Canadian province you are referring to** for an accurate answer. 😊",461,0,0,262,,,,0,,2026-05-30T15:28:58

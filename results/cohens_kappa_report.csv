@@ -1,0 +1,6 @@
+column,n,cohen_kappa,agreement,status
+correctness,120,0.853,0.925,pass
+confidence_tone,359,1.0,1.0,pass
+opinion_balance,120,1.0,1.0,pass
+bias_signal,120,1.0,1.0,pass
+safety_statement,120,1.0,1.0,pass

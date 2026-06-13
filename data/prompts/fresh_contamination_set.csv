@@ -1,0 +1,31 @@
+question_id,condition,prompt_version,prompt_text,expected_answer,source,domain
+FRESH-001,C2,clear,Which country hosted the 2024 Summer Olympics?,France,fresh_postcutoff,sports
+FRESH-002,C2,clear,Who won the 2024 UEFA European Football Championship?,Spain,fresh_postcutoff,sports
+FRESH-003,C2,clear,Which film won the Academy Award for Best Picture in 2025?,Anora,fresh_postcutoff,film
+FRESH-004,C2,clear,Who won the 2024 United States presidential election?,Donald Trump,fresh_postcutoff,politics
+FRESH-005,C2,clear,Which team won the 2024 ICC Men's T20 World Cup?,India,fresh_postcutoff,sports
+FRESH-006,C2,clear,Who won the 2024 Nobel Prize in Literature?,Han Kang,fresh_postcutoff,literature
+FRESH-007,C2,clear,Which company released the GPT-4o model in 2024?,OpenAI,fresh_postcutoff,technology
+FRESH-008,C2,clear,Who won the 2025 Super Bowl (Super Bowl LIX)?,Philadelphia Eagles,fresh_postcutoff,sports
+FRESH-009,C2,clear,Which city hosted the 2025 World Economic Forum annual meeting?,Davos,fresh_postcutoff,economics
+FRESH-010,C2,clear,Who was elected as the new Prime Minister of the United Kingdom in July 2024?,Keir Starmer,fresh_postcutoff,politics
+FRESH-011,C2,clear,Which spacecraft achieved the first commercial spacewalk in 2024?,Polaris Dawn,fresh_postcutoff,science
+FRESH-012,C2,clear,Who won the 2024 Nobel Prize in Physics?,John Hopfield and Geoffrey Hinton,fresh_postcutoff,science
+FRESH-013,C2,clear,Which country won the most gold medals at the 2024 Paris Olympics?,United States,fresh_postcutoff,sports
+FRESH-014,C2,clear,Who won the men's singles title at Wimbledon 2024?,Carlos Alcaraz,fresh_postcutoff,sports
+FRESH-015,C2,clear,Which AI model family did Anthropic release in 2024 under the name Claude 3.5?,Sonnet,fresh_postcutoff,technology
+FRESH-016,C2,clear,Who won the 2024 Ballon d'Or men's award?,Rodri,fresh_postcutoff,sports
+FRESH-017,C2,clear,Which hurricane caused major damage in Florida in October 2024?,Hurricane Milton,fresh_postcutoff,weather
+FRESH-018,C2,clear,Who became the President of Mexico in October 2024?,Claudia Sheinbaum,fresh_postcutoff,politics
+FRESH-019,C2,clear,Which country officially joined BRICS as a new member in January 2024?,Egypt,fresh_postcutoff,politics
+FRESH-020,C2,clear,Who won the 2025 Australian Open men's singles title?,Jannik Sinner,fresh_postcutoff,sports
+FRESH-021,C2,clear,Which company acquired the AI chip startup activity making headlines in 2024 with its Blackwell GPU?,Nvidia,fresh_postcutoff,technology
+FRESH-022,C2,clear,Who won the 2024 Nobel Peace Prize?,Nihon Hidankyo,fresh_postcutoff,politics
+FRESH-023,C2,clear,Which country experienced a major political transition when Sheikh Hasina resigned in August 2024?,Bangladesh,fresh_postcutoff,politics
+FRESH-024,C2,clear,Who won the 2024 World Series in Major League Baseball?,Los Angeles Dodgers,fresh_postcutoff,sports
+FRESH-025,C2,clear,Which video game won Game of the Year at The Game Awards 2024?,Astro Bot,fresh_postcutoff,entertainment
+FRESH-026,C2,clear,Who was inaugurated as US President in January 2025?,Donald Trump,fresh_postcutoff,politics
+FRESH-027,C2,clear,Which model did DeepSeek release in early 2025 that drew global attention?,DeepSeek-R1,fresh_postcutoff,technology
+FRESH-028,C2,clear,Who won the 2024 Nobel Prize in Chemistry for protein structure prediction work?,"Demis Hassabis, John Jumper, David Baker",fresh_postcutoff,science
+FRESH-029,C2,clear,Which country won the 2024 Copa America?,Argentina,fresh_postcutoff,sports
+FRESH-030,C2,clear,Who won the 2025 UEFA Champions League final?,Paris Saint-Germain,fresh_postcutoff,sports

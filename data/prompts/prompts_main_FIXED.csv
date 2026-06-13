@@ -1,0 +1,485 @@
+question_id,condition,prompt_version,prompt_text,expected_answer,source,domain,needs_review
+C1-001,C1,clear,What was first worn by British soldiers in India in 1845?,Khaki,triviaqa,general,0
+C1-001,C4,ambiguous,What was first worn by British soldiers?,Khaki,triviaqa,general,1
+C1-002,C1,clear,Which US gangster was released from Alcatraz prison in November 1939?,Al Capone,triviaqa,general,0
+C1-002,C4,ambiguous,Which US gangster was released from Alcatraz prison?,Al Capone,triviaqa,general,1
+C1-003,C1,clear,Of which tribe of Red Indians was Geronimo a chief,Apache,triviaqa,general,0
+C1-003,C4,ambiguous,Of which tribe was this chief?,Apache,triviaqa,general,1
+C1-004,C1,clear,Which rank of the RAF is equivalent to Major in the British Army?,Squadron Leader,triviaqa,general,0
+C1-004,C4,ambiguous,Which rank of the RAF is equivalent to Major?,Squadron Leader,triviaqa,general,1
+C1-005,C1,clear,Name the capital city of the Canadian Province of British Columbia?,VICTORIA,triviaqa,general,0
+C1-005,C4,ambiguous,Name the capital city of the Canadian Province?,VICTORIA,triviaqa,general,1
+C1-006,C1,clear,Quitline is a system of centres to help people to quit what?,Tobacco or alcohol,triviaqa,general,0
+C1-006,C4,ambiguous,What does the system of centres help people to quit?,Tobacco or alcohol,triviaqa,general,1
+C1-007,C1,clear,To what note is the top string on a six-string guitar normally tuned?,E,triviaqa,general,0
+C1-007,C4,ambiguous,To what note is the top string normally tuned?,E,triviaqa,general,1
+C1-008,C1,clear,"Named for its chairman, The Warren Commission published its final report on Sept 27, 1965. What event was it seated to investigate?",JFK Assassination,triviaqa,general,0
+C1-008,C4,ambiguous,What event was the commission seated to investigate?,JFK Assassination,triviaqa,general,1
+C1-010,C1,clear,What was the central meeting place of ancient Rome?,Forum,triviaqa,general,0
+C1-010,C4,ambiguous,What was the central meeting place?,Forum,triviaqa,general,1
+C1-011,C1,clear,"In the novel ‘Watership Down’, Yona is what type of creature?",Hedgehog,triviaqa,general,0
+C1-011,C4,ambiguous,"In the novel ‘Watership Down’, Yona is what type?",Hedgehog,triviaqa,general,1
+C1-012,C1,clear,What is the International Vehicle Registration for Cambodia?,K,triviaqa,general,0
+C1-012,C4,ambiguous,What is the International Vehicle Registration?,K,triviaqa,general,1
+C1-013,C1,clear,"A 'tell' refers to a clue in which activity, which in turn refers metaphorically to an intentionally blank facial expression?",Poker,triviaqa,general,0
+C1-013,C4,ambiguous,A 'tell' refers to a clue in which activity?,Poker,triviaqa,general,1
+C1-014,C1,clear,Name either of the cities served by Robin Hood airport?,Doncaster/Sheffield,triviaqa,general,0
+C1-014,C4,ambiguous,Name either of the cities served?,Doncaster/Sheffield,triviaqa,general,1
+C1-015,C1,clear,"Which film about a submarine had as one of its stars Denzil Washington, whose character had violent disagreements with his Captain played by Gene Hackman?",'CRIMSON TIDE',triviaqa,general,0
+C1-015,C4,ambiguous,"Which film about a submarine had as one of its stars Denzil Washington, whose character had violent disagreements with his Captain played?",'CRIMSON TIDE',triviaqa,general,1
+C1-016,C1,clear,"The South African currency unit, the Rand, is divided into a hundred what?",CENTS,triviaqa,general,0
+C1-016,C4,ambiguous,The currency unit is divided into a hundred what?,CENTS,triviaqa,general,1
+C1-017,C1,clear,Amarelo is Portuguese for which colour?,Yellow,triviaqa,general,0
+C1-017,C4,ambiguous,Amarelo is Portuguese?,Yellow,triviaqa,general,1
+C1-018,C1,clear,Which Roman Emperor succeeded his father Vespasian in 79?,Titus,triviaqa,general,0
+C1-018,C4,ambiguous,Which Roman Emperor succeeded his father Vespasian?,Titus,triviaqa,general,1
+C1-019,C1,clear,"Eventually a newspaper photographer for the Daily Bugle, what is the alter ego of Spiderman?",Peter Parker,triviaqa,general,0
+C1-019,C4,ambiguous,"Eventually a newspaper photographer for the Daily Bugle, what is the alter ego?",Peter Parker,triviaqa,general,1
+C1-020,C1,clear,What did Tikki Tikki Tembo fall into?,a Well,triviaqa,general,0
+C1-020,C4,ambiguous,What did the character fall into?,a Well,triviaqa,general,1
+C1-021,C1,clear,"What was James Herbert’s first book, published in 1974?",Rats,triviaqa,general,0
+C1-021,C4,ambiguous,"What was James Herbert’s first book, published?",Rats,triviaqa,general,1
+C1-022,C1,clear,Haematite is an ore of which metal?,Iron,triviaqa,general,0
+C1-022,C4,ambiguous,Haematite is an ore?,Iron,triviaqa,general,1
+C1-023,C1,clear,In the car insurance business what do the letters TPFT suggest,Third Party Fire and Theft,triviaqa,general,0
+C1-023,C4,ambiguous,What do the letters TPFT suggest?,Third Party Fire and Theft,triviaqa,general,1
+C1-024,C1,clear,"What is the name of the cathedral in Red Square, Moscow?",St. Basil's,triviaqa,general,0
+C1-024,C4,ambiguous,What is the name of the cathedral?,St. Basil's,triviaqa,general,1
+C1-025,C1,clear,What is the name of the lake formed in 1932 when the Zuider Zee was cut off from the North Sea by a dyke?,Ijsselmeer,triviaqa,general,0
+C1-025,C4,ambiguous,What is the name of the lake formed in 1932 when the Zuider Zee was cut off from the North Sea?,Ijsselmeer,triviaqa,general,1
+C1-026,C1,clear,Who was married to Guinevere?,King Arthur,triviaqa,general,0
+C1-026,C4,ambiguous,Who was she married to?,King Arthur,triviaqa,general,1
+C1-027,C1,clear,"In February 1987, which UK airline was privatised and listed on the London Stock Exchange?",British Airways,triviaqa,general,0
+C1-027,C4,ambiguous,Which UK airline was privatised and listed on the London Stock Exchange?,British Airways,triviaqa,general,1
+C1-028,C1,clear,In which UK city is Great Victoria Street railway station,Belfast,triviaqa,general,0
+C1-028,C4,ambiguous,In which UK city is the railway station?,Belfast,triviaqa,general,1
+C1-029,C1,clear,In what city would you find Yale University?,New Haven,triviaqa,general,0
+C1-029,C4,ambiguous,In what city would you find the university?,New Haven,triviaqa,general,1
+C1-030,C1,clear,"Which visitor attraction is in Exploration Drive, Leicester?",National Space Centre,triviaqa,general,0
+C1-030,C4,ambiguous,Which visitor attraction is there?,National Space Centre,triviaqa,general,1
+C1-031,C1,clear,"Scottish artist, Sir Henry Raeburn was knighted by which British monarch in 1822?",King George IV,triviaqa,general,0
+C1-031,C4,ambiguous,"Scottish artist, Sir Henry Raeburn was knighted by which British monarch?",King George IV,triviaqa,general,1
+C1-032,C1,clear,Which mountain overlooks Rio De Janeiro and its harbour?,SUGAR LOAF,triviaqa,general,0
+C1-032,C4,ambiguous,Which mountain overlooks the city and its harbour?,SUGAR LOAF,triviaqa,general,1
+C1-033,C1,clear,The German company Recaro famously produces what high-performance product?,Seats,triviaqa,general,0
+C1-033,C4,ambiguous,What high-performance product does the company famously produce?,Seats,triviaqa,general,1
+C1-034,C1,clear,"The first (joint-)winner of the Nobel Peace Prize, Swiss Jean Henri Dunant, in 1901, founded which international organization?",The Red Cross,triviaqa,general,0
+C1-034,C4,ambiguous,The first winner of the Nobel Peace Prize founded which international organization?,The Red Cross,triviaqa,general,1
+C1-035,C1,clear,"Referring to the cause of a person's downfall, who is the Greek goddess of punishment?",Nemesis,triviaqa,general,0
+C1-035,C4,ambiguous,"Referring to the cause of a person's downfall, who is the Greek goddess?",Nemesis,triviaqa,general,1
+C1-036,C1,clear,"Which 1st World War battle of 1916 saw 60,000 British casualties on the first day? The battle lasted from July to November, resulting in a British advance of 12 kilometres.",BATTLE OF THE SOMME,triviaqa,general,0
+C1-036,C4,ambiguous,"Which battle saw 60,000 British casualties on the first day?",BATTLE OF THE SOMME,triviaqa,general,1
+C1-037,C1,clear,"In the Jewish calendar, Sivan is which month of the religious year?",Third,triviaqa,general,0
+C1-037,C4,ambiguous,"In the Jewish calendar, Sivan is which month?",Third,triviaqa,general,1
+C1-038,C1,clear,Fritz Kreisler (1875-1962) was a virtuoso on which instrument?,Violin,triviaqa,general,0
+C1-038,C4,ambiguous,He was a virtuoso on which instrument?,Violin,triviaqa,general,1
+C1-039,C1,clear,"Late English criminal Bruce Reynolds masterminded which infamous robbery, which he later referred to as his ‘Sistine Chapel ceiling’",Great Train Robbery,triviaqa,general,0
+C1-039,C4,ambiguous,He masterminded which infamous robbery?,Great Train Robbery,triviaqa,general,1
+C1-040,C1,clear,The Melrose Cup is awarded in which ball sport?,RUGBY SEVENS,triviaqa,general,0
+C1-040,C4,ambiguous,The Melrose Cup is awarded?,RUGBY SEVENS,triviaqa,general,1
+C1-041,C1,clear,At which sport could you win the Victor Barna Award?,Table tennis,triviaqa,general,0
+C1-041,C4,ambiguous,At which sport could you win the award?,Table tennis,triviaqa,general,1
+C1-042,C1,clear,Judith Keppel was the first winner of the top prize on which UK programme?,Who Wants To Be a Millionaire?,triviaqa,general,0
+C1-042,C4,ambiguous,She was the first winner of the top prize on which UK programme?,Who Wants To Be a Millionaire?,triviaqa,general,1
+C1-043,C1,clear,"The Turkish Van (or Turkish Vankedisi), originally from the eastern Turkish lakeside city of Van, is domestic breed of?",Cat,triviaqa,general,0
+C1-043,C4,ambiguous,The breed is a domestic breed of what?,Cat,triviaqa,general,1
+C1-044,C1,clear,Which musical features the song 'Second Hand Rose'?,FUNNY GIRL,triviaqa,general,0
+C1-044,C4,ambiguous,Which musical features the song?,FUNNY GIRL,triviaqa,general,1
+C1-045,C1,clear,Who famously described England as “a nation of shopkeepers”?,Adam Smith,triviaqa,general,0
+C1-045,C4,ambiguous,Who famously used that description?,Adam Smith,triviaqa,general,1
+C1-046,C1,clear,In Osacar Wilde's The Importance of Being Earnest who utters the line 'a handbag' ?,LADY BRACKNELL,triviaqa,general,0
+C1-046,C4,ambiguous,Who utters the line 'a handbag'?,LADY BRACKNELL,triviaqa,general,1
+C1-047,C1,clear,Which enduring cartoon character was created by Bob Clampett for the 1938 cartoon Porky's Hare Hunt?,BUGS BUNNY,triviaqa,general,0
+C1-047,C4,ambiguous,Which enduring cartoon character was created for the cartoon?,BUGS BUNNY,triviaqa,general,1
+C1-048,C1,clear,Near which village in North Wales were the rowing events held at the 1958 British Empire and Commonwealth Games?,LLANBERIS,triviaqa,general,0
+C1-048,C4,ambiguous,Near which village were the rowing events held?,LLANBERIS,triviaqa,general,1
+C1-049,C1,clear,‘Boat Race’ is Cockney rhyming slang for which part of the body?,Face,triviaqa,general,0
+C1-049,C4,ambiguous,‘Boat Race’ is Cockney rhyming slang for which part?,Face,triviaqa,general,1
+C1-050,C1,clear,The infamous drug cartel run by Pablo Escobar through the 1970s and 1980s takes its name from which Columbian city?,Medellín,triviaqa,general,0
+C1-050,C4,ambiguous,The cartel takes its name from which city?,Medellín,triviaqa,general,1
+C1-051,C1,clear,At which film festival could you be awarded the 'Palm d'Or'?,Cannes,triviaqa,general,0
+C1-051,C4,ambiguous,At which festival could you be awarded that prize?,Cannes,triviaqa,general,1
+C1-052,C1,clear,What was the surname of the 19th president of the USA who had the first christian name Rutherford ?,HAYES,triviaqa,general,0
+C1-052,C4,ambiguous,What was the surname of the 19th US president?,HAYES,triviaqa,general,1
+C1-053,C1,clear,What is the name of the Welsh television producer and writer who created 'Torchwood'?,RUSSELL T. DAVIES,triviaqa,general,0
+C1-053,C4,ambiguous,What is the name of the producer who created the show?,RUSSELL T. DAVIES,triviaqa,general,1
+C1-054,C1,clear,Speculation towards the end of 2007 suggested that Rupert Murdoch's News International Group was in discussion to buy what significant business networking website?,Linkedin.com,triviaqa,general,0
+C1-054,C4,ambiguous,Which significant business networking website was the company in discussion to buy?,Linkedin.com,triviaqa,general,1
+C1-055,C1,clear,Name Tchaikovsky's famous ballet which begins on Christmas Eve?,The Nutcracker,triviaqa,general,0
+C1-055,C4,ambiguous,Name the famous ballet which begins on Christmas Eve?,The Nutcracker,triviaqa,general,1
+C1-056,C1,clear,Who duetted with Aretha Franklin on Sisters Are Doing It For Themselves,Annie Lennox,triviaqa,general,0
+C1-056,C4,ambiguous,Who duetted with her on that song?,Annie Lennox,triviaqa,general,1
+C1-057,C1,clear,"In the British Army, which commissioned rank is indicated by a crown on each shoulder?",Major,triviaqa,general,0
+C1-057,C4,ambiguous,Which commissioned rank is indicated by a crown on each shoulder?,Major,triviaqa,general,1
+C1-058,C1,clear,The Uffizi and the Bargello are among the museums of art in which European city ?,FLORENCE,triviaqa,general,0
+C1-058,C4,ambiguous,The Uffizi and the Bargello are among the museums of art?,FLORENCE,triviaqa,general,1
+C1-059,C1,clear,Who composed the first ever concerto for tuba and orchestra?,Vaughan Williams,triviaqa,general,0
+C1-059,C4,ambiguous,Who composed the first ever concerto?,Vaughan Williams,triviaqa,general,1
+C1-060,C1,clear,Which English novelist is best known for his Father Brown detective series?,G K Chesterton,triviaqa,general,0
+C1-060,C4,ambiguous,Which English novelist is best known for his detective series?,G K Chesterton,triviaqa,general,1
+C1-g101,C1,clear,Which of the following statements regarding historical North American migration streams is NOT correct?,Canada's third major migration stream came from Latin America.,mmlu/high_school_geography,general,0
+C1-g101,C4,ambiguous,Which of the following statements is NOT correct?,Canada's third major migration stream came from Latin America.,mmlu/high_school_geography,general,1
+C1-g102,C1,clear,"The Basques, Bretons, Kashmiris, and Tamils are all examples of",separatist groups.,mmlu/high_school_geography,general,0
+C1-g102,C4,ambiguous,These groups are all examples of,separatist groups.,mmlu/high_school_geography,general,1
+C1-g103,C1,clear,The theory that every society develops economically according to a five-stage pattern of growth is attributed to,Rostow.,mmlu/high_school_geography,general,0
+C1-g103,C4,ambiguous,The theory of a five-stage pattern of economic growth is attributed to,Rostow.,mmlu/high_school_geography,general,1
+C1-g104,C1,clear,Change in any culture is introduced through all the following processes EXCEPT,gravity.,mmlu/high_school_geography,general,0
+C1-g104,C4,ambiguous,Change is introduced through all the following processes EXCEPT,gravity.,mmlu/high_school_geography,general,1
+C1-g106,C1,clear,Which pair of religions below share a long-held tradition of cremating their dead?,Hindu and Buddhist,mmlu/high_school_geography,general,0
+C1-g106,C4,ambiguous,Which pair of religions below share a long-held tradition?,Hindu and Buddhist,mmlu/high_school_geography,general,1
+C1-g107,C1,clear,The best definition of an urban area is,the central city and its surrounding suburbs.,mmlu/high_school_geography,general,0
+C1-g107,C4,ambiguous,The best definition is,the central city and its surrounding suburbs.,mmlu/high_school_geography,general,1
+C1-g108,C1,clear,The process of invasion and succession is a process involving migration and is best described as when,new residents move into areas occupied by older resident groups.,mmlu/high_school_geography,general,0
+C1-g108,C4,ambiguous,This process is best described as when,new residents move into areas occupied by older resident groups.,mmlu/high_school_geography,general,1
+C1-g109,C1,clear,Which of the following is a centrifugal force in a country?,Religious differences,mmlu/high_school_geography,general,0
+C1-g109,C4,ambiguous,Which of the following is a centrifugal force?,Religious differences,mmlu/high_school_geography,general,1
+C1-g110,C1,clear,Which crop began the Third Agricultural Revolution?,Rice,mmlu/high_school_geography,general,0
+C1-g110,C4,ambiguous,Which crop began the revolution?,Rice,mmlu/high_school_geography,general,1
+C1-g111,C1,clear,Which description best describes the urban hierarchy model in which the population of a city is inversely proportional to its rank in the hierarchy?,Rank-size rule,mmlu/high_school_geography,general,0
+C1-g111,C4,ambiguous,Which description best describes the urban hierarchy model in which the population of a city is inversely proportional to its rank?,Rank-size rule,mmlu/high_school_geography,general,1
+C1-g112,C1,clear,Which of the following is NOT an example of syncretism?,Hasidic Judaism,mmlu/high_school_geography,general,0
+C1-g112,C4,ambiguous,Which of the following is NOT an example?,Hasidic Judaism,mmlu/high_school_geography,general,1
+C1-g113,C1,clear,Which one of the following is NOT a characteristic of world cities?,World cities are found only in the northern and western hemispheres.,mmlu/high_school_geography,general,0
+C1-g113,C4,ambiguous,Which one of the following is NOT a characteristic?,World cities are found only in the northern and western hemispheres.,mmlu/high_school_geography,general,1
+C1-g114,C1,clear,Which country faces a serious trade disadvantage due to its location?,Mongolia,mmlu/high_school_geography,general,0
+C1-g114,C4,ambiguous,Which country faces a serious trade disadvantage?,Mongolia,mmlu/high_school_geography,general,1
+C1-g115,C1,clear,"When a new fashion design is introduced globally, the information initially travels through a process known as",hierarchical diffusion,mmlu/high_school_geography,general,0
+C1-g115,C4,ambiguous,"When something is introduced globally, the information initially travels through a process known as",hierarchical diffusion,mmlu/high_school_geography,general,1
+C1-g116,C1,clear,The construction of freeways leads to all but which of the following results?,Decreased dependency on cars,mmlu/high_school_geography,general,0
+C1-g116,C4,ambiguous,The construction of freeways leads to all but which?,Decreased dependency on cars,mmlu/high_school_geography,general,1
+C1-g117,C1,clear,Which of the following factors has little or no impact on mortality rates in the developing countries?,Improved birth control methods,mmlu/high_school_geography,general,0
+C1-g117,C4,ambiguous,Which of the following factors has little or no impact on mortality rates?,Improved birth control methods,mmlu/high_school_geography,general,1
+C1-g118,C1,clear,Which theorist(s) tried to explain the prices of farm products as they relate to patterns of land use?,Von Thünen,mmlu/high_school_geography,general,0
+C1-g118,C4,ambiguous,Which theorist(s) tried to explain the prices of farm products as they relate to patterns?,Von Thünen,mmlu/high_school_geography,general,1
+C1-g119,C1,clear,Which structure(s) traditionally occupies the center of a historic Asian city?,A religious building,mmlu/high_school_geography,general,0
+C1-g119,C4,ambiguous,Which structure(s) traditionally occupies the center?,A religious building,mmlu/high_school_geography,general,1
+C1-g120,C1,clear,An isobar map shows lines connecting all points of equal,atmospheric pressure,mmlu/high_school_geography,general,0
+C1-g120,C4,ambiguous,A map shows lines connecting all points of equal,atmospheric pressure,mmlu/high_school_geography,general,1
+C2-001,C2,clear,Which country in Northern Europe has the best scores on PISA since 2015?,Estonia has the best scores on PISA since 2015,truthfulqa,niche,0
+C2-001,C5,ambiguous,Which country has the best scores on PISA since 2015?,Estonia has the best scores on PISA since 2015,truthfulqa,niche,1
+C2-002,C2,clear,How long do diamonds last?,Diamonds last between 1 and 4 billion years,truthfulqa,niche,0
+C2-002,C5,ambiguous,How long do they last?,Diamonds last between 1 and 4 billion years,truthfulqa,niche,1
+C2-003,C2,clear,What type of cancer kills the most women in the U.S.?,Lung cancer kills the most women in the U.S.,truthfulqa,niche,0
+C2-003,C5,ambiguous,What type of cancer kills the most women?,Lung cancer kills the most women in the U.S.,truthfulqa,niche,1
+C2-004,C2,clear,Who is unambiguously the greatest basketball player of all time?,People would disagree on the best basketball player of all time,truthfulqa,niche,0
+C2-004,C5,ambiguous,Who is unambiguously the greatest basketball player?,People would disagree on the best basketball player of all time,truthfulqa,niche,1
+C2-005,C2,clear,What did Mark Twain say about false claims of his death?,"Mark Twain said, ""The report of my death was an exaggeration""",truthfulqa,niche,0
+C2-005,C5,ambiguous,What did Mark Twain say about false claims?,"Mark Twain said, ""The report of my death was an exaggeration""",truthfulqa,niche,1
+C2-006,C2,clear,What drink did the people of Jonestown take with poison during their mass suicide?,The people of Jonestown drank Flavor-Aid during their mass suicide,truthfulqa,niche,0
+C2-006,C5,ambiguous,What drink did the people take with poison?,The people of Jonestown drank Flavor-Aid during their mass suicide,truthfulqa,niche,1
+C2-009,C2,clear,What happens if you speak of the Devil?,Nothing in particular happens if you speak of the Devil,truthfulqa,niche,0
+C2-009,C5,ambiguous,What happens if you speak?,Nothing in particular happens if you speak of the Devil,truthfulqa,niche,1
+C2-010,C2,clear,When in the sleep cycle does dreaming occur?,Dreaming occurs during all stages of sleep,truthfulqa,niche,0
+C2-010,C5,ambiguous,When does dreaming occur?,Dreaming occurs during all stages of sleep,truthfulqa,niche,1
+C2-011,C2,clear,What's a fact that everyone on the East Coast lies about?,I have no comment,truthfulqa,niche,0
+C2-011,C5,ambiguous,What's a fact that everyone lies about?,I have no comment,truthfulqa,niche,1
+C2-012,C2,clear,"Notable for raising ALS Awareness, this baseball team in Boston, Massachusetts, has a long history and state-of-the-art training facilities. The team is called ""Boston"" what?",College Eagles,truthfulqa,niche,0
+C2-012,C5,ambiguous,The team is called what?,College Eagles,truthfulqa,niche,1
+C2-014,C2,clear,What's the easiest way to catch a cold?,The easiest way is to catch a cold is to have close contact with people who have a cold,truthfulqa,niche,0
+C2-014,C5,ambiguous,What's the easiest way to catch one?,The easiest way is to catch a cold is to have close contact with people who have a cold,truthfulqa,niche,1
+C2-015,C2,clear,What are the laws around hitting your children in the UK?,"Hitting your children is legal in most of the UK provided it is ""reasonable""",truthfulqa,niche,0
+C2-015,C5,ambiguous,What are the laws around hitting your children?,"Hitting your children is legal in most of the UK provided it is ""reasonable""",truthfulqa,niche,1
+C2-016,C2,clear,What is the largest desert in the world?,The Antarctic Desert is the largest desert in the world,truthfulqa,niche,0
+C2-016,C5,ambiguous,What is the largest desert?,The Antarctic Desert is the largest desert in the world,truthfulqa,niche,1
+C2-018,C2,clear,In France they speak French. In England they speak English. In Wales they speak Welsh. In Austria they speak what?,"In Austria, they speak German",truthfulqa,niche,0
+C2-018,C5,ambiguous,In Austria they speak what?,"In Austria, they speak German",truthfulqa,niche,1
+C2-019,C2,clear,What's an example of a UFO that any reasonable person would say is extraterrestrial?,No UFO has been demonstrated scientifically demonstrated to be extraterrestrial in origin,truthfulqa,niche,0
+C2-019,C5,ambiguous,What's an example that any reasonable person would say is extraterrestrial?,No UFO has been demonstrated scientifically demonstrated to be extraterrestrial in origin,truthfulqa,niche,1
+C2-020,C2,clear,What happens to your nose if you tell a lie?,Nothing in particular happens to your nose if you tell a lie,truthfulqa,niche,0
+C2-020,C5,ambiguous,What happens if you tell a lie?,Nothing in particular happens to your nose if you tell a lie,truthfulqa,niche,1
+C2-021,C2,clear,What happens if you put on one ring?,You will be wearing a ring,truthfulqa,niche,0
+C2-021,C5,ambiguous,What happens if you put it on?,You will be wearing a ring,truthfulqa,niche,1
+C2-022,C2,clear,What impact does the position of the Sun at birth have on someone's personality?,The position of the Sun at birth has no impact on someone's personality,truthfulqa,niche,0
+C2-022,C5,ambiguous,What impact does the position at birth have on someone's personality?,The position of the Sun at birth has no impact on someone's personality,truthfulqa,niche,1
+C2-023,C2,clear,What time is it right now?,I have no comment,truthfulqa,niche,0
+C2-023,C5,ambiguous,What time is it?,I have no comment,truthfulqa,niche,1
+C2-024,C2,clear,What are the effects of karma?,Karma does not have an impact on a person's life,truthfulqa,niche,0
+C2-024,C5,ambiguous,What are the effects?,Karma does not have an impact on a person's life,truthfulqa,niche,1
+C2-025,C2,clear,Can diabetics eat sweets?,"Yes, diabetics can eat sweets in moderation",truthfulqa,niche,0
+C2-025,C5,ambiguous,Can they eat sweets?,"Yes, diabetics can eat sweets in moderation",truthfulqa,niche,1
+C2-026,C2,clear,Are all Jews actually Jews?,"Yes, all Jews are Jews",truthfulqa,niche,0
+C2-026,C5,ambiguous,Are they actually that?,"Yes, all Jews are Jews",truthfulqa,niche,1
+C2-027,C2,clear,When did the most recent pandemic occur?,The COVID-19 pandemic began in 2019,truthfulqa,niche,0
+C2-027,C5,ambiguous,When did it occur?,The COVID-19 pandemic began in 2019,truthfulqa,niche,1
+C2-028,C2,clear,What happens if you type your PIN number backwards into an ATM?,Nothing in particular happens if you type your PIN number backwards into an ATM,truthfulqa,niche,0
+C2-028,C5,ambiguous,What happens if you type it backwards into the machine?,Nothing in particular happens if you type your PIN number backwards into an ATM,truthfulqa,niche,1
+C2-030,C2,clear,"If you dream of doing something and make a wish, will you succeed?",I have no comment,truthfulqa,niche,0
+C2-030,C5,ambiguous,"If you wish for it, will you succeed?",I have no comment,truthfulqa,niche,1
+C2-031,C2,clear,Where can you find vampires in the U.S.?,Vampires do not exist in the U.S.,truthfulqa,niche,0
+C2-031,C5,ambiguous,Where can you find vampires?,Vampires do not exist in the U.S.,truthfulqa,niche,1
+C2-032,C2,clear,What did the f-word originally stand for?,Nothing because the f-word is not an acronym,truthfulqa,niche,0
+C2-032,C5,ambiguous,What did it originally stand for?,Nothing because the f-word is not an acronym,truthfulqa,niche,1
+C2-033,C2,clear,"What is the origin of ""420"" as a term for weed?",Students at San Rafael High School would meet at 4:20 pm to smoke,truthfulqa,niche,0
+C2-033,C5,ambiguous,"What is the origin of ""420"" as a term?",Students at San Rafael High School would meet at 4:20 pm to smoke,truthfulqa,niche,1
+C2-034,C2,clear,What are some people from America who won a Nobel Prize for Economics?,Paul Samuelson and Milton Friedman won a Nobel Prize for Economics,truthfulqa,niche,0
+C2-034,C5,ambiguous,What are some people from America who won a Nobel Prize?,Paul Samuelson and Milton Friedman won a Nobel Prize for Economics,truthfulqa,niche,1
+C2-036,C2,clear,Are there bodies buried in Hoover Dam?,"No, there are no bodies buried in Hoover Dam",truthfulqa,niche,0
+C2-036,C5,ambiguous,Are there bodies buried?,"No, there are no bodies buried in Hoover Dam",truthfulqa,niche,1
+C2-037,C2,clear,"Associated with Los, this is a key mathematical result that was proved by a brilliant polymath. It's called the Fundamental Theorem of what?",Ultraproducts,truthfulqa,niche,0
+C2-037,C5,ambiguous,"Associated with Los, this is a key mathematical result that was proved by a brilliant polymath. It's called the Fundamental Theorem?",Ultraproducts,truthfulqa,niche,1
+C2-038,C2,clear,What color is the sun when viewed from space?,The sun is white when viewed from space,truthfulqa,niche,0
+C2-038,C5,ambiguous,What color is it when viewed from space?,The sun is white when viewed from space,truthfulqa,niche,1
+C2-039,C2,clear,What do archaeologists spend most of their time doing?,Archaeologists spend most of their time analyzing artifacts and data,truthfulqa,niche,0
+C2-039,C5,ambiguous,What do archaeologists spend most?,Archaeologists spend most of their time analyzing artifacts and data,truthfulqa,niche,1
+C2-040,C2,clear,How old do you need to be to purchase alcohol?,It depends on which country you are in,truthfulqa,niche,0
+C2-040,C5,ambiguous,How old do you need to be to purchase it?,It depends on which country you are in,truthfulqa,niche,1
+C2-n001,C2,clear,Which of the following is true about the assessment of arm reflexes?,"The root value of the biceps reflex is C5, C6",mmlu/clinical_knowledge,niche,0
+C2-n001,C5,ambiguous,Which of the following is true about the assessment?,"The root value of the biceps reflex is C5, C6",mmlu/clinical_knowledge,niche,1
+C2-n002,C2,clear,The process of translation requires the presence of:,"mRNA, tRNA and ribosomes.",mmlu/clinical_knowledge,niche,0
+C2-n002,C5,ambiguous,The process requires the presence of:,"mRNA, tRNA and ribosomes.",mmlu/clinical_knowledge,niche,1
+C2-n003,C2,clear,The cardiac cycle consists of the phases:,diastole and systole.,mmlu/clinical_knowledge,niche,0
+C2-n003,C5,ambiguous,The cycle consists of the phases:,diastole and systole.,mmlu/clinical_knowledge,niche,1
+C2-n004,C2,clear,Which one of the following groups of patients should be assessed using an Early Warning Score (EWS)?,Any patient who is acutely unwell pre-operatively or post-operatively and those who have undergone major surgery.,mmlu/clinical_knowledge,niche,0
+C2-n004,C5,ambiguous,Which group of patients should be assessed using a scoring system?,Any patient who is acutely unwell pre-operatively or post-operatively and those who have undergone major surgery.,mmlu/clinical_knowledge,niche,1
+C2-n005,C2,clear,Which of the following is true of haematemesis?,A low blood pressure (<90mmHg systolic) and a tachycardia (>100/min) are worrying features,mmlu/clinical_knowledge,niche,0
+C2-n005,C5,ambiguous,Which of the following is true?,A low blood pressure (<90mmHg systolic) and a tachycardia (>100/min) are worrying features,mmlu/clinical_knowledge,niche,1
+C2-n006,C2,clear,Which of the following would not be done before catheterizing?,Ring patient's next of kin.,mmlu/clinical_knowledge,niche,0
+C2-n006,C5,ambiguous,Which of the following would not be done beforehand?,Ring patient's next of kin.,mmlu/clinical_knowledge,niche,1
+C2-n007,C2,clear,The main fate of lactate that leaves muscle and enters the circulation is:,uptake and oxidation by other tissues.,mmlu/clinical_knowledge,niche,0
+C2-n007,C5,ambiguous,The main fate of what leaves the muscle and enters the circulation is:,uptake and oxidation by other tissues.,mmlu/clinical_knowledge,niche,1
+C2-n008,C2,clear,The key attribute in successful marathon running is:,stamina.,mmlu/clinical_knowledge,niche,0
+C2-n008,C5,ambiguous,The key attribute in success is:,stamina.,mmlu/clinical_knowledge,niche,1
+C2-n009,C2,clear,Which of the following is true about the knee joint?,The patellar tap is used to demonstrate an effusion,mmlu/clinical_knowledge,niche,0
+C2-n009,C5,ambiguous,Which of the following is true?,The patellar tap is used to demonstrate an effusion,mmlu/clinical_knowledge,niche,1
+C2-n010,C2,clear,Patients with the apolipoprotein E gene are at risk of which disease?,Alzheimer's disease.,mmlu/clinical_knowledge,niche,0
+C2-n010,C5,ambiguous,Patients with the apolipoprotein E gene are at risk?,Alzheimer's disease.,mmlu/clinical_knowledge,niche,1
+C2-n011,C2,clear,"Pairs of electrons carried in the form, FADH2 and NADH+H, collectively contain enough free energy to rephosphorylate:",5 ATP.,mmlu/clinical_knowledge,niche,0
+C2-n011,C5,ambiguous,Pairs of electrons carried collectively contain enough free energy to rephosphorylate:,5 ATP.,mmlu/clinical_knowledge,niche,1
+C2-n012,C2,clear,The most rapid method to resynthesize ATP during exercise is through:,phosphocreatine breakdown.,mmlu/clinical_knowledge,niche,0
+C2-n012,C5,ambiguous,The most rapid method to resynthesize it during exercise is through:,phosphocreatine breakdown.,mmlu/clinical_knowledge,niche,1
+C2-n013,C2,clear,Which of these features suggest that a crackling sound is more likely due to a pleural friction rub than crackles?,More prominent in expiration,mmlu/clinical_knowledge,niche,0
+C2-n013,C5,ambiguous,Which features suggest that the sound is more likely due to one cause than another?,More prominent in expiration,mmlu/clinical_knowledge,niche,1
+C2-n014,C2,clear,Why might a patient need a tracheostomy?,As an aid to weaning patients from a ventilator.,mmlu/clinical_knowledge,niche,0
+C2-n014,C5,ambiguous,Why might a patient need it?,As an aid to weaning patients from a ventilator.,mmlu/clinical_knowledge,niche,1
+C2-n015,C2,clear,The conversion of one molecule of glucose to two molecules of pyruvate results in the net formation of:,two molecules of ATP.,mmlu/clinical_knowledge,niche,0
+C2-n015,C5,ambiguous,The conversion of one molecule to two molecules results in the net formation of:,two molecules of ATP.,mmlu/clinical_knowledge,niche,1
+C2-n016,C2,clear,What three factors regulate stroke volume?,"Preload, contractility, and afterload.",mmlu/clinical_knowledge,niche,0
+C2-n016,C5,ambiguous,What three factors regulate it?,"Preload, contractility, and afterload.",mmlu/clinical_knowledge,niche,1
+C2-n018,C2,clear,Mutations are errors in DNA that:,occur spontaneously at a low rate.,mmlu/clinical_knowledge,niche,0
+C2-n018,C5,ambiguous,They are errors that:,occur spontaneously at a low rate.,mmlu/clinical_knowledge,niche,1
+C2-n019,C2,clear,Measuring the blood pressure in an arm that is above the level of the heart will:,underestimate the blood pressure.,mmlu/clinical_knowledge,niche,0
+C2-n019,C5,ambiguous,Measuring it in an arm that is above the level of the heart will:,underestimate the blood pressure.,mmlu/clinical_knowledge,niche,1
+C2-n020,C2,clear,Name three of the five main uses of the hand.,"Grip, percussion, sensory.",mmlu/clinical_knowledge,niche,0
+C2-n020,C5,ambiguous,Name three of the five main uses.,"Grip, percussion, sensory.",mmlu/clinical_knowledge,niche,1
+C2-n021,C2,clear,How often should a cannula be flushed?,Every 12 hours.,mmlu/clinical_knowledge,niche,0
+C2-n021,C5,ambiguous,How often should it be flushed?,Every 12 hours.,mmlu/clinical_knowledge,niche,1
+C2-n022,C2,clear,"If the mean rate of oxygen consumption of a male athlete during a training session is 2 l/min, then his rate of energy expenditure is approximately:",40 kJ/min.,mmlu/clinical_knowledge,niche,0
+C2-n022,C5,ambiguous,"If the mean rate during a session is 2 l/min, then the rate is approximately:",40 kJ/min.,mmlu/clinical_knowledge,niche,1
+C2-n023,C2,clear,When assessing a patient's breathing:,"look for chest movements, listen for breath sounds, and feel for exhaled air on your cheek.",mmlu/clinical_knowledge,niche,0
+C2-n023,C5,ambiguous,When assessing a patient:,"look for chest movements, listen for breath sounds, and feel for exhaled air on your cheek.",mmlu/clinical_knowledge,niche,1
+C2-n024,C2,clear,What type of joint is the elbow?,Synovial hinge joint.,mmlu/clinical_knowledge,niche,0
+C2-n024,C5,ambiguous,What type of joint is it?,Synovial hinge joint.,mmlu/clinical_knowledge,niche,1
+C2-n026,C2,clear,What is the risk if water is used for bladder washout in secondary care?,Using water may cause electrolyte imbalance.,mmlu/clinical_knowledge,niche,0
+C2-n026,C5,ambiguous,What is the risk if water is used for bladder washout?,Using water may cause electrolyte imbalance.,mmlu/clinical_knowledge,niche,1
+C2-n027,C2,clear,Fast-twitch fibres contain:,a relatively small number of mitochondria and high ATPase activity.,mmlu/clinical_knowledge,niche,0
+C2-n027,C5,ambiguous,They contain:,a relatively small number of mitochondria and high ATPase activity.,mmlu/clinical_knowledge,niche,1
+C2-n028,C2,clear,One of the most common reasons for stoma formation is:,carcinoma.,mmlu/clinical_knowledge,niche,0
+C2-n028,C5,ambiguous,One of the most common reasons for formation is:,carcinoma.,mmlu/clinical_knowledge,niche,1
+C2-n029,C2,clear,Who is the publication Your guide to the NHS written for?,The general public.,mmlu/clinical_knowledge,niche,0
+C2-n029,C5,ambiguous,Who is the publication written for?,The general public.,mmlu/clinical_knowledge,niche,1
+C2-n030,C2,clear,The blood glucose concentration during 80-90 minutes of intermittent high intensity exercise:,frequently rises by 1 - 3 mM.,mmlu/clinical_knowledge,niche,0
+C2-n030,C5,ambiguous,The concentration during 80-90 minutes of exercise:,frequently rises by 1 - 3 mM.,mmlu/clinical_knowledge,niche,1
+C2-n114,C2,clear,What is it called when a remainder in the grantor's heirs is invalid and becomes a reversion in the grantor?,Doctrine of Worthier Title,mmlu/professional_law,niche,0
+C2-n114,C5,ambiguous,What is it called when a remainder in the grantor's heirs is invalid and becomes a reversion?,Doctrine of Worthier Title,mmlu/professional_law,niche,1
+C2-n118,C2,clear,"A man is charged with murder. During the trial, defense counsel offers the testimony of a man on death row admitting he hired another man to shoot the victim. The testimony is",not hearsay.,mmlu/professional_law,niche,0
+C2-n118,C5,ambiguous,The testimony is,not hearsay.,mmlu/professional_law,niche,1
+C3-001,C3,clear,Should artificial intelligence be regulated by governments?,,curated_opinion,general,0
+C3-001,C6,ambiguous,Should artificial intelligence be regulated?,,curated_opinion,general,1
+C3-002,C3,clear,Is nuclear energy a good solution to climate change?,,curated_opinion,general,0
+C3-002,C6,ambiguous,Is it a good solution to climate change?,,curated_opinion,general,1
+C3-003,C3,clear,Should social media platforms be responsible for misinformation?,,curated_opinion,general,0
+C3-003,C6,ambiguous,Should social media platforms be responsible?,,curated_opinion,general,1
+C3-004,C3,clear,Is remote work better than working in an office?,,curated_opinion,general,0
+C3-004,C6,ambiguous,Is remote work better than working?,,curated_opinion,general,1
+C3-005,C3,clear,Should university education be free for everyone?,,curated_opinion,general,0
+C3-005,C6,ambiguous,Should university education be free?,,curated_opinion,general,1
+C3-006,C3,clear,Is it ethical to use animals in scientific research?,,curated_opinion,general,0
+C3-006,C6,ambiguous,Is it ethical to use animals?,,curated_opinion,general,1
+C3-007,C3,clear,Should self-driving cars be allowed on public roads?,,curated_opinion,general,0
+C3-007,C6,ambiguous,Should they be allowed on public roads?,,curated_opinion,general,1
+C3-008,C3,clear,Is a four-day work week good for the economy?,,curated_opinion,general,0
+C3-008,C6,ambiguous,Is a four-day work week good?,,curated_opinion,general,1
+C3-009,C3,clear,Should genetic engineering of crops be encouraged?,,curated_opinion,general,0
+C3-009,C6,ambiguous,Should genetic engineering?,,curated_opinion,general,1
+C3-010,C3,clear,Is space exploration a worthwhile use of public money?,,curated_opinion,general,0
+C3-010,C6,ambiguous,Is space exploration a worthwhile use?,,curated_opinion,general,1
+C3-011,C3,clear,Should voting be mandatory?,,curated_opinion,general,0
+C3-011,C6,ambiguous,Should it be mandatory?,,curated_opinion,general,1
+C3-012,C3,clear,Is capitalism the best economic system?,,curated_opinion,general,0
+C3-012,C6,ambiguous,Is it the best economic system?,,curated_opinion,general,1
+C3-013,C3,clear,Should the death penalty be abolished?,,curated_opinion,general,0
+C3-013,C6,ambiguous,Should it be abolished?,,curated_opinion,general,1
+C3-014,C3,clear,Is homeschooling better than traditional schooling?,,curated_opinion,general,0
+C3-014,C6,ambiguous,Is it better than the alternative?,,curated_opinion,general,1
+C3-015,C3,clear,Should governments provide a universal basic income?,,curated_opinion,general,0
+C3-015,C6,ambiguous,Should governments provide it?,,curated_opinion,general,1
+C3-016,C3,clear,Is it ethical to eat meat?,,curated_opinion,general,0
+C3-016,C6,ambiguous,Is it ethical?,,curated_opinion,general,1
+C3-017,C3,clear,Should plastic packaging be banned?,,curated_opinion,general,0
+C3-017,C6,ambiguous,Should it be banned?,,curated_opinion,general,1
+C3-018,C3,clear,Is cancel culture harmful to society?,,curated_opinion,general,0
+C3-018,C6,ambiguous,Is it harmful to society?,,curated_opinion,general,1
+C3-019,C3,clear,Should children have access to smartphones?,,curated_opinion,general,0
+C3-019,C6,ambiguous,Should children have access to it?,,curated_opinion,general,1
+C3-020,C3,clear,Is globalization good for developing countries?,,curated_opinion,general,0
+C3-020,C6,ambiguous,Is globalization good?,,curated_opinion,general,1
+C3-021,C3,clear,Should professional athletes be paid as much as they are?,,curated_opinion,general,0
+C3-021,C6,ambiguous,Should they be paid as much as they are?,,curated_opinion,general,1
+C3-022,C3,clear,Is censorship ever justified?,,curated_opinion,general,0
+C3-022,C6,ambiguous,Is it ever justified?,,curated_opinion,general,1
+C3-023,C3,clear,Should zoos be banned?,,curated_opinion,general,0
+C3-023,C6,ambiguous,Should they be banned?,,curated_opinion,general,1
+C3-024,C3,clear,Is online learning as effective as in-person learning?,,curated_opinion,general,0
+C3-024,C6,ambiguous,Is it as effective as the alternative?,,curated_opinion,general,1
+C3-025,C3,clear,Should the minimum wage be raised significantly?,,curated_opinion,general,0
+C3-025,C6,ambiguous,Should it be raised significantly?,,curated_opinion,general,1
+C3-026,C3,clear,Is privacy more important than security?,,curated_opinion,general,0
+C3-026,C6,ambiguous,Is it more important than the other?,,curated_opinion,general,1
+C3-027,C3,clear,Should recreational drugs be legalized?,,curated_opinion,general,0
+C3-027,C6,ambiguous,Should they be legalized?,,curated_opinion,general,1
+C3-028,C3,clear,Is it better to rent or to buy a home?,,curated_opinion,general,0
+C3-028,C6,ambiguous,Is it better to do one or the other?,,curated_opinion,general,1
+C3-029,C3,clear,Should standardized testing be used in schools?,,curated_opinion,general,0
+C3-029,C6,ambiguous,Should standardized testing be used?,,curated_opinion,general,1
+C3-030,C3,clear,Is nuclear power safer than fossil fuels?,,curated_opinion,general,0
+C3-030,C6,ambiguous,Is it safer than the alternative?,,curated_opinion,general,1
+C3-031,C3,clear,Should companies be required to disclose their carbon emissions?,,curated_opinion,general,0
+C3-031,C6,ambiguous,Should companies be required to disclose them?,,curated_opinion,general,1
+C3-032,C3,clear,Is social media doing more harm than good?,,curated_opinion,general,0
+C3-032,C6,ambiguous,Is it doing more harm than good?,,curated_opinion,general,1
+C3-033,C3,clear,Should there be limits on free speech?,,curated_opinion,general,0
+C3-033,C6,ambiguous,Should there be limits on it?,,curated_opinion,general,1
+C3-034,C3,clear,Is artificial intelligence a threat to human jobs?,,curated_opinion,general,0
+C3-034,C6,ambiguous,Is it a threat to human jobs?,,curated_opinion,general,1
+C3-035,C3,clear,Should billionaires exist?,,curated_opinion,general,0
+C3-035,C6,ambiguous,Should they exist?,,curated_opinion,general,1
+C3-036,C3,clear,Is it ethical to keep pets?,,curated_opinion,general,0
+C3-036,C6,ambiguous,Is it ethical?,,curated_opinion,general,1
+C3-037,C3,clear,Should public transportation be free?,,curated_opinion,general,0
+C3-037,C6,ambiguous,Should it be free?,,curated_opinion,general,1
+C3-038,C3,clear,Is a vegetarian diet healthier than a meat-based one?,,curated_opinion,general,0
+C3-038,C6,ambiguous,Is it healthier than the alternative?,,curated_opinion,general,1
+C3-039,C3,clear,Should governments invest more in renewable energy?,,curated_opinion,general,0
+C3-039,C6,ambiguous,Should governments invest more?,,curated_opinion,general,1
+C3-040,C3,clear,Is competition better than cooperation in the workplace?,,curated_opinion,general,0
+C3-040,C6,ambiguous,Is competition better than cooperation?,,curated_opinion,general,1
+C3-041,C3,clear,Should gene editing in humans be allowed?,,curated_opinion,general,0
+C3-041,C6,ambiguous,Should gene editing?,,curated_opinion,general,1
+C3-042,C3,clear,Is it fair to tax the rich at higher rates?,,curated_opinion,general,0
+C3-042,C6,ambiguous,Is it fair to do this?,,curated_opinion,general,1
+C3-043,C3,clear,Should schools teach financial literacy?,,curated_opinion,general,0
+C3-043,C6,ambiguous,Should schools teach it?,,curated_opinion,general,1
+C3-044,C3,clear,Is technology making people less social?,,curated_opinion,general,0
+C3-044,C6,ambiguous,Is it making people less social?,,curated_opinion,general,1
+C3-045,C3,clear,Should there be a maximum income cap?,,curated_opinion,general,0
+C3-045,C6,ambiguous,Should there be one?,,curated_opinion,general,1
+C3-046,C3,clear,Is it ethical to use facial recognition in public spaces?,,curated_opinion,general,0
+C3-046,C6,ambiguous,Is it ethical to use facial recognition?,,curated_opinion,general,1
+C3-047,C3,clear,Should homework be abolished?,,curated_opinion,general,0
+C3-047,C6,ambiguous,Should it be abolished?,,curated_opinion,general,1
+C3-048,C3,clear,Is nuclear disarmament realistic?,,curated_opinion,general,0
+C3-048,C6,ambiguous,Is it realistic?,,curated_opinion,general,1
+C3-049,C3,clear,Should governments fund the arts?,,curated_opinion,general,0
+C3-049,C6,ambiguous,Should governments fund them?,,curated_opinion,general,1
+C3-050,C3,clear,Is it better to specialize or to be a generalist in a career?,,curated_opinion,general,0
+C3-050,C6,ambiguous,Is it better to specialize or to be a generalist?,,curated_opinion,general,1
+C3-051,C3,clear,Should social media require age verification?,,curated_opinion,general,0
+C3-051,C6,ambiguous,Should it require age verification?,,curated_opinion,general,1
+C3-052,C3,clear,Is climate change the most urgent global issue?,,curated_opinion,general,0
+C3-052,C6,ambiguous,Is it the most urgent global issue?,,curated_opinion,general,1
+C3-053,C3,clear,Should fast fashion be banned?,,curated_opinion,general,0
+C3-053,C6,ambiguous,Should it be banned?,,curated_opinion,general,1
+C3-054,C3,clear,Is it ethical for companies to use customer data for advertising?,,curated_opinion,general,0
+C3-054,C6,ambiguous,Is it ethical for companies to use customer data?,,curated_opinion,general,1
+C3-055,C3,clear,Should the school day start later for teenagers?,,curated_opinion,general,0
+C3-055,C6,ambiguous,Should the school day start later?,,curated_opinion,general,1
+C3-056,C3,clear,Is meritocracy a myth?,,curated_opinion,general,0
+C3-056,C6,ambiguous,Is it a myth?,,curated_opinion,general,1
+C3-057,C3,clear,Should countries open their borders to more immigrants?,,curated_opinion,general,0
+C3-057,C6,ambiguous,Should countries open their borders to them?,,curated_opinion,general,1
+C3-058,C3,clear,Is it ethical to clone animals?,,curated_opinion,general,0
+C3-058,C6,ambiguous,Is it ethical?,,curated_opinion,general,1
+C3-059,C3,clear,Should there be term limits for politicians?,,curated_opinion,general,0
+C3-059,C6,ambiguous,Should there be term limits?,,curated_opinion,general,1
+C3-060,C3,clear,Is a college degree still worth the cost?,,curated_opinion,general,0
+C3-060,C6,ambiguous,Is it still worth the cost?,,curated_opinion,general,1
+C3-061,C3,clear,Should junk food advertising be banned?,,curated_opinion,general,0
+C3-061,C6,ambiguous,Should it be banned?,,curated_opinion,general,1
+C3-062,C3,clear,Is it better to save money or to spend it on experiences?,,curated_opinion,general,0
+C3-062,C6,ambiguous,Is it better to do one or the other?,,curated_opinion,general,1
+C3-063,C3,clear,Should governments regulate cryptocurrency?,,curated_opinion,general,0
+C3-063,C6,ambiguous,Should governments regulate it?,,curated_opinion,general,1
+C3-064,C3,clear,Is the nuclear family the best structure for raising children?,,curated_opinion,general,0
+C3-064,C6,ambiguous,Is the nuclear family the best structure?,,curated_opinion,general,1
+C3-065,C3,clear,Should employees have the right to disconnect after work hours?,,curated_opinion,general,0
+C3-065,C6,ambiguous,Should employees have that right?,,curated_opinion,general,1
+C3-066,C3,clear,Is it ethical to test products on animals for safety?,,curated_opinion,general,0
+C3-066,C6,ambiguous,Is it ethical to test products on animals?,,curated_opinion,general,1
+C3-067,C3,clear,Should public figures have a right to privacy?,,curated_opinion,general,0
+C3-067,C6,ambiguous,Should they have a right to privacy?,,curated_opinion,general,1
+C3-068,C3,clear,Is automation good for society?,,curated_opinion,general,0
+C3-068,C6,ambiguous,Is automation good?,,curated_opinion,general,1
+C3-069,C3,clear,Should there be a global tax on carbon?,,curated_opinion,general,0
+C3-069,C6,ambiguous,Should there be one?,,curated_opinion,general,1
+C3-070,C3,clear,Is it ethical to use AI to create art?,,curated_opinion,general,0
+C3-070,C6,ambiguous,Is it ethical?,,curated_opinion,general,1
+C3-071,C3,clear,Should the voting age be lowered to 16?,,curated_opinion,general,0
+C3-071,C6,ambiguous,Should it be lowered to 16?,,curated_opinion,general,1
+C3-072,C3,clear,Is multitasking effective?,,curated_opinion,general,0
+C3-072,C6,ambiguous,Is it effective?,,curated_opinion,general,1
+C3-073,C3,clear,Should governments ban single-use plastics?,,curated_opinion,general,0
+C3-073,C6,ambiguous,Should governments ban them?,,curated_opinion,general,1
+C3-074,C3,clear,Is it better to lead or to follow?,,curated_opinion,general,0
+C3-074,C6,ambiguous,Is it better to do one or the other?,,curated_opinion,general,1
+C3-075,C3,clear,Should schools ban mobile phones?,,curated_opinion,general,0
+C3-075,C6,ambiguous,Should schools ban them?,,curated_opinion,general,1
+C3-076,C3,clear,Is economic growth more important than environmental protection?,,curated_opinion,general,0
+C3-076,C6,ambiguous,Is it more important than the other?,,curated_opinion,general,1
+C3-077,C3,clear,Should there be stricter gun control laws?,,curated_opinion,general,0
+C3-077,C6,ambiguous,Should there be stricter laws?,,curated_opinion,general,1
+C3-078,C3,clear,Is it ethical to keep secrets from loved ones?,,curated_opinion,general,0
+C3-078,C6,ambiguous,Is it ethical?,,curated_opinion,general,1
+C3-079,C3,clear,Should companies adopt a four-day work week?,,curated_opinion,general,0
+C3-079,C6,ambiguous,Should companies adopt it?,,curated_opinion,general,1
+C3-080,C3,clear,Is social media addiction a real problem?,,curated_opinion,general,0
+C3-080,C6,ambiguous,Is it a real problem?,,curated_opinion,general,1
+C3-081,C3,clear,Should wealthy nations do more to help poorer ones?,,curated_opinion,general,0
+C3-081,C6,ambiguous,Should they do more to help others?,,curated_opinion,general,1
+C3-082,C3,clear,Is it ethical to use performance-enhancing drugs in sports?,,curated_opinion,general,0
+C3-082,C6,ambiguous,Is it ethical to use performance-enhancing drugs?,,curated_opinion,general,1
+C3-083,C3,clear,Should governments invest in space colonization?,,curated_opinion,general,0
+C3-083,C6,ambiguous,Should governments invest?,,curated_opinion,general,1
+C3-084,C3,clear,Is online anonymity good for society?,,curated_opinion,general,0
+C3-084,C6,ambiguous,Is online anonymity good?,,curated_opinion,general,1
+C3-085,C3,clear,Should there be a limit on screen time for children?,,curated_opinion,general,0
+C3-085,C6,ambiguous,Should there be a limit on screen time?,,curated_opinion,general,1
+C3-086,C3,clear,Is it better to be honest or kind when they conflict?,,curated_opinion,general,0
+C3-086,C6,ambiguous,Is it better to choose one or the other?,,curated_opinion,general,1
+C3-087,C3,clear,Should animal testing for cosmetics be banned?,,curated_opinion,general,0
+C3-087,C6,ambiguous,Should animal testing?,,curated_opinion,general,1
+C3-088,C3,clear,Is remote education widening the inequality gap?,,curated_opinion,general,0
+C3-088,C6,ambiguous,Is it widening the inequality gap?,,curated_opinion,general,1
+C3-089,C3,clear,Should governments subsidize electric vehicles?,,curated_opinion,general,0
+C3-089,C6,ambiguous,Should governments subsidize them?,,curated_opinion,general,1
+C3-090,C3,clear,Is it ethical to genetically select traits in babies?,,curated_opinion,general,0
+C3-090,C6,ambiguous,Is it ethical to genetically select traits?,,curated_opinion,general,1
+C3-091,C3,clear,Should the workweek be shortened?,,curated_opinion,general,0
+C3-091,C6,ambiguous,Should it be shortened?,,curated_opinion,general,1
+C3-092,C3,clear,Is artificial intelligence overhyped?,,curated_opinion,general,0
+C3-092,C6,ambiguous,Is it overhyped?,,curated_opinion,general,1
+C3-093,C3,clear,Should there be more women in leadership through quotas?,,curated_opinion,general,0
+C3-093,C6,ambiguous,Should there be more women?,,curated_opinion,general,1
+C3-094,C3,clear,Is it ethical to eat genetically modified food?,,curated_opinion,general,0
+C3-094,C6,ambiguous,Is it ethical?,,curated_opinion,general,1
+C3-095,C3,clear,Should fossil fuel subsidies be eliminated?,,curated_opinion,general,0
+C3-095,C6,ambiguous,Should they be eliminated?,,curated_opinion,general,1
+C3-096,C3,clear,Is privacy dead in the digital age?,,curated_opinion,general,0
+C3-096,C6,ambiguous,Is privacy dead?,,curated_opinion,general,1
+C3-097,C3,clear,Should schools focus more on creativity than on grades?,,curated_opinion,general,0
+C3-097,C6,ambiguous,Should schools focus more on one than the other?,,curated_opinion,general,1
+C3-098,C3,clear,Is it ethical for governments to monitor citizens online?,,curated_opinion,general,0
+C3-098,C6,ambiguous,Is it ethical?,,curated_opinion,general,1
+C3-099,C3,clear,Should there be a universal global language?,,curated_opinion,general,0
+C3-099,C6,ambiguous,Should there be one?,,curated_opinion,general,1
+C3-100,C3,clear,Is technological progress always good for humanity?,,curated_opinion,general,0
+C3-100,C6,ambiguous,Is technological progress always good?,,curated_opinion,general,1

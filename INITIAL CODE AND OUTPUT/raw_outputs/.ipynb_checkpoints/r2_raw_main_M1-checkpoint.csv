@@ -1,0 +1,64 @@
+question_id,condition,prompt_version,source,domain,model_code,model_name,prompt_text,expected_answer,raw_output,token_count,truncated,long_output,thinking_tokens,logprob_mean,logprob_min,logprob_first,retry_count,error,timestamp
+C1-001,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,What was first worn by British soldiers in India in 1845?,Khaki,"Khaki clothing was first worn by British soldiers in India in 1845. Specifically, it was adopted by the Corps of Guides, a British Indian Army regiment.
+
+
+
+",37,0,0,0,,,,0,,2026-05-30T13:25:49
+C1-001,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,What was first worn by British soldiers?,Khaki,"The first standardized uniform worn by British soldiers was the **red coat**, introduced in the 17th century (specifically around the Restoration in 1660). However, before that, soldiers wore whatever they could afford, often identifiable by badges or colors, but not a unified outfit.
+
+
+
+",61,0,0,0,,,,0,,2026-05-30T13:25:52
+C1-002,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Which US gangster was released from Alcatraz prison in November 1939?,Al Capone,"Al Capone was **not** released from Alcatraz. He was transferred *to* Alcatraz in 1934 and later released on medical parole in **1939** due to neurosyphilis.
+
+**George ""Machine Gun"" Kelly** was released from Alcatraz in November 1939 after serving 17 years.
+
+
+
+",75,0,0,0,,,,0,,2026-05-30T13:25:57
+C1-002,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Which US gangster was released from Alcatraz prison?,Al Capone,"Al Capone was **not** released from Alcatraz; he died there in 1947. 
+
+**Alvin ""Creepy"" Karpis** is the US gangster who was officially released from Alcatraz – he was transferred to Leavenworth in 1979 after serving nearly 30 years. However, he was the *last* gangster to be held at Alcatraz before it closed.
+
+
+
+",87,0,0,0,,,,0,,2026-05-30T13:26:01
+C1-003,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Of which tribe of Red Indians was Geronimo a chief,Apache,"Geronimo was a prominent leader and medicine man of the **Bedonkohe** Apache tribe. He also fought alongside other Apache groups like the Chiricahua.
+
+
+
+",36,0,0,0,,,,0,,2026-05-30T13:26:03
+C1-003,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Of which tribe was this chief?,Apache,"Please provide me with the context! I need to know **who** ""this chief"" refers to. 
+
+For example, tell me:
+
+*   ""Of which tribe was Chief Joseph?""
+*   ""Of which tribe was the chief mentioned in this article [link to article]?""
+
+Once you give me the name or a description of the chief, I can tell you their tribe.",82,0,0,0,,,,0,,2026-05-30T13:26:12
+C1-004,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Which rank of the RAF is equivalent to Major in the British Army?,Squadron Leader,"Squadron Leader.
+
+
+
+",6,0,0,0,,,,0,,2026-05-30T13:26:15
+C1-004,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Which rank of the RAF is equivalent to Major?,Squadron Leader,"Squadron Leader.
+
+
+
+",6,0,0,0,,,,0,,2026-05-30T13:26:17
+C1-005,C1,clear,triviaqa,general,M1,gemma3:27b-cloud,Name the capital city of the Canadian Province of British Columbia?,VICTORIA,"Victoria.
+
+
+
+",4,0,0,0,,,,0,,2026-05-30T13:26:19
+C1-005,C4,ambiguous,triviaqa,general,M1,gemma3:27b-cloud,Name the capital city of the Canadian Province?,VICTORIA,"Please specify *which* Canadian province you are asking about. Canada has ten provinces, each with its own capital city. 
+
+For example:
+
+*   **Ontario:** Toronto
+*   **Quebec:** Quebec City
+*   **British Columbia:** Victoria
+
+
+
+",55,0,0,0,,,,0,,2026-05-30T13:26:22
