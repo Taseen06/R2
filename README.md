@@ -1,4 +1,6 @@
 # From Prediction to Pressure
+[![DOI](https://sandbox.zenodo.org/badge/1248935194.svg)](https://handle.test.datacite.org/10.5072/zenodo.512903)
+
 
 Code, data, and the manuscript for the paper *"Wrong with Confidence: How Large
 Language Models Hallucinate, Manipulate, and Discriminate."*
